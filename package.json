@@ -5,5 +5,12 @@
   "main": "index.js",
   "repository": "https://github.com/QuicksandTeam/quicksandteam.github.io",
   "author": "aiyc <1432803776@qq.com>",
-  "license": "MITMIT"
+  "license": "MITMIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.26"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
 }
