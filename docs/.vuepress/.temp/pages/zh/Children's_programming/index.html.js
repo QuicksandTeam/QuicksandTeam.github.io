@@ -7,7 +7,16 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "filePathRelative": "zh/Children's_programming/README.md",
-  "git": {}
+  "git": {
+    "updatedTime": 1634534315000,
+    "contributors": [
+      {
+        "name": "aiyc",
+        "email": "1432803776@qq.com",
+        "commits": 1
+      }
+    ]
+  }
 }
 
 if (import.meta.webpackHot) {
