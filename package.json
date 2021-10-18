@@ -1,0 +1,9 @@
+{
+  "name": "bornforthi_book",
+  "version": "1.0.0",
+  "description": "流沙团队电子书",
+  "main": "index.js",
+  "repository": "https://github.com/QuicksandTeam/quicksandteam.github.io",
+  "author": "aiyc <1432803776@qq.com>",
+  "license": "MITMIT"
+}
