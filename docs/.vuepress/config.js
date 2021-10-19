@@ -17,9 +17,9 @@ module.exports = {
   ],
 
   themeConfig: {
-  logo: 'images/logo.png',
-  repo: 'QuicksandTeam/Bornforthi_VuePress',
-  docsDir: 'docs',
+    logo: 'images/logo.png',
+    repo: 'QuicksandTeam/QuicksandTeam.github.io',
+    docsDir: 'docs',
   // 侧边栏数组
   // 所有页面会使用相同的侧边栏
   sidebar: {
@@ -134,6 +134,12 @@ module.exports = {
   },
   },
 
+
+
+  plugins: {
+    ["vuepress-plugin-mathjax", true],
+  },
+
   // site-level locales config
   locales: {
   // 键名是该语言所属的子路径
@@ -150,3 +156,4 @@ module.exports = {
   },
   },
 }
+

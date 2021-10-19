@@ -8,12 +8,12 @@ export const data = {
   "headers": [],
   "filePathRelative": "zh/column/jiuyuan_algorithm/README.md",
   "git": {
-    "updatedTime": 1634534315000,
+    "updatedTime": 1634605283000,
     "contributors": [
       {
         "name": "aiyc",
         "email": "1432803776@qq.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   }
