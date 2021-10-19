@@ -136,9 +136,9 @@ module.exports = {
 
 
 
-  plugins: {
+  plugins: [
     ["vuepress-plugin-mathjax", true],
-  },
+  ],
 
   // site-level locales config
   locales: {
