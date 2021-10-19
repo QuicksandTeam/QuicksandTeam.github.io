@@ -9,7 +9,7 @@
 // const { config } = require("create-vuepress-theme-hope@1.20.3");
 
 module.exports = {
-  base: '/',
+  // base: '/',
   // 本地资源一定要放在 public 文件夹下
   head: [
         ['link', { rel: 'icon', type: "image/png", href: 'images/favicon.png'}],
