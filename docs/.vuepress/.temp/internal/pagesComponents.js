@@ -11,10 +11,10 @@ export const pagesComponents = {
   "v-4cd57d8f": defineAsyncComponent(() => import(/* webpackChunkName: "v-4cd57d8f" */"D:/gitee_all/bornforthi_book/docs/.vuepress/.temp/pages/zh/abouteam/about.html.vue")),
   // path: /zh/Children's_programming/
   "v-04a0befc": defineAsyncComponent(() => import(/* webpackChunkName: "v-04a0befc" */"D:/gitee_all/bornforthi_book/docs/.vuepress/.temp/pages/zh/Children's_programming/index.html.vue")),
-  // path: /zh/Programming_teaching/
-  "v-47dece54": defineAsyncComponent(() => import(/* webpackChunkName: "v-47dece54" */"D:/gitee_all/bornforthi_book/docs/.vuepress/.temp/pages/zh/Programming_teaching/index.html.vue")),
   // path: /zh/column/
   "v-7c53b51e": defineAsyncComponent(() => import(/* webpackChunkName: "v-7c53b51e" */"D:/gitee_all/bornforthi_book/docs/.vuepress/.temp/pages/zh/column/index.html.vue")),
+  // path: /zh/Programming_teaching/
+  "v-47dece54": defineAsyncComponent(() => import(/* webpackChunkName: "v-47dece54" */"D:/gitee_all/bornforthi_book/docs/.vuepress/.temp/pages/zh/Programming_teaching/index.html.vue")),
   // path: /zh/Technology_of_gossip/
   "v-315a5403": defineAsyncComponent(() => import(/* webpackChunkName: "v-315a5403" */"D:/gitee_all/bornforthi_book/docs/.vuepress/.temp/pages/zh/Technology_of_gossip/index.html.vue")),
   // path: /zh/Pay_for_courses/pythonbase/
