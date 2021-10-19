@@ -9,6 +9,7 @@
 // const { config } = require("create-vuepress-theme-hope@1.20.3");
 
 module.exports = {
+  base: '/',
   // 本地资源一定要放在 public 文件夹下
   head: [
         ['link', { rel: 'icon', type: "image/png", href: 'images/favicon.png'}],
@@ -18,11 +19,26 @@ module.exports = {
   themeConfig: {
   logo: 'images/logo.png',
   repo: 'QuicksandTeam/Bornforthi_VuePress',
-
-  sidebar: 'auto',
+  docsDir: 'docs',
+  // 侧边栏数组
+  // 所有页面会使用相同的侧边栏
+  sidebar: {
+    '/zh/column/jiuyuan_algorithm/': [
+      {
+        text: '章节一',
+        children: ['/zh/column/jiuyuan_algorithm/README.md', '/zh/column/jiuyuan_algorithm/01.md'],
+      },
+    ],
+    '/reference/': [
+      {
+        text: 'Reference',
+        children: ['/reference/cli.md', '/reference/config.md'],
+      },
+    ],
+  },
 
   locales: {
-    '/': {
+    '/': { 
           selectLanguageText: "选择语言",
           selectLanguageName: '简体中文',
           selectLanguageText: '选择语言',
@@ -67,7 +83,7 @@ module.exports = {
           },
           {
             text: '数据结构与算法',
-            children: ['/zh/column/jiuyuan_algorithm/README.md', '/zh/aiyuechuangsf/README.md'],
+            children: ['/zh/column/jiuyuan_algorithm/README.md', '/zh/column/aiyuechuangsf/README.md'],
           },
         ],
       },

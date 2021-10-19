@@ -1,11 +1,11 @@
 {
   "name": "bornforthi_book",
   "version": "1.0.0",
-  "description": "流沙团队电子书",
+  "description": "专业的编程一对一团队，长期招收编程一对一学员，流沙团队电子书",
   "main": "index.js",
   "repository": "https://github.com/QuicksandTeam/quicksandteam.github.io",
   "author": "AI悦创 <1432803776@qq.com>",
-  "license": "MITMIT",
+  "license": "MIT",
   "devDependencies": {
     "vuepress": "^2.0.0-beta.26"
   },

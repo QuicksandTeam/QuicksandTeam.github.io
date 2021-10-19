@@ -1,7 +1,27 @@
 export const themeData = {
   "logo": "images/logo.png",
   "repo": "QuicksandTeam/Bornforthi_VuePress",
-  "sidebar": "auto",
+  "docsDir": "docs",
+  "sidebar": {
+    "/zh/column/jiuyuan_algorithm/": [
+      {
+        "text": "章节一",
+        "children": [
+          "/zh/column/jiuyuan_algorithm/README.md",
+          "/zh/column/jiuyuan_algorithm/01.md"
+        ]
+      }
+    ],
+    "/reference/": [
+      {
+        "text": "Reference",
+        "children": [
+          "/reference/cli.md",
+          "/reference/config.md"
+        ]
+      }
+    ]
+  },
   "locales": {
     "/": {
       "selectLanguageText": "选择语言",
@@ -44,7 +64,7 @@ export const themeData = {
               "text": "数据结构与算法",
               "children": [
                 "/zh/column/jiuyuan_algorithm/README.md",
-                "/zh/aiyuechuangsf/README.md"
+                "/zh/column/aiyuechuangsf/README.md"
               ]
             }
           ]
