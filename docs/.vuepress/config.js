@@ -134,11 +134,18 @@ module.exports = {
   },
   },
 
+  markdown: {
+    extendMarkdown: md => {
+        md.set({
+            html: true
+        })
+        md.use(require('markdown-it-katex'))
+    }
+},
 
-
-  plugins: [
-    ["vuepress-plugin-mathjax", true],
-  ],
+  // plugins: [
+  //   ["vuepress-plugin-mathjax", true],
+  // ],
 
   // site-level locales config
   locales: {

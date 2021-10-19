@@ -2,7 +2,6 @@ export const themeData = {
   "logo": "images/logo.png",
   "repo": "QuicksandTeam/QuicksandTeam.github.io",
   "docsDir": "docs",
-  "markdown": {},
   "sidebar": {
     "/zh/column/jiuyuan_algorithm/": [
       {
