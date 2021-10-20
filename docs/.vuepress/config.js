@@ -13,8 +13,17 @@ module.exports = {
   // 本地资源一定要放在 public 文件夹下
   head: [
         ['link', { rel: 'icon', type: "image/png", href: 'images/favicon.png'}],
+        ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css' }],
+        ['link', { rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css" }],
         ['meta', { name: "keywords", content: "流沙团队：AI悦创、久远,编程一对一教学,Python,爬虫,深度学习,机器学习,数据分析,网络,IT,技术,博客,算法与数据结构"}],
   ],
+
+  // markdown: {
+  //   config: md => {
+  //     md.set({html: true})
+  //     md.use(require("markdown-it-katex"))
+  //   }
+  // },
 
   themeConfig: {
     logo: 'images/logo.png',
@@ -134,29 +143,25 @@ module.exports = {
   },
   },
 
-  markdown: {
-    extendMarkdown: md => {
-        md.set({
-            html: true
-        })
-        md.use(require('markdown-it-katex'))
-    }
-},
+    // markdown: {
+    //   config: md => {
+    //     md.set({html: true})
+    //     md.use(require("markdown-it-katex"))
+    //   }
+    // },
 
   plugins: [
-    [
-      '@vuepress/plugin-search',
-      {
-       locales: {
+    ['@vuepress/plugin-search', { 
+      locales: {
           '/': {
-            placeholder: '搜索',
-          },
+            placeholder: '搜索',},
           '/en/': {
-            placeholder: 'Search',
-          },
-        },
-      },
-    ],
+            placeholder: 'Search',},},},],
+    
+    ['@renovamen/vuepress-plugin-katex'],
+    // ["markdown-it-katex"],
+
+    // ['@renovamen/vuepress-plugin-katex', {'throwOnError': false, 'errorColor': '#cc0000'}],
   ],
   // plugins: [
   //   ["vuepress-plugin-mathjax", true],
