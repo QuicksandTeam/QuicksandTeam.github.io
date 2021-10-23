@@ -33,8 +33,8 @@ module.exports = config({
     searchPlaceholder: "Search...",
     // displayAllHeaders: true,
     logo: "/images/logo.png",
-    // hostname: "https://book.bornforthi.com/",
-    hostname: "https://forkcodeaiyc.github.io",
+    hostname: "https://book.bornforthi.com/",
+    // hostname: "https://forkcodeaiyc.github.io",
 
     author: "Bornforthi",
     repo: "https://github.com/QuicksandTeam",
