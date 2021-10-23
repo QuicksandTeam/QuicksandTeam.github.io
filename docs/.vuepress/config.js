@@ -1,173 +1,20 @@
-/*
-* @Author: AI悦创
-* @Date:   2021-10-12 08:46:14
-* @Last Modified by:   aiyc
-* @Last Modified time: 2021-10-15 19:14:37
-*/
+const { config } = require("vuepress-theme-hope");
 
-// .vuepress/config.js
-// const { config } = require("create-vuepress-theme-hope@1.20.3");
+module.exports = config({
+  title: "流沙团队",
+  description: "一股无形的力量——流沙",
 
-module.exports = {
-  base: '/',
-  // 本地资源一定要放在 public 文件夹下
+  // dest: "./dist",
+
   head: [
-        ['link', { rel: 'icon', type: "image/png", href: 'images/favicon.png'}],
-        ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css' }],
-        ['link', { rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css" }],
-        ['meta', { name: "keywords", content: "流沙团队：AI悦创、久远,编程一对一教学,Python,爬虫,深度学习,机器学习,数据分析,网络,IT,技术,博客,算法与数据结构"}],
-  ],
-
-  // markdown: {
-  //   config: md => {
-  //     md.set({html: true})
-  //     md.use(require("markdown-it-katex"))
-  //   }
-  // },
-
-  themeConfig: {
-    logo: 'images/logo.png',
-    repo: 'QuicksandTeam/QuicksandTeam.github.io',
-    docsDir: 'docs',
-  // 侧边栏数组
-  // 所有页面会使用相同的侧边栏
-  sidebar: {
-    '/zh/column/jiuyuan_algorithm/': [
-      {
-        text: '章节一',
-        children: ['/zh/column/jiuyuan_algorithm/README.md', '/zh/column/jiuyuan_algorithm/01.md'],
-      },
+    ["script",{src: "/js/react.production.min.js" },],
+    ["script",{src: "/js/react-dom.production.min.js",},],
+    ["script", { src: "/js/vue.min.js" }],
+    ["script",{ src: "/js/babel.min.js" },],
+    ['meta', { name: "keywords", content: "流沙团队：AI悦创、久远,编程一对一教学,Python,爬虫,深度学习,机器学习,数据分析,网络,IT,技术,博客,算法与数据结构"}],
     ],
-    '/reference/': [
-      {
-        text: 'Reference',
-        children: ['/reference/cli.md', '/reference/config.md'],
-      },
-    ],
-  },
 
-  locales: {
-    '/': { 
-          selectLanguageText: "选择语言",
-          selectLanguageName: '简体中文',
-          selectLanguageText: '选择语言',
-          selectLanguageAriaLabel: '选择语言',
-
-          // page meta
-          editLinkText: '在 GitHub 上编辑此页',
-          lastUpdatedText: '上次更新',
-          contributorsText: '贡献者',
-
-          // 404 page
-          notFound: [
-            '这里什么都没有',
-            '我们怎么到这来了？',
-            '这是一个 404 页面',
-            '看起来我们进入了错误的链接',
-            '想要帮助？微信：Jiabcdefh',
-          ],
-          backToHome: '返回首页',
-          // a11y
-          openInNewWindow: '在新窗口打开',
-          toggleDarkMode: '切换夜间模式',
-          toggleSidebar: '切换侧边栏',
-
-  navbar: [
-      // NavbarItem
-      // {
-      //   text: 'GitHub',
-      //   link: 'https://github.com/QuicksandTeam',
-      // },
-
-      {
-        text: '专栏',
-        children: [
-          {
-            text: "基础",
-            children: ["Markdown 基础"],
-          },
-          {
-            text: '语言入门',
-            children: ['/zh/column/Go/README.md', 'Java 入门', 'Python 入门', 'JavaScript 入门'],
-          },
-          {
-            text: '数据结构与算法',
-            children: ['/zh/column/jiuyuan_algorithm/README.md', '/zh/column/aiyuechuangsf/README.md'],
-          },
-        ],
-      },
-
-      {
-        text: "技术杂谈",
-        link: "/zh/Technology_of_gossip/README.md"
-      },
-      {
-        text: "少儿编程",
-        link: "/zh/Children's_programming/README.md"
-      },
-      {
-        text: "付费课程",
-        children: [
-          {
-            text: "编程私教",
-            link: "/zh/Programming_teaching/README.md",
-          },
-          {
-            text: "Python 入门课程",
-            link: "/zh/Pay_for_courses/pythonbase/README.md",
-          }
-        ]
-      },
-      {
-        text: '在线编程',
-        children: [
-          {
-            text: 'Python 在线编程',
-            link: "https://www.aiycoj.cn/",
-          },
-          {
-            text: '数据结构与算法可视化',
-            link: 'https://huangjiabaoaiyc.gitee.io/visualgo/',
-          },
-        ],
-      },
-      
-      // 字符串 - 页面文件路径
-      '/zh/abouteam/about.md',
-    ],
-    },
-    '/en/': {
-      selectLanguageText: "Languages",
-      selectLanguageName: 'English',
-    }
-  },
-  },
-
-    // markdown: {
-    //   config: md => {
-    //     md.set({html: true})
-    //     md.use(require("markdown-it-katex"))
-    //   }
-    // },
-
-  plugins: [
-    ['@vuepress/plugin-search', { 
-      locales: {
-          '/': {
-            placeholder: '搜索',},
-          '/en/': {
-            placeholder: 'Search',},},},],
-    
-    ['@renovamen/vuepress-plugin-katex'],
-    // ["markdown-it-katex"],
-
-    // ['@renovamen/vuepress-plugin-katex', {'throwOnError': false, 'errorColor': '#cc0000'}],
-  ],
-  // plugins: [
-  //   ["vuepress-plugin-mathjax", true],
-  // ],
-
-  // site-level locales config
+  
   locales: {
   // 键名是该语言所属的子路径
   // 作为特例，默认语言可以使用 '/' 作为其路径。
@@ -178,9 +25,220 @@ module.exports = {
   },
   '/en/': {
     lang: 'en-US',
-    title: 'QuickSandTeam',
-    description: 'An invisible force -- quicksand',
+    title: 'Bornforthi',
+    description: 'An invisible force -- bornforthi',},
   },
-  },
-}
 
+  themeConfig: {
+    searchPlaceholder: "Search...",
+    // displayAllHeaders: true,
+    logo: "/images/logo.png",
+    // hostname: "https://book.bornforthi.com/",
+    hostname: "https://forkcodeaiyc.github.io",
+
+    author: "Bornforthi",
+    repo: "https://github.com/QuicksandTeam",
+
+    sidebar: {
+      "/": [
+        "",
+        "home",
+        "slides",
+        "layout",
+        {
+          title: "Guide",
+          icon: "creative",
+          prefix: "guide/",
+          children: ["", "page", "markdown", "disable", "encrypt"],
+        },
+      ],
+    },
+
+    locales: {
+      "/": {
+        // 多语言下拉菜单的标题
+        selectText: "选择语言",
+        // 该语言在下拉菜单中的标签
+        label: '简体中文',
+        ariaLabel: '选择语言',
+        // 编辑链接文字
+        editLinkText: '在 GitHub 上编辑此页',
+        // Service Worker 的配置
+        serviceWorker: {
+          updatePopup: {
+            message: "发现新内容可用.",
+            buttonText: "刷新"
+          }
+        },
+        nav: [
+          { text: "博客主页", link: "/", icon: "home" },
+          { text: "文档主页", link: "/zh/home/", icon: "home" },
+          {
+            text: "在线编程",
+            icon: "creative",
+            ariaLabel: "online programming",
+            items: [
+                      {text: "Python 在线编程", link: "https://www.aiycoj.cn/"},
+                      {text: "数据结构与算法可视化", link: "https://huangjiabaoaiyc.gitee.io/visualgo/"},
+                      {text: "Markdown Online", link: "https://www.bornforthi.com/markdown-editor/ "},
+                      {text: "Scratch 开发中...", link: "https://www.aiyc.top/"},
+                    ],
+          },
+          {
+            text: "专栏",
+            icon: "note",
+            items: [
+                      {text: "基础", items: [
+                                              {text: "Markdown 基础", link: "/zh/Column/MarkdownBase/"}
+                                            ]},
+                    ],
+          },
+        ],
+        sidebar: {
+          "/zh/": [
+            "",
+            "home",
+            "slides",
+            "layout",
+            {
+              title: "如何使用",
+              icon: "creative",
+              prefix: "guide/",
+              children: ["", "page", "markdown", "disable", "encrypt"],
+            },
+          ],
+        },
+      },
+      "/en/": {
+                selectText: 'Languages',
+                label: 'English',
+                ariaLabel: 'Languages',
+                editLinkText: 'Edit this page on GitHub',
+                serviceWorker: {
+                updatePopup: {
+                    message: "New content is available.",
+                    buttonText: "Refresh"},
+                  },
+           nav: [
+                    { text: "Blog Home", link: "/en/", icon: "home" },
+                    { text: "Project Home", link: "/en/home/", icon: "home" },
+                    // { text: "Project Home", link: "/zh/01", icon: "home" },
+                    {
+                      text: "Guide",
+                      icon: "creative",
+                      link: "/guide/",
+                    },
+                    {
+                      text: "Docs",
+                      link: "https://vuepress-theme-hope.github.io/",
+                      icon: "note",
+                    },
+                ], 
+      }
+    },
+
+    blog: {
+      intro: "/intro/",
+      sidebarDisplay: "mobile",
+      links: {
+        Zhihu: "https://www.zhihu.com/people/aiyuechuang",
+        QQ: "http://wpa.qq.com/msgrd?v=3&uin=1432803776&site=qq&menu=yes",
+        Github: "https://github.com/QuicksandTeam",
+      },
+    },
+
+    footer: {
+      display: true,
+      content: "默认页脚",
+    },
+
+    comment: {
+      type: "waline",
+      serverURL: "https://vuepress-theme-hope-comment.vercel.app",
+    },
+
+    copyright: {
+      status: "global",
+    },
+
+    git: {
+      timezone: "Asia/Shanghai",
+    },
+
+    mdEnhance: {
+      enableAll: true,
+      presentation: {
+        plugins: [
+          "highlight",
+          "math",
+          "search",
+          "notes",
+          "zoom",
+          "anything",
+          "audio",
+          "chalkboard",
+        ],
+      },
+    },
+
+    pwa: {
+      favicon: "images/favicon.ico",
+      cachePic: true,
+      apple: {
+        icon: "/assets/icon/apple-icon-152.png",
+        statusBarColor: "black",
+      },
+      msTile: {
+        image: "/assets/icon/ms-icon-144.png",
+        color: "#ffffff",
+      },
+      manifest: {
+        icons: [
+          {
+            src: "/assets/icon/chrome-mask-512.png",
+            sizes: "512x512",
+            purpose: "maskable",
+            type: "image/png",
+          },
+          {
+            src: "/assets/icon/chrome-mask-192.png",
+            sizes: "192x192",
+            purpose: "maskable",
+            type: "image/png",
+          },
+          {
+            src: "/assets/icon/chrome-512.png",
+            sizes: "512x512",
+            type: "image/png",
+          },
+          {
+            src: "/assets/icon/chrome-192.png",
+            sizes: "192x192",
+            type: "image/png",
+          },
+        ],
+        shortcuts: [
+          {
+            name: "Guide",
+            short_name: "Guide",
+            url: "/guide/",
+            icons: [
+              {
+                src: "/assets/icon/guide-maskable.png",
+                sizes: "192x192",
+                purpose: "maskable",
+                type: "image/png",
+              },
+              {
+                src: "/assets/icon/guide-monochrome.png",
+                sizes: "192x192",
+                purpose: "monochrome",
+                type: "image/png",
+              },
+            ],
+          },
+        ],
+      },
+    },
+  },
+});
