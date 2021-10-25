@@ -53,7 +53,7 @@ module.exports = config({
       //   },
       // ],
       "/zh/Column/MarkdownBase/": [
-        "01-Markdown title", "02-Markdown 段落", "03-【久远讲算法】什么是时间复杂度",
+        "01-Markdown title", "02-Markdown paragraph",
       ],
     },
 
