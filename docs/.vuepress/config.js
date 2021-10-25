@@ -53,7 +53,7 @@ module.exports = config({
       //   },
       // ],
       "/zh/Column/MarkdownBase/": [
-        "01-Markdown_title", "02-Markdown_paragraph",
+        "01Markdown_title", "02Markdown_paragraph",
       ],
     },
 
