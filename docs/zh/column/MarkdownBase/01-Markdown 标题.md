@@ -1,22 +1,17 @@
 ---
-title: Markdown 标题
-icon: icon-linux
-category: 使用指南
-
+title: 01-Markdown 标题
+time: 2021-10-23 12:10:52
+author: AI悦创
+original: true
+category: Markdown 基础
+tags:
+    - Markdown
+sticky: false
+password: false
 navbar: true
 sidebar: true
-
-breadcrumb: false
-pageInfo: false
-contributor: false
-editLink: false
-updateTime: false
-prev: false
-next: false
-comment: false
-footer: false
-
-backtotop: false
+comment: true
+copyrightText: "版权流沙团队"
 ---
 
 

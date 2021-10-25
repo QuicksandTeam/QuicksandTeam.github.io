@@ -1117,10 +1117,10 @@
     event-target-shim "^5.0.1"
     miniprogram-api-typings "^2.10.2"
 
-"@mr-hope/vuepress-plugin-comment@1.20.3":
+"@mr-hope/vuepress-plugin-comment@1.20.3", "@mr-hope/vuepress-plugin-comment@^1.20.3":
   version "1.20.3"
-  resolved "https://registry.nlark.com/@mr-hope/vuepress-plugin-comment/download/@mr-hope/vuepress-plugin-comment-1.20.3.tgz#423944986cb7c472ca94860395575231d7b31268"
-  integrity sha1-QjlEmGy3xHLKlIYDlVdSMdezEmg=
+  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-plugin-comment/-/vuepress-plugin-comment-1.20.3.tgz#423944986cb7c472ca94860395575231d7b31268"
+  integrity sha512-ckqomTbZBHytfGrayrud/id9Aqq4F3A4yi2JVBCVq/T+G7x4V7N6Ai5dHIQr1fkJMZGzw6ckV9ggAGyjXQ+CXg==
   dependencies:
     "@mr-hope/vuepress-plugin-git" "1.20.3"
     "@mr-hope/vuepress-plugin-reading-time" "1.20.3"
@@ -1205,10 +1205,10 @@
     chalk "^4.1.2"
     fs-extra "^10.0.0"
 
-"@mr-hope/vuepress-plugin-sitemap@1.20.3":
+"@mr-hope/vuepress-plugin-sitemap@1.20.3", "@mr-hope/vuepress-plugin-sitemap@^1.20.3":
   version "1.20.3"
-  resolved "https://registry.npmmirror.com/@mr-hope/vuepress-plugin-sitemap/download/@mr-hope/vuepress-plugin-sitemap-1.20.3.tgz#a198b1101d63332d874d9139182c24b327cc5348"
-  integrity sha1-oZixEB1jMy2HTZE5GCwksyfMU0g=
+  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-plugin-sitemap/-/vuepress-plugin-sitemap-1.20.3.tgz#a198b1101d63332d874d9139182c24b327cc5348"
+  integrity sha512-1jYVjTFeLYyc/Ca4fokZ4pma0wOBiWcNjSuXGYpzNIqv7UwV/kDNVbQq9729V0vk9vz2g5xytlInmEwaDAz9Ug==
   dependencies:
     "@mr-hope/vuepress-types" "1.20.3"
     "@types/fs-extra" "^9.0.12"
@@ -3388,6 +3388,11 @@ copy-webpack-plugin@^5.0.2:
     schema-utils "^1.0.0"
     serialize-javascript "^4.0.0"
     webpack-log "^2.0.0"
+
+copyright@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/copyright/-/copyright-0.0.5.tgz#3706029a55bc2b8e0c3170e4057dc222ffb5e610"
+  integrity sha512-lWB6cfBdqQAZg+RZDoJZLxjHtTl9dkPxiuaTrx8bzmrvWvCrJUIcKKZiqKiAnEB00iIgURelw3suzbgq81JV+w==
 
 core-js-compat@^3.16.0, core-js-compat@^3.16.2, core-js-compat@^3.6.5:
   version "3.18.3"
@@ -10077,8 +10082,8 @@ vuepress-plugin-container@^2.0.2, vuepress-plugin-container@^2.1.5:
 
 vuepress-plugin-copyright@^1.0.2:
   version "1.0.2"
-  resolved "https://registry.npm.taobao.org/vuepress-plugin-copyright/download/vuepress-plugin-copyright-1.0.2.tgz#d5cc73af82028e073d4cd82e3ef99012ad8f79cc"
-  integrity sha1-1cxzr4ICjgc9TNguPvmQEq2Pecw=
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-copyright/-/vuepress-plugin-copyright-1.0.2.tgz#d5cc73af82028e073d4cd82e3ef99012ad8f79cc"
+  integrity sha512-SWiyqqU8StPGB6WxzVTbRMUyyE0g6lJoP9SDoOua5PHUeawd8XdDBAaCCGRrmd2JDMvCDZlNYHTHgsKJncuU2g==
   dependencies:
     "@shigma/stringify-object" "^3.3.0"
 

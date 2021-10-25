@@ -8,7 +8,6 @@ tagline: 聚少成多，一股无形的力量！
 action:
   - text: 开始学习 💡
     link: /zh/guide/
-    type: primary	
 
   - text: 博客主页 🏠
     link: /

@@ -2,10 +2,8 @@ git pull
 git status
 git add .
 git commit . -m "update"
-#git status
-# git push -u origin
-# git push -u quicksandio
-# git push -u forkio
+# git branch -M main
+# git remote add origin git@github.com:forkcodeaiyc/forkcodeaiyc.github.io.git
 git push -u origin main
-git push -u quicksandio main
+# git push -u quicksandio main
 

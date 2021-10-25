@@ -2,8 +2,8 @@ const { config } = require("vuepress-theme-hope");
 
 module.exports = config({
   title: "流沙团队",
-  description: "一股无形的力量——流沙",
-
+  description: "一股无形的力量，流沙团队：AI悦创、久远,编程一对一教学,Python,爬虫,深度学习,机器学习,数据分析,网络,IT,技术,博客,算法与数据结构",
+  
   // dest: "./dist",
 
   head: [
@@ -40,17 +40,20 @@ module.exports = config({
     repo: "https://github.com/QuicksandTeam",
 
     sidebar: {
-      "/": [
-        "",
-        "home",
-        "slides",
-        "layout",
-        {
-          title: "Guide",
-          icon: "creative",
-          prefix: "guide/",
-          children: ["", "page", "markdown", "disable", "encrypt"],
-        },
+      // "/": [
+      //   "",
+      //   "home",
+      //   "slides",
+      //   "layout",
+      //   {
+      //     title: "Guide",
+      //     icon: "creative",
+      //     prefix: "guide/",
+      //     children: ["", "page", "markdown", "disable", "encrypt"],
+      //   },
+      // ],
+      "/zh/Column/MarkdownBase/": [
+        "01-Markdown 标题", "02-Markdown 段落", "03-【久远讲算法】什么是时间复杂度",
       ],
     },
 
@@ -94,20 +97,20 @@ module.exports = config({
                     ],
           },
         ],
-        sidebar: {
-          "/zh/": [
-            "",
-            "home",
-            "slides",
-            "layout",
-            {
-              title: "如何使用",
-              icon: "creative",
-              prefix: "guide/",
-              children: ["", "page", "markdown", "disable", "encrypt"],
-            },
-          ],
-        },
+        // sidebar: {
+        //   // "/zh/": [
+        //   //   "",
+        //   //   "home",
+        //   //   "slides",
+        //   //   "layout",
+        //   //   {
+        //   //     title: "如何使用",
+        //   //     icon: "creative",
+        //   //     prefix: "guide/",
+        //   //     children: ["", "page", "markdown", "disable", "encrypt"],
+        //   //   },
+        //   // ],
+        // },
       },
       "/en/": {
                 selectText: 'Languages',
@@ -123,16 +126,16 @@ module.exports = config({
                     { text: "Blog Home", link: "/en/", icon: "home" },
                     { text: "Project Home", link: "/en/home/", icon: "home" },
                     // { text: "Project Home", link: "/zh/01", icon: "home" },
-                    {
-                      text: "Guide",
-                      icon: "creative",
-                      link: "/guide/",
-                    },
-                    {
-                      text: "Docs",
-                      link: "https://vuepress-theme-hope.github.io/",
-                      icon: "note",
-                    },
+                    // {
+                    //   text: "Guide",
+                    //   icon: "creative",
+                    //   link: "/guide/",
+                    // },
+                    // {
+                    //   text: "Docs",
+                    //   link: "https://vuepress-theme-hope.github.io/",
+                    //   icon: "note",
+                    // },
                 ], 
       }
     },
@@ -144,17 +147,20 @@ module.exports = config({
         Zhihu: "https://www.zhihu.com/people/aiyuechuang",
         QQ: "http://wpa.qq.com/msgrd?v=3&uin=1432803776&site=qq&menu=yes",
         Github: "https://github.com/QuicksandTeam",
+        Gmail: "aiyuechuang@gmail.com",
+        Email: "bornforthi@bornforthi.com",
+        Wechat: "/images/公众号/gzh.jpg",
       },
     },
 
     footer: {
       display: true,
-      content: "默认页脚",
+      content: "一股无形的力量——流沙",
     },
 
     comment: {
       type: "waline",
-      serverURL: "https://vuepress-theme-hope-comment.vercel.app",
+      serverURL: "https://bornforthi-5tn34wj41-bornforthi.vercel.app/",
     },
 
     copyright: {
@@ -165,8 +171,18 @@ module.exports = config({
       timezone: "Asia/Shanghai",
     },
 
+    // encrypt: {
+    //   global: "hjb",
+    // },
+
     mdEnhance: {
       enableAll: true,
+      footnote: true,
+      mark: true,
+      tasklist: true,
+      tex: true,
+      demo: true,
+      presentation: true,
       presentation: {
         plugins: [
           "highlight",
@@ -241,4 +257,21 @@ module.exports = config({
       },
     },
   },
+
+  plugins: [
+    // [
+    //   "@mr-hope/comment",
+    //   {
+    //     // 配置选项
+    //   },
+    // ],
+    // [
+    //   "copyright",
+    //   {
+    //     authorName: options.author,
+    //     minLength: 10,
+    //     // clipboardComponent: path.resolve(__dirname, "components/Clipboard.vue"),
+    //   },
+    // ],
+  ],
 });
