@@ -38,8 +38,8 @@ features:
     link: #
 
   - title: Markdown 基础 🎡
-    details: #
-    link: #
+    details: 每个程序员必备的基础技能，如果你想写文章并且更高效，推荐学习！
+    link: /zh/Column/MarkdownBase
 
   - title: Python 网络爬虫 🧩
     details: #
