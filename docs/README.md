@@ -3,7 +3,7 @@ blog: true
 home: true
 icon: home
 title: 博客主页
-heroImage: /images/logo.png
+heroImage: /images/hero.png
 heroText: 流沙团队博客
 heroFullScreen: true
 tagline: 专业的编程一对一团队，长期招收编程一对一学员，流沙团队电子书
