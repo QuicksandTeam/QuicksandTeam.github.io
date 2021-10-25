@@ -1,7 +1,8 @@
 const { config } = require("vuepress-theme-hope");
 
 module.exports = config({
-  title: "流沙团队",
+  title: "流沙团队
+  ",
   description: "一股无形的力量，流沙团队：AI悦创、久远,编程一对一教学,Python,爬虫,深度学习,机器学习,数据分析,网络,IT,技术,博客,算法与数据结构",
   
   // dest: "./dist",
@@ -34,7 +35,6 @@ module.exports = config({
     // displayAllHeaders: true,
     logo: "/images/logo.png",
     hostname: "https://book.bornforthi.com",
-    // hostname: "https://forkcodeaiyc.github.io",
 
     author: "Bornforthi",
     repo: "https://github.com/QuicksandTeam",
@@ -53,7 +53,7 @@ module.exports = config({
       //   },
       // ],
       "/zh/Column/MarkdownBase/": [
-        "01Markdown_title", "02Markdown_paragraph",
+        "oneMarkdowntitle", "twoMarkdown_paragraph",
       ],
     },
 
