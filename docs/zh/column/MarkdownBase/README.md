@@ -9,7 +9,7 @@ heroFullScreen: true
 tagline: 快速带你入门 Markdown 硬技能！
 action:
   - text: 开始学习 💡
-    link: /zh/Column/MarkdownBase/01-Markdown title
+    link: /zh/Column/MarkdownBase/01-Markdown_title
     type: primary	
 
   - text: 与作者联系 👋
