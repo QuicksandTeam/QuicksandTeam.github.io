@@ -51,7 +51,7 @@ module.exports = config({
       //     children: ["", "page", "markdown", "disable", "encrypt"],
       //   },
       // ],
-      "/zh/Column/MarkdownBase/": [
+      "/zh/column/md/": [
         "oneMarkdowntitle", "twoMarkdown_paragraph",
       ],
     },
