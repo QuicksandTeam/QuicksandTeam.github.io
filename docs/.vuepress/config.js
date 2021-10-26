@@ -95,7 +95,7 @@ module.exports = config({
                       ]},
                       
                       {text: "数据结构与算法", items: [
-                        {text: }
+                        {text: "久远讲算法", link: "/zh/column/jysf/"}
                       ]}
                     ],
           },
