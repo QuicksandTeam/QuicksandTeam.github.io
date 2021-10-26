@@ -91,11 +91,11 @@ module.exports = config({
             icon: "note",
             items: [
                       {text: "基础", items: [
-                        {text: "Markdown 基础", link: "/zh/Column/MarkdownBase/"}
+                        {text: "Markdown 基础", link: "/zh/column/md/"}
                       ]},
                       
                       {text: "数据结构与算法", items: [
-
+                        {text: }
                       ]}
                     ],
           },
