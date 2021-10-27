@@ -8,10 +8,12 @@ tags:
     - Markdown
 sticky: false
 password: false
+article: true
+timeline: true
 navbar: true
 sidebar: true
 comment: true
-copyrightText: "版权流沙团队"
+copyrightText: "Copyright © 2021 Bornforthi"
 ---
 
 

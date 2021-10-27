@@ -2,6 +2,6 @@
 icon: info
 ---
 
-# Intro Page
+# 关于团队
 
 流沙团队介绍

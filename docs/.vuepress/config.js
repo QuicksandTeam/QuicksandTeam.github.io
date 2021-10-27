@@ -145,7 +145,7 @@ module.exports = config({
     },
 
     blog: {
-      intro: "/intro/",
+      intro: "/AboutTeam/",
       sidebarDisplay: "mobile",
       links: {
         Zhihu: "https://www.zhihu.com/people/aiyuechuang",
@@ -160,6 +160,7 @@ module.exports = config({
     footer: {
       display: true,
       content: "一股无形的力量——流沙",
+      // copyright: "版权所有，流沙团队"
     },
 
     comment: {
