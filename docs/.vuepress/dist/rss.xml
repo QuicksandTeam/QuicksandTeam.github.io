@@ -6,8 +6,8 @@
     <link>https://book.bornforthi.com/</link>
     <description>一股无形的力量，流沙团队：AI悦创、久远,编程一对一教学,Python,爬虫,深度学习,机器学习,数据分析,网络,IT,技术,博客,算法与数据结构</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 27 Oct 2021 14:56:08 GMT</pubDate>
-    <lastBuildDate>Wed, 27 Oct 2021 14:56:08 GMT</lastBuildDate>
+    <pubDate>Wed, 27 Oct 2021 15:05:58 GMT</pubDate>
+    <lastBuildDate>Wed, 27 Oct 2021 15:05:58 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by Bornforthi</copyright>
@@ -30,39 +30,6 @@
       <pubDate>Mon, 18 Oct 2021 05:18:35 GMT</pubDate>
       <content:encoded><![CDATA[<p>如果你有其他需求或者疑问，点击：<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1432803776&amp;site=qq&amp;menu=yes" target="_blank" rel="noopener noreferrer">QQ 在线客服</a></p>
 ]]></content:encoded>
-    </item>
-    <item>
-      <title>Project home</title>
-      <link>https://book.bornforthi.com/en/home/</link>
-      <guid>https://book.bornforthi.com/en/home/</guid>
-      <source url="https://book.bornforthi.com/rss.xml">Project home</source>
-      <pubDate>Sat, 23 Oct 2021 02:01:49 GMT</pubDate>
-      <content:encoded><![CDATA[<p>This is an example of a normal homepage. You can place your main content here.</p>
-<p>To use this layout, you need to set <code>home: true</code> in the page front matter.</p>
-<p>For related descriptions of configuration items, please see <a href="https://vuepress-theme-hope.github.io/guide/layout/home/" target="_blank" rel="noopener noreferrer">Project HomePage Layout Config</a>.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Blog Home</title>
-      <link>https://book.bornforthi.com/en/</link>
-      <guid>https://book.bornforthi.com/en/</guid>
-      <source url="https://book.bornforthi.com/rss.xml">Blog Home</source>
-      <content:encoded><![CDATA[<p>This is a blog home page.</p>
-<p>To use this layout, you should set both <code>blog: true</code> and <code>home: true</code> in the page front matter.</p>
-<p>For related configuration docs, please see <a href="https://vuepress-theme-hope.github.io/guide/blog/home/" target="_blank" rel="noopener noreferrer">blog homepage</a></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>久远讲算法</title>
-      <link>https://book.bornforthi.com/zh/column/jysf/</link>
-      <guid>https://book.bornforthi.com/zh/column/jysf/</guid>
-      <source url="https://book.bornforthi.com/rss.xml">久远讲算法</source>
-      <pubDate>Tue, 26 Oct 2021 02:24:23 GMT</pubDate>
-      <content:encoded><![CDATA[<div><pre><code><span><span>#</span> Hello World! </span>
-</code></pre>
-<div><span>1</span><br></div></div><p><img src="/ColumnImages/MarkdownBase/01/image-20211022133509452.png" alt="" /></p>
-]]></content:encoded>
-      <enclosure url="https://book.bornforthi.com/ColumnImages/MarkdownBase/01/image-20211022133509452.png" type="image/png"/>
     </item>
     <item>
       <title>AI悦创·算法</title>
@@ -93,6 +60,17 @@
 <div><span>1</span><br></div></div><p><img src="/ColumnImages/MarkdownBase/01/image-20211022133509452.png" alt="" /></p>
 ]]></content:encoded>
       <enclosure url="https://book.bornforthi.com/ColumnImages/MarkdownBase/01/image-20211022133509452.png" type="image/png"/>
+    </item>
+    <item>
+      <title>Project home</title>
+      <link>https://book.bornforthi.com/en/home/</link>
+      <guid>https://book.bornforthi.com/en/home/</guid>
+      <source url="https://book.bornforthi.com/rss.xml">Project home</source>
+      <pubDate>Sat, 23 Oct 2021 02:01:49 GMT</pubDate>
+      <content:encoded><![CDATA[<p>This is an example of a normal homepage. You can place your main content here.</p>
+<p>To use this layout, you need to set <code>home: true</code> in the page front matter.</p>
+<p>For related descriptions of configuration items, please see <a href="https://vuepress-theme-hope.github.io/guide/layout/home/" target="_blank" rel="noopener noreferrer">Project HomePage Layout Config</a>.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>网站信息</title>
@@ -148,6 +126,18 @@
 </tbody>
 </table>
 ]]></content:encoded>
+    </item>
+    <item>
+      <title>久远讲算法</title>
+      <link>https://book.bornforthi.com/zh/column/jysf/</link>
+      <guid>https://book.bornforthi.com/zh/column/jysf/</guid>
+      <source url="https://book.bornforthi.com/rss.xml">久远讲算法</source>
+      <pubDate>Tue, 26 Oct 2021 02:24:23 GMT</pubDate>
+      <content:encoded><![CDATA[<div><pre><code><span><span>#</span> Hello World! </span>
+</code></pre>
+<div><span>1</span><br></div></div><p><img src="/ColumnImages/MarkdownBase/01/image-20211022133509452.png" alt="" /></p>
+]]></content:encoded>
+      <enclosure url="https://book.bornforthi.com/ColumnImages/MarkdownBase/01/image-20211022133509452.png" type="image/png"/>
     </item>
     <item>
       <title>Markdown</title>
@@ -218,6 +208,16 @@
       <enclosure url="https://book.bornforthi.com/ColumnImages/MarkdownBase/01/image-20211022145145089.png" type="image/png"/>
     </item>
     <item>
+      <title>Blog Home</title>
+      <link>https://book.bornforthi.com/en/</link>
+      <guid>https://book.bornforthi.com/en/</guid>
+      <source url="https://book.bornforthi.com/rss.xml">Blog Home</source>
+      <content:encoded><![CDATA[<p>This is a blog home page.</p>
+<p>To use this layout, you should set both <code>blog: true</code> and <code>home: true</code> in the page front matter.</p>
+<p>For related configuration docs, please see <a href="https://vuepress-theme-hope.github.io/guide/blog/home/" target="_blank" rel="noopener noreferrer">blog homepage</a></p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>03-Markdown 列表</title>
       <link>https://book.bornforthi.com/zh/column/md/threeMarkdown_list/</link>
       <guid>https://book.bornforthi.com/zh/column/md/threeMarkdown_list/</guid>
@@ -239,7 +239,66 @@
 <span>-</span> 第二项
 <span>-</span> 第三项
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br></div></div>]]></content:encoded>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br></div></div><p>显示结果如下：</p>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+<p>有序列表使用数字并加上 <strong>.</strong> 号来表示，如：</p>
+<div><pre><code><span>1.</span> 第一项
+<span>2.</span> 第二项
+<span>3.</span> 第三项
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>显示结果如下：</p>
+<ol>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ol>
+<h2 id="列表嵌套"> 列表嵌套</h2>
+<p>列表嵌套只需在子列表中的选项前面添加四个空格即可：</p>
+<div><pre><code>1. 第一项：
+    - 第一项嵌套的第一个元素
+    - 第一项嵌套的第二个元素
+2. 第二项：
+    - 第二项嵌套的第一个元素
+    - 第二项嵌套的第二个元素
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>显示结果如下：</p>
+<ol>
+<li>第一项：
+<ul>
+<li>第一项嵌套的第一个元素</li>
+<li>第一项嵌套的第二个元素</li>
+</ul>
+</li>
+<li>第二项：
+<ul>
+<li>第二项嵌套的第一个元素</li>
+<li>第二项嵌套的第二个元素</li>
+</ul>
+</li>
+</ol>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>专栏目录</title>
+      <link>https://book.bornforthi.com/zh/guide/</link>
+      <guid>https://book.bornforthi.com/zh/guide/</guid>
+      <source url="https://book.bornforthi.com/rss.xml">专栏目录</source>
+      <content:encoded><![CDATA[<p>如果你有其他需求或者疑问，点击：<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1432803776&amp;site=qq&amp;menu=yes" target="_blank" rel="noopener noreferrer">QQ 在线客服</a></p>
+]]></content:encoded>
     </item>
     <item>
       <title>02-Markdown 段落</title>
@@ -309,14 +368,6 @@ book.bornforthi.com
 </blockquote>
 ]]></content:encoded>
       <enclosure url="https://gitee.com/huangjiabaoaiyc/image/raw/master/image-20211027172857577.png" type="image/png"/>
-    </item>
-    <item>
-      <title>专栏目录</title>
-      <link>https://book.bornforthi.com/zh/guide/</link>
-      <guid>https://book.bornforthi.com/zh/guide/</guid>
-      <source url="https://book.bornforthi.com/rss.xml">专栏目录</source>
-      <content:encoded><![CDATA[<p>如果你有其他需求或者疑问，点击：<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1432803776&amp;site=qq&amp;menu=yes" target="_blank" rel="noopener noreferrer">QQ 在线客服</a></p>
-]]></content:encoded>
     </item>
     <item>
       <title>流沙团队</title>

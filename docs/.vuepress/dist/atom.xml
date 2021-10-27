@@ -6,7 +6,7 @@
   <author>
     <name>Bornforthi</name>
   </author>
-  <updated>2021-10-27T14:56:08.017Z</updated>
+  <updated>2021-10-27T15:05:58.499Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://book.bornforthi.com/atom.xml"/>
   <link rel="alternate" href="https://book.bornforthi.com/"/>
@@ -52,59 +52,6 @@
     <rights>Copyright by Bornforthi</rights>
   </entry>
   <entry>
-    <title type="html">Project home</title>
-    <id>https://book.bornforthi.com/en/home/</id>
-    <link href="https://book.bornforthi.com/en/home/"/>
-    <updated>2021-10-23T02:01:49.000Z</updated>
-    <content type="html"><![CDATA[<p>This is an example of a normal homepage. You can place your main content here.</p>
-<p>To use this layout, you need to set <code>home: true</code> in the page front matter.</p>
-<p>For related descriptions of configuration items, please see <a href="https://vuepress-theme-hope.github.io/guide/layout/home/" target="_blank" rel="noopener noreferrer">Project HomePage Layout Config</a>.</p>
-]]></content>
-    <author>
-      <name>Bornforthi</name>
-    </author>
-    <contributor>
-      <name>Bornforthi</name>
-    </contributor>
-    <published>2021-10-23T02:01:49.000Z</published>
-    <rights>Copyright by Bornforthi</rights>
-  </entry>
-  <entry>
-    <title type="html">Blog Home</title>
-    <id>https://book.bornforthi.com/en/</id>
-    <link href="https://book.bornforthi.com/en/"/>
-    <updated>2021-10-27T14:57:06.239Z</updated>
-    <content type="html"><![CDATA[<p>This is a blog home page.</p>
-<p>To use this layout, you should set both <code>blog: true</code> and <code>home: true</code> in the page front matter.</p>
-<p>For related configuration docs, please see <a href="https://vuepress-theme-hope.github.io/guide/blog/home/" target="_blank" rel="noopener noreferrer">blog homepage</a></p>
-]]></content>
-    <author>
-      <name>Bornforthi</name>
-    </author>
-    <contributor>
-      <name>Bornforthi</name>
-    </contributor>
-    <rights>Copyright by Bornforthi</rights>
-  </entry>
-  <entry>
-    <title type="html">久远讲算法</title>
-    <id>https://book.bornforthi.com/zh/column/jysf/</id>
-    <link href="https://book.bornforthi.com/zh/column/jysf/"/>
-    <updated>2021-10-27T01:27:50.000Z</updated>
-    <content type="html"><![CDATA[<div><pre><code><span><span>#</span> Hello World! </span>
-</code></pre>
-<div><span>1</span><br></div></div><p><img src="/ColumnImages/MarkdownBase/01/image-20211022133509452.png" alt="" /></p>
-]]></content>
-    <author>
-      <name>Bornforthi</name>
-    </author>
-    <contributor>
-      <name>Bornforthi</name>
-    </contributor>
-    <published>2021-10-26T02:24:23.000Z</published>
-    <rights>Copyright by Bornforthi</rights>
-  </entry>
-  <entry>
     <title type="html">AI悦创·算法</title>
     <id>https://book.bornforthi.com/zh/column/aiycsf/</id>
     <link href="https://book.bornforthi.com/zh/column/aiycsf/"/>
@@ -141,10 +88,28 @@
     <rights>Copyright by Bornforthi</rights>
   </entry>
   <entry>
+    <title type="html">Project home</title>
+    <id>https://book.bornforthi.com/en/home/</id>
+    <link href="https://book.bornforthi.com/en/home/"/>
+    <updated>2021-10-23T02:01:49.000Z</updated>
+    <content type="html"><![CDATA[<p>This is an example of a normal homepage. You can place your main content here.</p>
+<p>To use this layout, you need to set <code>home: true</code> in the page front matter.</p>
+<p>For related descriptions of configuration items, please see <a href="https://vuepress-theme-hope.github.io/guide/layout/home/" target="_blank" rel="noopener noreferrer">Project HomePage Layout Config</a>.</p>
+]]></content>
+    <author>
+      <name>Bornforthi</name>
+    </author>
+    <contributor>
+      <name>Bornforthi</name>
+    </contributor>
+    <published>2021-10-23T02:01:49.000Z</published>
+    <rights>Copyright by Bornforthi</rights>
+  </entry>
+  <entry>
     <title type="html">网站信息</title>
     <id>https://book.bornforthi.com/WebSiteData/</id>
     <link href="https://book.bornforthi.com/WebSiteData/"/>
-    <updated>2021-10-27T14:57:06.242Z</updated>
+    <updated>2021-10-27T15:06:40.263Z</updated>
     <content type="html"><![CDATA[<h1 id="网站信息"> 网站信息</h1>
 <table>
 <thead>
@@ -200,6 +165,24 @@
     <contributor>
       <name>Bornforthi</name>
     </contributor>
+    <rights>Copyright by Bornforthi</rights>
+  </entry>
+  <entry>
+    <title type="html">久远讲算法</title>
+    <id>https://book.bornforthi.com/zh/column/jysf/</id>
+    <link href="https://book.bornforthi.com/zh/column/jysf/"/>
+    <updated>2021-10-27T01:27:50.000Z</updated>
+    <content type="html"><![CDATA[<div><pre><code><span><span>#</span> Hello World! </span>
+</code></pre>
+<div><span>1</span><br></div></div><p><img src="/ColumnImages/MarkdownBase/01/image-20211022133509452.png" alt="" /></p>
+]]></content>
+    <author>
+      <name>Bornforthi</name>
+    </author>
+    <contributor>
+      <name>Bornforthi</name>
+    </contributor>
+    <published>2021-10-26T02:24:23.000Z</published>
     <rights>Copyright by Bornforthi</rights>
   </entry>
   <entry>
@@ -283,10 +266,27 @@
     <rights>Copyright © 2021 Bornforthi</rights>
   </entry>
   <entry>
+    <title type="html">Blog Home</title>
+    <id>https://book.bornforthi.com/en/</id>
+    <link href="https://book.bornforthi.com/en/"/>
+    <updated>2021-10-27T15:06:40.321Z</updated>
+    <content type="html"><![CDATA[<p>This is a blog home page.</p>
+<p>To use this layout, you should set both <code>blog: true</code> and <code>home: true</code> in the page front matter.</p>
+<p>For related configuration docs, please see <a href="https://vuepress-theme-hope.github.io/guide/blog/home/" target="_blank" rel="noopener noreferrer">blog homepage</a></p>
+]]></content>
+    <author>
+      <name>Bornforthi</name>
+    </author>
+    <contributor>
+      <name>Bornforthi</name>
+    </contributor>
+    <rights>Copyright by Bornforthi</rights>
+  </entry>
+  <entry>
     <title type="html">03-Markdown 列表</title>
     <id>https://book.bornforthi.com/zh/column/md/threeMarkdown_list/</id>
     <link href="https://book.bornforthi.com/zh/column/md/threeMarkdown_list/"/>
-    <updated>2021-10-27T14:49:25.000Z</updated>
+    <updated>2021-10-27T14:58:15.000Z</updated>
     <content type="html"><![CDATA[<p>Markdown 支持有序列表和无序列表。</p>
 <p>无序列表使用星号(*)、加号(+)或是减号(-)作为列表标记，这些标记后面要添加一个空格，然后再填写内容：</p>
 <div><pre><code><span>*</span> 第一项
@@ -302,7 +302,58 @@
 <span>-</span> 第二项
 <span>-</span> 第三项
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br></div></div>]]></content>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br></div></div><p>显示结果如下：</p>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+<p>有序列表使用数字并加上 <strong>.</strong> 号来表示，如：</p>
+<div><pre><code><span>1.</span> 第一项
+<span>2.</span> 第二项
+<span>3.</span> 第三项
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>显示结果如下：</p>
+<ol>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ol>
+<h2 id="列表嵌套"> 列表嵌套</h2>
+<p>列表嵌套只需在子列表中的选项前面添加四个空格即可：</p>
+<div><pre><code>1. 第一项：
+    - 第一项嵌套的第一个元素
+    - 第一项嵌套的第二个元素
+2. 第二项：
+    - 第二项嵌套的第一个元素
+    - 第二项嵌套的第二个元素
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>显示结果如下：</p>
+<ol>
+<li>第一项：
+<ul>
+<li>第一项嵌套的第一个元素</li>
+<li>第一项嵌套的第二个元素</li>
+</ul>
+</li>
+<li>第二项：
+<ul>
+<li>第二项嵌套的第一个元素</li>
+<li>第二项嵌套的第二个元素</li>
+</ul>
+</li>
+</ol>
+]]></content>
     <author>
       <name>AI悦创</name>
     </author>
@@ -312,6 +363,21 @@
     </contributor>
     <published>2021-10-24T13:10:52.000Z</published>
     <rights>Copyright by AI悦创</rights>
+  </entry>
+  <entry>
+    <title type="html">专栏目录</title>
+    <id>https://book.bornforthi.com/zh/guide/</id>
+    <link href="https://book.bornforthi.com/zh/guide/"/>
+    <updated>2021-10-27T15:06:40.329Z</updated>
+    <content type="html"><![CDATA[<p>如果你有其他需求或者疑问，点击：<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1432803776&amp;site=qq&amp;menu=yes" target="_blank" rel="noopener noreferrer">QQ 在线客服</a></p>
+]]></content>
+    <author>
+      <name>Bornforthi</name>
+    </author>
+    <contributor>
+      <name>Bornforthi</name>
+    </contributor>
+    <rights>Copyright by Bornforthi</rights>
   </entry>
   <entry>
     <title type="html">02-Markdown 段落</title>
@@ -387,21 +453,6 @@ book.bornforthi.com
     </contributor>
     <published>2021-10-24T12:10:52.000Z</published>
     <rights>Copyright by AI悦创</rights>
-  </entry>
-  <entry>
-    <title type="html">专栏目录</title>
-    <id>https://book.bornforthi.com/zh/guide/</id>
-    <link href="https://book.bornforthi.com/zh/guide/"/>
-    <updated>2021-10-27T14:57:06.248Z</updated>
-    <content type="html"><![CDATA[<p>如果你有其他需求或者疑问，点击：<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1432803776&amp;site=qq&amp;menu=yes" target="_blank" rel="noopener noreferrer">QQ 在线客服</a></p>
-]]></content>
-    <author>
-      <name>Bornforthi</name>
-    </author>
-    <contributor>
-      <name>Bornforthi</name>
-    </contributor>
-    <rights>Copyright by Bornforthi</rights>
   </entry>
   <entry>
     <title type="html">流沙团队</title>
