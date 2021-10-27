@@ -7,10 +7,10 @@ module.exports = config({
   // dest: "./dist",
 
   head: [
-    ["script",{src: "/js/react.production.min.js" },],
-    ["script",{src: "/js/react-dom.production.min.js",},],
-    ["script", { src: "/js/vue.min.js" }],
-    ["script",{ src: "/js/babel.min.js" },],
+    ["script",{src: "https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js" },],
+    ["script",{src: "https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js",},],
+    ["script", { src: "https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js" }],
+    ["script",{ src: "https://cdn.jsdelivr.net/npm/@babel/standalone/babel.min.js" },],
     ['meta', { name: "keywords", content: "流沙团队：AI悦创、久远,编程一对一教学,Python,爬虫,深度学习,机器学习,数据分析,网络,IT,技术,博客,算法与数据结构"}],
     ],
 
