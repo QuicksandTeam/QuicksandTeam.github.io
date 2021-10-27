@@ -52,7 +52,7 @@ module.exports = config({
       //   },
       // ],
       "/zh/column/md/": [
-        "oneMarkdowntitle", "twoMarkdown_paragraph", "threeMarkdown_list",
+        "oneMarkdowntitle", "twoMarkdown_paragraph", "threeMarkdown_list", "fourmarkdownblock", "FiveMarkdowncode",
       ],
     },
 
