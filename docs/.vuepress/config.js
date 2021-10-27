@@ -36,7 +36,7 @@ module.exports = config({
     hostname: "https://book.bornforthi.com",
 
     author: "Bornforthi",
-    repo: "https://github.com/QuicksandTeam/QuicksandTeam.github.io",
+    repo: "https://github.com/QuicksandTeam",
 
     sidebar: {
       // "/": [
@@ -52,7 +52,7 @@ module.exports = config({
       //   },
       // ],
       "/zh/column/md/": [
-        "oneMarkdowntitle", "twoMarkdown_paragraph",
+        "oneMarkdowntitle", "twoMarkdown_paragraph", "threeMarkdown_list",
       ],
     },
 
