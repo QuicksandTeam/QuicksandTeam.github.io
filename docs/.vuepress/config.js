@@ -270,6 +270,10 @@ module.exports = config({
   },
 
   plugins: [
+    ["@mr-hope/sitemap", { 
+      changefreq: "hourly",
+      outFile: "sitemap.xml",
+    }],
     // [
     //   "@mr-hope/comment",
     //   {
