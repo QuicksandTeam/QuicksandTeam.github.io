@@ -64,5 +64,54 @@ ___粗斜体文本___
 
 
 
+## 删除线
 
+如果段落上的文字要添加删除线，只需要在文字的两端加上两个波浪线 **~~** 即可，实例如下：
 
+```markdown
+aiyc.top
+
+book.bornforthi.com
+
+~~baidu.com~~
+```
+
+显示效果如下所示：
+
+![image-20211027211907431](https://gitee.com/huangjiabaoaiyc/image/raw/master/image-20211027211907431.png)
+
+## 下划线
+
+下划线可以通过 HTML 的 **<u>** 标签来实现：
+
+```markdown
+<u>带下划线文本</u>
+```
+
+显示效果如下所示：
+
+![image-20211027212240861](https://gitee.com/huangjiabaoaiyc/image/raw/master/image-20211027212240861.png)
+
+## 脚注
+
+脚注是对文本的补充说明。
+
+Markdown 脚注的格式如下:
+
+```markdown
+[^要注明的文本]
+```
+
+以下实例演示了脚注的用法：
+
+```markdown
+创建脚注格式类似这样 [^RUNOOB]。
+
+[^RUNOOB]: 流沙团队 -- 一股无形的力量，学的不仅是技术，更是梦想！！！
+```
+
+演示效果如下：
+
+![image-20211027212704519](https://gitee.com/huangjiabaoaiyc/image/raw/master/image-20211027212704519.png)
+
+> 流沙团队推出辅导班啦，包括「Python 语言辅导班、C++ 辅导班、java 辅导班、算法/数据结构辅导班、少儿编程、pygame 游戏开发」，全部都是一对一教学：一对一辅导 + 一对一答疑 + 布置作业 + 项目实践等。当然，还有线下线上摄影课程、Photoshop、Premiere 一对一教学、QQ、微信在线，随时响应！
