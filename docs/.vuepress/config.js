@@ -36,7 +36,7 @@ module.exports = config({
     hostname: "https://book.bornforthi.com",
 
     author: "Bornforthi",
-    repo: "https://github.com/QuicksandTeam",
+    repo: "https://github.com/QuicksandTeam/QuicksandTeam.github.io",
 
     sidebar: {
       // "/": [
