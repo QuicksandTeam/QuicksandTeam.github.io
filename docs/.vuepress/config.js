@@ -1,7 +1,7 @@
 const { config } = require("vuepress-theme-hope");
 
 module.exports = config({
-  title: "流沙团队",
+  title: "",
   description: "一股无形的力量，流沙团队：AI悦创、久远,编程一对一教学,Python,爬虫,深度学习,机器学习,数据分析,网络,IT,技术,博客,算法与数据结构",
   
   // dest: "./dist",
@@ -95,7 +95,8 @@ module.exports = config({
                       ]},
                       
                       {text: "数据结构与算法", items: [
-                        {text: "久远讲算法", link: "/zh/column/jysf/"}
+                        {text: "久远讲算法", link: "/zh/column/jysf/"},
+                        {text: "AI悦创·数据结构与算法", link: "/zh/column/aiycsf/"}
                       ]}
                     ],
           },
