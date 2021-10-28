@@ -1168,6 +1168,15 @@
     chalk "^4.1.2"
     xml-js "^1.6.11"
 
+"@mr-hope/vuepress-plugin-feed@^1.20.3":
+  version "1.20.3"
+  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-plugin-feed/-/vuepress-plugin-feed-1.20.3.tgz#1b54584ff07f3e8a6d071fcae3517d6462643047"
+  integrity sha512-LUWliNDLGC+zae1vZd4arfz9v5vgjdivLjHeiMqdW3CztphybQYH3bq/FZCxmnkMZt1FEVAwP9DUj4AFlirH2g==
+  dependencies:
+    "@mr-hope/vuepress-types" "1.20.3"
+    chalk "^4.1.2"
+    xml-js "^1.6.11"
+
 "@mr-hope/vuepress-plugin-git@1.20.3":
   version "1.20.3"
   resolved "https://registry.nlark.com/@mr-hope/vuepress-plugin-git/download/@mr-hope/vuepress-plugin-git-1.20.3.tgz#fd472e65f5e0c96d5e85c66d67caff1c20e7cffc"

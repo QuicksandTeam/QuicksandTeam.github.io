@@ -6,7 +6,7 @@
   <author>
     <name>Bornforthi</name>
   </author>
-  <updated>2021-10-27T23:19:18.563Z</updated>
+  <updated>2021-10-28T01:03:35.831Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://book.bornforthi.com/atom.xml"/>
   <link rel="alternate" href="https://book.bornforthi.com/"/>
@@ -39,7 +39,7 @@
     <title type="html">网站信息</title>
     <id>https://book.bornforthi.com/WebSiteData/</id>
     <link href="https://book.bornforthi.com/WebSiteData/"/>
-    <updated>2021-10-27T23:20:21.628Z</updated>
+    <updated>2021-10-28T01:04:38.254Z</updated>
     <content type="html"><![CDATA[<h1 id="网站信息"> 网站信息</h1>
 <table>
 <thead>
@@ -98,22 +98,6 @@
     <rights>Copyright by Bornforthi</rights>
   </entry>
   <entry>
-    <title type="html">博客主页</title>
-    <id>https://book.bornforthi.com/</id>
-    <link href="https://book.bornforthi.com/"/>
-    <updated>2021-10-25T14:47:16.000Z</updated>
-    <content type="html"><![CDATA[<p>如果你有其他需求或者疑问，点击：<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1432803776&amp;site=qq&amp;menu=yes" target="_blank" rel="noopener noreferrer">QQ 在线客服</a></p>
-]]></content>
-    <author>
-      <name>Bornforthi</name>
-    </author>
-    <contributor>
-      <name>Bornforthi</name>
-    </contributor>
-    <published>2021-10-18T05:18:35.000Z</published>
-    <rights>Copyright by Bornforthi</rights>
-  </entry>
-  <entry>
     <title type="html">Project home</title>
     <id>https://book.bornforthi.com/en/home/</id>
     <link href="https://book.bornforthi.com/en/home/"/>
@@ -135,7 +119,7 @@
     <title type="html">Blog Home</title>
     <id>https://book.bornforthi.com/en/</id>
     <link href="https://book.bornforthi.com/en/"/>
-    <updated>2021-10-27T23:20:21.652Z</updated>
+    <updated>2021-10-28T01:04:38.271Z</updated>
     <content type="html"><![CDATA[<p>This is a blog home page.</p>
 <p>To use this layout, you should set both <code>blog: true</code> and <code>home: true</code> in the page front matter.</p>
 <p>For related configuration docs, please see <a href="https://vuepress-theme-hope.github.io/guide/blog/home/" target="_blank" rel="noopener noreferrer">blog homepage</a></p>
@@ -146,6 +130,22 @@
     <contributor>
       <name>Bornforthi</name>
     </contributor>
+    <rights>Copyright by Bornforthi</rights>
+  </entry>
+  <entry>
+    <title type="html">博客主页</title>
+    <id>https://book.bornforthi.com/</id>
+    <link href="https://book.bornforthi.com/"/>
+    <updated>2021-10-25T14:47:16.000Z</updated>
+    <content type="html"><![CDATA[<p>如果你有其他需求或者疑问，点击：<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1432803776&amp;site=qq&amp;menu=yes" target="_blank" rel="noopener noreferrer">QQ 在线客服</a></p>
+]]></content>
+    <author>
+      <name>Bornforthi</name>
+    </author>
+    <contributor>
+      <name>Bornforthi</name>
+    </contributor>
+    <published>2021-10-18T05:18:35.000Z</published>
     <rights>Copyright by Bornforthi</rights>
   </entry>
   <entry>
@@ -167,66 +167,85 @@
     <rights>Copyright by Bornforthi</rights>
   </entry>
   <entry>
-    <title type="html">AI悦创·算法</title>
-    <id>https://book.bornforthi.com/zh/column/aiycsf/</id>
-    <link href="https://book.bornforthi.com/zh/column/aiycsf/"/>
-    <updated>2021-10-27T01:27:50.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="简介"> 简介</h1>
-<p>Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。</p>
-<p>Markdown 语言在 2004 由约翰·格鲁伯（英语：John Gruber）创建。</p>
-<p>Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。</p>
-<p>Markdown 编写的文档后缀为 <strong>.md</strong>, <strong>.markdown</strong>。</p>
-<hr>
-<h1 id="markdown-应用"> Markdown 应用</h1>
-<p>Markdown 能被使用来撰写电子书，如：<a href="https://book.bornforthi.com/GitBook_All/" target="_blank" rel="noopener noreferrer">Gitbook</a> 、或者现在你正在阅读的我们的<a href="https://book.bornforthi.com" target="_blank" rel="noopener noreferrer">官网</a> 也是使用 Markdown 编写。</p>
-<p>当前许多网站都广泛使用 Markdown 来撰写帮助文档或是用于论坛上发表消息。例如：GitHub、简书、reddit、Diaspora、Stack Exchange、OpenStreetMap 、SourceForge、CSDN、掘金、思否、51CTO 等。</p>
-<h1 id="编辑器"> 编辑器</h1>
-<p>本教程将使用 Typora 编辑器来讲解 Markdown 的语法，Typora 支持 MacOS 、Windows、Linux 平台，且包含多种主题，编辑后直接渲染出效果。</p>
-<p>支持导出HTML、PDF、Word、图片等多种类型文件。</p>
-<p>Typora 官网：https://typora.io/</p>
-<p>你也可以使用我们的在线编辑器来测试：<a href="http://www.bornforthi.com/markdown-editor/" target="_blank" rel="noopener noreferrer">http://www.bornforthi.com/markdown-editor/</a></p>
-<p>备用链接1：<a href="http://book.bornforthi.com/markdown-editor/" target="_blank" rel="noopener noreferrer">http://book.bornforthi.com/markdown-editor/</a></p>
-<p>备用连接2：<a href="https://bornforthi.gitee.io/markdown-editor" target="_blank" rel="noopener noreferrer">https://bornforthi.gitee.io/markdown-editor</a></p>
-<h1 id="测试实例"> 测试实例</h1>
-<p>Mardown 编写 Hello World! 语法：</p>
-<div><pre><code><span><span>#</span> Hello World! </span>
-</code></pre>
-<div><span>1</span><br></div></div><p><img src="/ColumnImages/MarkdownBase/01/image-20211022133509452.png" alt="" /></p>
-]]></content>
-    <author>
-      <name>Bornforthi</name>
-    </author>
-    <contributor>
-      <name>Bornforthi</name>
-    </contributor>
-    <published>2021-10-27T01:27:50.000Z</published>
-    <rights>Copyright by Bornforthi</rights>
-  </entry>
-  <entry>
-    <title type="html">05-Markdown 代码</title>
-    <id>https://book.bornforthi.com/zh/column/md/FiveMarkdowncode/</id>
-    <link href="https://book.bornforthi.com/zh/column/md/FiveMarkdowncode/"/>
-    <updated>2021-10-27T15:43:54.000Z</updated>
+    <title type="html">04-Markdown 区块</title>
+    <id>https://book.bornforthi.com/zh/column/md/fourmarkdownblock/</id>
+    <link href="https://book.bornforthi.com/zh/column/md/fourmarkdownblock/"/>
+    <updated>2021-10-27T15:19:01.000Z</updated>
     <content type="html"><![CDATA[<p>你好，我是悦创。</p>
-<p>如果是段落上的一个函数或片段的代码可以用反引号把它包起来（<strong>`</strong>），例如：</p>
-<div><pre><code><span>`printf()`</span> 函数
+<p>Markdown 区块引用是在段落开头使用 <strong>&gt;</strong> 符号 ，然后后面紧跟一个<strong>空格</strong>符号：</p>
+<div><pre><code><span>></span> 区块引用
+<span>></span> 流沙教程
+<span>></span> 学的不仅是技术更是梦想
+<span>></span> 一股无形的力量！
 </code></pre>
-<div><span>1</span><br></div></div><p>显示结果如下：</p>
-<p><code>printf()</code> 函数</p>
-<h2 id="代码区块"> 代码区块</h2>
-<p>你也可以用 <strong>```</strong> 包裹一段代码，并指定一种语言（也可以不指定）：</p>
-<div><pre><code><span><span>```</span><span>javascript</span>
-<span><span>$</span><span>(</span>document<span>)</span><span>.</span><span>ready</span><span>(</span><span>function</span> <span>(</span><span>)</span> <span>{</span>
-    <span>alert</span><span>(</span><span>'bornforthi.com'</span><span>)</span><span>;</span>
-<span>}</span><span>)</span><span>;</span></span>
-<span>```</span></span>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>显示结果如下：</p>
+<blockquote>
+<p>区块引用
+流沙教程
+学的不仅是技术更是梦想
+一股无形的力量！</p>
+</blockquote>
+<p>另外区块是可以嵌套的，一个 <strong>&gt;</strong> 符号是最外层，两个 <strong>&gt;</strong> 符号是第一层嵌套，以此类推：</p>
+<div><pre><code><span>></span> 最外层
+<span>> ></span> 第一层嵌套
+<span>> > ></span> 第二层嵌套
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>显示结果如下：</p>
+<blockquote>
+<p>最外层</p>
+<blockquote>
+<p>第一层嵌套</p>
+<blockquote>
+<p>第二层嵌套</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h2 id="区块中使用列表"> 区块中使用列表</h2>
+<p>区块中使用列表实例如下：</p>
+<div><pre><code><span>></span> 区块中使用列表
+<span>></span> <span>1.</span> 第一项
+<span>></span> <span>2.</span> 第二项
+<span>></span> <span>+</span> 第一项
+<span>></span> <span>+</span> 第二项
+<span>></span> <span>+</span> 第三项
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>显示结果如下：</p>
+<blockquote>
+<p>区块中使用列表</p>
+<ol>
+<li>第一项</li>
+<li>第二项</li>
+</ol>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+</blockquote>
+<h2 id="列表中使用区块"> 列表中使用区块</h2>
+<p>如果要在列表项目内放进区块，那么就需要在 <strong>&gt;</strong> 前添加四个空格的缩进。</p>
+<p>列表中使用区块实例如下：</p>
+<div><pre><code>* 第一项
+    &gt; 流沙教程
+    &gt; 学的不仅是技术更是梦想
+    &gt; 一股无形的力量！
+* 第二项
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>显示结果如下：</p>
-<div><pre><code><span>$</span><span>(</span>document<span>)</span><span>.</span><span>ready</span><span>(</span><span>function</span> <span>(</span><span>)</span> <span>{</span>
-    <span>alert</span><span>(</span><span>'bornforthi.com'</span><span>)</span><span>;</span>
-<span>}</span><span>)</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><blockquote>
+<ul>
+<li>
+<p>第一项</p>
+<blockquote>
+<p>流沙教程
+学的不仅是技术更是梦想
+一股无形的力量！</p>
+</blockquote>
+</li>
+<li>
+<p>第二项</p>
+</li>
+</ul>
+<blockquote>
 <p>流沙团队推出辅导班啦，包括「Python 语言辅导班、C++ 辅导班、java 辅导班、算法/数据结构辅导班、少儿编程、pygame 游戏开发」，全部都是一对一教学：一对一辅导 + 一对一答疑 + 布置作业 + 项目实践等。当然，还有线下线上摄影课程、Photoshop、Premiere 一对一教学、QQ、微信在线，随时响应！</p>
 </blockquote>
 ]]></content>
@@ -237,7 +256,7 @@
     <contributor>
       <name>AI悦创</name>
     </contributor>
-    <published>2021-10-24T15:10:52.000Z</published>
+    <published>2021-10-24T14:10:52.000Z</published>
     <rights>Copyright by AI悦创</rights>
   </entry>
   <entry>
@@ -341,84 +360,102 @@
     <rights>Copyright by AI悦创</rights>
   </entry>
   <entry>
-    <title type="html">04-Markdown 区块</title>
-    <id>https://book.bornforthi.com/zh/column/md/fourmarkdownblock/</id>
-    <link href="https://book.bornforthi.com/zh/column/md/fourmarkdownblock/"/>
-    <updated>2021-10-27T15:19:01.000Z</updated>
+    <title type="html">AI悦创·算法</title>
+    <id>https://book.bornforthi.com/zh/column/aiycsf/</id>
+    <link href="https://book.bornforthi.com/zh/column/aiycsf/"/>
+    <updated>2021-10-27T01:27:50.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="简介"> 简介</h1>
+<p>Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。</p>
+<p>Markdown 语言在 2004 由约翰·格鲁伯（英语：John Gruber）创建。</p>
+<p>Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。</p>
+<p>Markdown 编写的文档后缀为 <strong>.md</strong>, <strong>.markdown</strong>。</p>
+<hr>
+<h1 id="markdown-应用"> Markdown 应用</h1>
+<p>Markdown 能被使用来撰写电子书，如：<a href="https://book.bornforthi.com/GitBook_All/" target="_blank" rel="noopener noreferrer">Gitbook</a> 、或者现在你正在阅读的我们的<a href="https://book.bornforthi.com" target="_blank" rel="noopener noreferrer">官网</a> 也是使用 Markdown 编写。</p>
+<p>当前许多网站都广泛使用 Markdown 来撰写帮助文档或是用于论坛上发表消息。例如：GitHub、简书、reddit、Diaspora、Stack Exchange、OpenStreetMap 、SourceForge、CSDN、掘金、思否、51CTO 等。</p>
+<h1 id="编辑器"> 编辑器</h1>
+<p>本教程将使用 Typora 编辑器来讲解 Markdown 的语法，Typora 支持 MacOS 、Windows、Linux 平台，且包含多种主题，编辑后直接渲染出效果。</p>
+<p>支持导出HTML、PDF、Word、图片等多种类型文件。</p>
+<p>Typora 官网：https://typora.io/</p>
+<p>你也可以使用我们的在线编辑器来测试：<a href="http://www.bornforthi.com/markdown-editor/" target="_blank" rel="noopener noreferrer">http://www.bornforthi.com/markdown-editor/</a></p>
+<p>备用链接1：<a href="http://book.bornforthi.com/markdown-editor/" target="_blank" rel="noopener noreferrer">http://book.bornforthi.com/markdown-editor/</a></p>
+<p>备用连接2：<a href="https://bornforthi.gitee.io/markdown-editor" target="_blank" rel="noopener noreferrer">https://bornforthi.gitee.io/markdown-editor</a></p>
+<h1 id="测试实例"> 测试实例</h1>
+<p>Mardown 编写 Hello World! 语法：</p>
+<div><pre><code><span><span>#</span> Hello World! </span>
+</code></pre>
+<div><span>1</span><br></div></div><p><img src="/ColumnImages/MarkdownBase/01/image-20211022133509452.png" alt="" /></p>
+]]></content>
+    <author>
+      <name>Bornforthi</name>
+    </author>
+    <contributor>
+      <name>Bornforthi</name>
+    </contributor>
+    <published>2021-10-27T01:27:50.000Z</published>
+    <rights>Copyright by Bornforthi</rights>
+  </entry>
+  <entry>
+    <title type="html">02-Markdown 段落</title>
+    <id>https://book.bornforthi.com/zh/column/md/twoMarkdown_paragraph/</id>
+    <link href="https://book.bornforthi.com/zh/column/md/twoMarkdown_paragraph/"/>
+    <updated>2021-10-27T13:35:27.000Z</updated>
     <content type="html"><![CDATA[<p>你好，我是悦创。</p>
-<p>Markdown 区块引用是在段落开头使用 <strong>&gt;</strong> 符号 ，然后后面紧跟一个<strong>空格</strong>符号：</p>
-<div><pre><code><span>></span> 区块引用
-<span>></span> 流沙教程
-<span>></span> 学的不仅是技术更是梦想
-<span>></span> 一股无形的力量！
+<p>Markdown 段落没有特殊的格式，直接编写文字就好，<strong>段落的换行直接回车就好。</strong></p>
+<p><img src="https://gitee.com/huangjiabaoaiyc/image/raw/master/image-20211027172857577.png" alt="image-20211027172857577" /></p>
+<h2 id="字体"> 字体</h2>
+<p>Markdown 可以使用以下几种字体：</p>
+<div><pre><code><span><span>*</span><span>斜体文本</span><span>*</span></span>
+<span><span>_</span><span>斜体文本</span><span>_</span></span>
+<span><span>**</span><span>粗体文本</span><span>**</span></span>
+<span><span>__</span><span>粗体文本</span><span>__</span></span>
+<span><span>**</span><span><span><span>*</span><span>粗斜体文本</span><span>*</span></span></span><span>**</span></span>
+<span><span>__</span><span><span><span>_</span><span>粗斜体文本</span><span>_</span></span></span><span>__</span></span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>显示结果如下：</p>
-<blockquote>
-<p>区块引用
-流沙教程
-学的不仅是技术更是梦想
-一股无形的力量！</p>
-</blockquote>
-<p>另外区块是可以嵌套的，一个 <strong>&gt;</strong> 符号是最外层，两个 <strong>&gt;</strong> 符号是第一层嵌套，以此类推：</p>
-<div><pre><code><span>></span> 最外层
-<span>> ></span> 第一层嵌套
-<span>> > ></span> 第二层嵌套
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>显示效果如下所示：</p>
+<p><img src="https://gitee.com/huangjiabaoaiyc/image/raw/master/20211027193424.png" alt="" /></p>
+<h2 id="分隔线"> 分隔线</h2>
+<p>你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：</p>
+<div><pre><code><span>***</span>
+
+<span>* * *</span>
+
+<span>*****</span>
+
+<span>- - -</span>
+
+<span>----------</span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>显示结果如下：</p>
-<blockquote>
-<p>最外层</p>
-<blockquote>
-<p>第一层嵌套</p>
-<blockquote>
-<p>第二层嵌套</p>
-</blockquote>
-</blockquote>
-</blockquote>
-<h2 id="区块中使用列表"> 区块中使用列表</h2>
-<p>区块中使用列表实例如下：</p>
-<div><pre><code><span>></span> 区块中使用列表
-<span>></span> <span>1.</span> 第一项
-<span>></span> <span>2.</span> 第二项
-<span>></span> <span>+</span> 第一项
-<span>></span> <span>+</span> 第二项
-<span>></span> <span>+</span> 第三项
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div><p>显示效果如下所示：</p>
+<p><img src="https://gitee.com/huangjiabaoaiyc/image/raw/master/20211027204813.png" alt="" /></p>
+<h2 id="删除线"> 删除线</h2>
+<p>如果段落上的文字要添加删除线，只需要在文字的两端加上两个波浪线 <strong>~~</strong> 即可，实例如下：</p>
+<div><pre><code>aiyc.top
+
+book.bornforthi.com
+
+<span><span>~~</span><span>baidu.com</span><span>~~</span></span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>显示结果如下：</p>
-<blockquote>
-<p>区块中使用列表</p>
-<ol>
-<li>第一项</li>
-<li>第二项</li>
-</ol>
-<ul>
-<li>第一项</li>
-<li>第二项</li>
-<li>第三项</li>
-</ul>
-</blockquote>
-<h2 id="列表中使用区块"> 列表中使用区块</h2>
-<p>如果要在列表项目内放进区块，那么就需要在 <strong>&gt;</strong> 前添加四个空格的缩进。</p>
-<p>列表中使用区块实例如下：</p>
-<div><pre><code>* 第一项
-    &gt; 流沙教程
-    &gt; 学的不仅是技术更是梦想
-    &gt; 一股无形的力量！
-* 第二项
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>显示效果如下所示：</p>
+<p><img src="https://gitee.com/huangjiabaoaiyc/image/raw/master/image-20211027211907431.png" alt="image-20211027211907431" /></p>
+<h2 id="下划线"> 下划线</h2>
+<p>下划线可以通过 HTML 的 <strong><u></strong> 标签来实现：</p>
+<div><pre><code><span><span><span>&lt;</span>u</span><span>></span></span>带下划线文本<span><span><span>&lt;/</span>u</span><span>></span></span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>显示结果如下：</p>
-<ul>
-<li>
-<p>第一项</p>
-<blockquote>
-<p>流沙教程
-学的不仅是技术更是梦想
-一股无形的力量！</p>
-</blockquote>
-</li>
-<li>
-<p>第二项</p>
-</li>
-</ul>
+<div><span>1</span><br></div></div><p>显示效果如下所示：</p>
+<p><img src="https://gitee.com/huangjiabaoaiyc/image/raw/master/image-20211027212240861.png" alt="image-20211027212240861" /></p>
+<h2 id="脚注"> 脚注</h2>
+<p>脚注是对文本的补充说明。</p>
+<p>Markdown 脚注的格式如下:</p>
+<div><pre><code>[^要注明的文本]
+</code></pre>
+<div><span>1</span><br></div></div><p>以下实例演示了脚注的用法：</p>
+<div><pre><code>创建脚注格式类似这样 [^RUNOOB]。
+
+<span><span>[</span><span>^RUNOOB</span><span>]</span><span>:</span> 流沙团队</span> -- 一股无形的力量，学的不仅是技术，更是梦想！！！
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>演示效果如下：</p>
+<p><img src="https://gitee.com/huangjiabaoaiyc/image/raw/master/image-20211027212704519.png" alt="image-20211027212704519" /></p>
 <blockquote>
 <p>流沙团队推出辅导班啦，包括「Python 语言辅导班、C++ 辅导班、java 辅导班、算法/数据结构辅导班、少儿编程、pygame 游戏开发」，全部都是一对一教学：一对一辅导 + 一对一答疑 + 布置作业 + 项目实践等。当然，还有线下线上摄影课程、Photoshop、Premiere 一对一教学、QQ、微信在线，随时响应！</p>
 </blockquote>
@@ -430,8 +467,66 @@
     <contributor>
       <name>AI悦创</name>
     </contributor>
-    <published>2021-10-24T14:10:52.000Z</published>
+    <published>2021-10-24T12:10:52.000Z</published>
     <rights>Copyright by AI悦创</rights>
+  </entry>
+  <entry>
+    <title type="html">幻灯片页</title>
+    <id>https://book.bornforthi.com/zh/slides/</id>
+    <link href="https://book.bornforthi.com/zh/slides/"/>
+    <updated>2021-10-23T02:01:49.000Z</updated>
+    <content type="html"><![CDATA[
+<i>Not supported content</i>]]></content>
+    <author>
+      <name>Bornforthi</name>
+    </author>
+    <contributor>
+      <name>Bornforthi</name>
+    </contributor>
+    <published>2021-10-23T02:01:49.000Z</published>
+    <rights>Copyright by Bornforthi</rights>
+  </entry>
+  <entry>
+    <title type="html">01-Markdown 标题</title>
+    <id>https://book.bornforthi.com/zh/column/md/oneMarkdowntitle/</id>
+    <link href="https://book.bornforthi.com/zh/column/md/oneMarkdowntitle/"/>
+    <updated>2021-10-27T15:19:01.000Z</updated>
+    <content type="html"><![CDATA[<p>你好，我是悦创。</p>
+<p>Markdown 标题有两种格式。</p>
+<h1 id="_1、使用-和-标记一级和二级标题"> 1、使用 = 和 - 标记一级和二级标题</h1>
+<p>= 和 - 标记语法格式如下：</p>
+<div><pre><code><span>我展示的是一级标题
+<span>=================</span></span>
+
+<span>我展示的是二级标题
+<span>-----------------</span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>显示效果如下图：</p>
+<p><img src="/ColumnImages/MarkdownBase/01/image-20211022145145089.png" alt="" /></p>
+<h1 id="_2-使用-号标记"> 2. 使用 # 号标记</h1>
+<p>使用 <strong>#</strong> 号可表示 1-6 级标题，一级标题对应一个 <strong>#</strong> 号，二级标题对应两个 <strong>#</strong> 号，以此类推。</p>
+<div><pre><code><span><span>#</span> 一级标题</span>
+<span><span>##</span> 二级标题</span>
+<span><span>###</span> 三级标题</span>
+<span><span>####</span> 四级标题</span>
+<span><span>#####</span> 五级标题</span>
+<span><span>######</span> 六级标题</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>显示效果如下图：</p>
+<p><img src="/ColumnImages/MarkdownBase/01/image-20211022150038645.png" alt="image-20211022150038645" /></p>
+<blockquote>
+<p>流沙团队推出辅导班啦，包括「Python 语言辅导班、C++ 辅导班、java 辅导班、算法/数据结构辅导班、少儿编程、pygame 游戏开发」，全部都是一对一教学：一对一辅导 + 一对一答疑 + 布置作业 + 项目实践等。当然，还有线下线上摄影课程、Photoshop、Premiere 一对一教学、QQ、微信在线，随时响应！</p>
+</blockquote>
+]]></content>
+    <author>
+      <name>AI悦创</name>
+    </author>
+    <category term="Markdown 基础"/>
+    <contributor>
+      <name>AI悦创</name>
+    </contributor>
+    <published>2021-10-23T12:10:52.000Z</published>
+    <rights>Copyright © 2021 Bornforthi</rights>
   </entry>
   <entry>
     <title type="html">03-Markdown 列表</title>
@@ -559,34 +654,30 @@
     <rights>Copyright by Bornforthi</rights>
   </entry>
   <entry>
-    <title type="html">01-Markdown 标题</title>
-    <id>https://book.bornforthi.com/zh/column/md/oneMarkdowntitle/</id>
-    <link href="https://book.bornforthi.com/zh/column/md/oneMarkdowntitle/"/>
-    <updated>2021-10-27T15:19:01.000Z</updated>
+    <title type="html">05-Markdown 代码</title>
+    <id>https://book.bornforthi.com/zh/column/md/FiveMarkdowncode/</id>
+    <link href="https://book.bornforthi.com/zh/column/md/FiveMarkdowncode/"/>
+    <updated>2021-10-27T15:43:54.000Z</updated>
     <content type="html"><![CDATA[<p>你好，我是悦创。</p>
-<p>Markdown 标题有两种格式。</p>
-<h1 id="_1、使用-和-标记一级和二级标题"> 1、使用 = 和 - 标记一级和二级标题</h1>
-<p>= 和 - 标记语法格式如下：</p>
-<div><pre><code><span>我展示的是一级标题
-<span>=================</span></span>
-
-<span>我展示的是二级标题
-<span>-----------------</span></span>
+<p>如果是段落上的一个函数或片段的代码可以用反引号把它包起来（<strong>`</strong>），例如：</p>
+<div><pre><code><span>`printf()`</span> 函数
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>显示效果如下图：</p>
-<p><img src="/ColumnImages/MarkdownBase/01/image-20211022145145089.png" alt="" /></p>
-<h1 id="_2-使用-号标记"> 2. 使用 # 号标记</h1>
-<p>使用 <strong>#</strong> 号可表示 1-6 级标题，一级标题对应一个 <strong>#</strong> 号，二级标题对应两个 <strong>#</strong> 号，以此类推。</p>
-<div><pre><code><span><span>#</span> 一级标题</span>
-<span><span>##</span> 二级标题</span>
-<span><span>###</span> 三级标题</span>
-<span><span>####</span> 四级标题</span>
-<span><span>#####</span> 五级标题</span>
-<span><span>######</span> 六级标题</span>
+<div><span>1</span><br></div></div><p>显示结果如下：</p>
+<p><code>printf()</code> 函数</p>
+<h2 id="代码区块"> 代码区块</h2>
+<p>你也可以用 <strong>```</strong> 包裹一段代码，并指定一种语言（也可以不指定）：</p>
+<div><pre><code><span><span>```</span><span>javascript</span>
+<span><span>$</span><span>(</span>document<span>)</span><span>.</span><span>ready</span><span>(</span><span>function</span> <span>(</span><span>)</span> <span>{</span>
+    <span>alert</span><span>(</span><span>'bornforthi.com'</span><span>)</span><span>;</span>
+<span>}</span><span>)</span><span>;</span></span>
+<span>```</span></span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>显示效果如下图：</p>
-<p><img src="/ColumnImages/MarkdownBase/01/image-20211022150038645.png" alt="image-20211022150038645" /></p>
-<blockquote>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>显示结果如下：</p>
+<div><pre><code><span>$</span><span>(</span>document<span>)</span><span>.</span><span>ready</span><span>(</span><span>function</span> <span>(</span><span>)</span> <span>{</span>
+    <span>alert</span><span>(</span><span>'bornforthi.com'</span><span>)</span><span>;</span>
+<span>}</span><span>)</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><blockquote>
 <p>流沙团队推出辅导班啦，包括「Python 语言辅导班、C++ 辅导班、java 辅导班、算法/数据结构辅导班、少儿编程、pygame 游戏开发」，全部都是一对一教学：一对一辅导 + 一对一答疑 + 布置作业 + 项目实践等。当然，还有线下线上摄影课程、Photoshop、Premiere 一对一教学、QQ、微信在线，随时响应！</p>
 </blockquote>
 ]]></content>
@@ -597,98 +688,8 @@
     <contributor>
       <name>AI悦创</name>
     </contributor>
-    <published>2021-10-23T12:10:52.000Z</published>
-    <rights>Copyright © 2021 Bornforthi</rights>
-  </entry>
-  <entry>
-    <title type="html">02-Markdown 段落</title>
-    <id>https://book.bornforthi.com/zh/column/md/twoMarkdown_paragraph/</id>
-    <link href="https://book.bornforthi.com/zh/column/md/twoMarkdown_paragraph/"/>
-    <updated>2021-10-27T13:35:27.000Z</updated>
-    <content type="html"><![CDATA[<p>你好，我是悦创。</p>
-<p>Markdown 段落没有特殊的格式，直接编写文字就好，<strong>段落的换行直接回车就好。</strong></p>
-<p><img src="https://gitee.com/huangjiabaoaiyc/image/raw/master/image-20211027172857577.png" alt="image-20211027172857577" /></p>
-<h2 id="字体"> 字体</h2>
-<p>Markdown 可以使用以下几种字体：</p>
-<div><pre><code><span><span>*</span><span>斜体文本</span><span>*</span></span>
-<span><span>_</span><span>斜体文本</span><span>_</span></span>
-<span><span>**</span><span>粗体文本</span><span>**</span></span>
-<span><span>__</span><span>粗体文本</span><span>__</span></span>
-<span><span>**</span><span><span><span>*</span><span>粗斜体文本</span><span>*</span></span></span><span>**</span></span>
-<span><span>__</span><span><span><span>_</span><span>粗斜体文本</span><span>_</span></span></span><span>__</span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>显示效果如下所示：</p>
-<p><img src="https://gitee.com/huangjiabaoaiyc/image/raw/master/20211027193424.png" alt="" /></p>
-<h2 id="分隔线"> 分隔线</h2>
-<p>你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：</p>
-<div><pre><code><span>***</span>
-
-<span>* * *</span>
-
-<span>*****</span>
-
-<span>- - -</span>
-
-<span>----------</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div><p>显示效果如下所示：</p>
-<p><img src="https://gitee.com/huangjiabaoaiyc/image/raw/master/20211027204813.png" alt="" /></p>
-<h2 id="删除线"> 删除线</h2>
-<p>如果段落上的文字要添加删除线，只需要在文字的两端加上两个波浪线 <strong>~~</strong> 即可，实例如下：</p>
-<div><pre><code>aiyc.top
-
-book.bornforthi.com
-
-<span><span>~~</span><span>baidu.com</span><span>~~</span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>显示效果如下所示：</p>
-<p><img src="https://gitee.com/huangjiabaoaiyc/image/raw/master/image-20211027211907431.png" alt="image-20211027211907431" /></p>
-<h2 id="下划线"> 下划线</h2>
-<p>下划线可以通过 HTML 的 <strong><u></strong> 标签来实现：</p>
-<div><pre><code><span><span><span>&lt;</span>u</span><span>></span></span>带下划线文本<span><span><span>&lt;/</span>u</span><span>></span></span>
-</code></pre>
-<div><span>1</span><br></div></div><p>显示效果如下所示：</p>
-<p><img src="https://gitee.com/huangjiabaoaiyc/image/raw/master/image-20211027212240861.png" alt="image-20211027212240861" /></p>
-<h2 id="脚注"> 脚注</h2>
-<p>脚注是对文本的补充说明。</p>
-<p>Markdown 脚注的格式如下:</p>
-<div><pre><code>[^要注明的文本]
-</code></pre>
-<div><span>1</span><br></div></div><p>以下实例演示了脚注的用法：</p>
-<div><pre><code>创建脚注格式类似这样 [^RUNOOB]。
-
-<span><span>[</span><span>^RUNOOB</span><span>]</span><span>:</span> 流沙团队</span> -- 一股无形的力量，学的不仅是技术，更是梦想！！！
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>演示效果如下：</p>
-<p><img src="https://gitee.com/huangjiabaoaiyc/image/raw/master/image-20211027212704519.png" alt="image-20211027212704519" /></p>
-<blockquote>
-<p>流沙团队推出辅导班啦，包括「Python 语言辅导班、C++ 辅导班、java 辅导班、算法/数据结构辅导班、少儿编程、pygame 游戏开发」，全部都是一对一教学：一对一辅导 + 一对一答疑 + 布置作业 + 项目实践等。当然，还有线下线上摄影课程、Photoshop、Premiere 一对一教学、QQ、微信在线，随时响应！</p>
-</blockquote>
-]]></content>
-    <author>
-      <name>AI悦创</name>
-    </author>
-    <category term="Markdown 基础"/>
-    <contributor>
-      <name>AI悦创</name>
-    </contributor>
-    <published>2021-10-24T12:10:52.000Z</published>
+    <published>2021-10-24T15:10:52.000Z</published>
     <rights>Copyright by AI悦创</rights>
-  </entry>
-  <entry>
-    <title type="html">专栏目录</title>
-    <id>https://book.bornforthi.com/zh/guide/</id>
-    <link href="https://book.bornforthi.com/zh/guide/"/>
-    <updated>2021-10-27T23:20:21.679Z</updated>
-    <content type="html"><![CDATA[<p>如果你有其他需求或者疑问，点击：<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1432803776&amp;site=qq&amp;menu=yes" target="_blank" rel="noopener noreferrer">QQ 在线客服</a></p>
-]]></content>
-    <author>
-      <name>Bornforthi</name>
-    </author>
-    <contributor>
-      <name>Bornforthi</name>
-    </contributor>
-    <rights>Copyright by Bornforthi</rights>
   </entry>
   <entry>
     <title type="html">流沙团队</title>
@@ -707,19 +708,18 @@ book.bornforthi.com
     <rights>Copyright by Bornforthi</rights>
   </entry>
   <entry>
-    <title type="html">幻灯片页</title>
-    <id>https://book.bornforthi.com/zh/slides/</id>
-    <link href="https://book.bornforthi.com/zh/slides/"/>
-    <updated>2021-10-23T02:01:49.000Z</updated>
-    <content type="html"><![CDATA[
-<i>Not supported content</i>]]></content>
+    <title type="html">专栏目录</title>
+    <id>https://book.bornforthi.com/zh/guide/</id>
+    <link href="https://book.bornforthi.com/zh/guide/"/>
+    <updated>2021-10-28T01:04:38.306Z</updated>
+    <content type="html"><![CDATA[<p>如果你有其他需求或者疑问，点击：<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=1432803776&amp;site=qq&amp;menu=yes" target="_blank" rel="noopener noreferrer">QQ 在线客服</a></p>
+]]></content>
     <author>
       <name>Bornforthi</name>
     </author>
     <contributor>
       <name>Bornforthi</name>
     </contributor>
-    <published>2021-10-23T02:01:49.000Z</published>
     <rights>Copyright by Bornforthi</rights>
   </entry>
 </feed>

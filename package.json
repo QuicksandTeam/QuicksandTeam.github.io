@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "@mr-hope/vuepress-plugin-comment": "^1.20.3",
+    "@mr-hope/vuepress-plugin-feed": "^1.20.3",
     "@mr-hope/vuepress-plugin-sitemap": "^1.20.3",
     "copyright": "^0.0.5",
     "vue-router": "^3.4.5",

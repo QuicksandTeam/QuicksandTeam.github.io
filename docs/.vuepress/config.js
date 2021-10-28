@@ -58,7 +58,8 @@ module.exports = config({
         "fourmarkdownblock", 
         "FiveMarkdowncode", 
         "SixMarkdownlink", 
-        "SevenMarkdownpictures"
+        "SevenMarkdownpictures",
+        "EightMarkdownform",
       ],
     },
 
@@ -274,19 +275,6 @@ module.exports = config({
       changefreq: "hourly",
       outFile: "sitemap.xml",
     }],
-    // [
-    //   "@mr-hope/comment",
-    //   {
-    //     // 配置选项
-    //   },
-    // ],
-    // [
-    //   "copyright",
-    //   {
-    //     authorName: options.author,
-    //     minLength: 10,
-    //     // clipboardComponent: path.resolve(__dirname, "components/Clipboard.vue"),
-    //   },
-    // ],
+    ["@mr-hope/feed",],
   ],
 });
