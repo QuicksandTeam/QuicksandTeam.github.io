@@ -59,6 +59,7 @@ module.exports = config({
           "nineMarkdownskills",
           "Tensupplement",
           "Markdownmathematicalformulasyntax",
+          "twoCodedemo",
         ]},
         {title: "流沙文档编写规范", children: ["Oneformatforwritingarticlesonthiswebsite"]}
       ],

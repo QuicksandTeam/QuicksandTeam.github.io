@@ -20,6 +20,14 @@ footer: 立志降低教育成本，普及编程教育，提供优质资源教程
 
 ![](/ColumnImages/aiycsf/xuesuanfala.png)
 
+![](https://gitee.com/huangjiabaoaiyc/image/raw/master/202110281101638.png)
+
+![](https://gitee.com/huangjiabaoaiyc/image/raw/master/202110281101633.png)
+
+![](https://gitee.com/huangjiabaoaiyc/image/raw/master/202110281102805.png)
+
+![](https://gitee.com/huangjiabaoaiyc/image/raw/master/202110281103374.png)
+
 
 
 ```html
