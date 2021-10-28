@@ -10,9 +10,13 @@ features:
     details: #
     link: #
   
-  - title: 数据结构与算法 🎇
-    details: #
-    link: #
+  - title: 久远|数据结构与算法 🎇
+    details: 久远的首发专栏
+    link: /zh/column/jysf
+
+  - title: AI悦创|数据结构与算法 🎡
+    details: AI悦创的私教一对一专栏
+    link: /zh/column/aiycsf
 
   - title: Python 办公自动化 🎉
     details: #

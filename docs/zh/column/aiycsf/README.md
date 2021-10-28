@@ -1,12 +1,12 @@
 ---
 blog: false
-home: true
+home: false
 icon: home
 title: AI悦创·算法
 heroImage: /ColumnImages/MarkdownBase/01-markdown-mark-white.png
-heroText: Python算
+heroText: Python 算法研习社
 heroFullScreen: true
-tagline: 快速带你入门 Markdown 硬技能！
+tagline: 一场前所未有的，数据结构与算法体验，零基础也可以！
 action:
   - text: 开始学习 💡
     link: /zh/column/md/oneMarkdowntitle

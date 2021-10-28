@@ -39,30 +39,27 @@ module.exports = config({
     repo: "https://github.com/QuicksandTeam",
 
     sidebar: {
-      // "/": [
-      //   "",
-      //   "home",
-      //   "slides",
-      //   "layout",
-      //   {
-      //     title: "Guide",
-      //     icon: "creative",
-      //     prefix: "guide/",
-      //     children: ["", "page", "markdown", "disable", "encrypt"],
-      //   },
-      // ],
+      "/zh/column/jysf/": [
+        {title: "卷一: 基础知识", children: [
+          "0neWhatistimecomplexity",
+        ]}
+      ],
+
       "/zh/column/md/": [
-        "oneMarkdowntitle", 
-        "twoMarkdown_paragraph", 
-        "threeMarkdown_list", 
-        "fourmarkdownblock", 
-        "FiveMarkdowncode", 
-        "SixMarkdownlink", 
-        "SevenMarkdownpictures",
-        "EightMarkdownform",
-        "nineMarkdownskills",
-        "Tensupplement",
-        "Markdownmathematicalformulasyntax",
+        {title: "Markdown 快速入门教程", children: [
+          "oneMarkdowntitle", 
+          "twoMarkdown_paragraph", 
+          "threeMarkdown_list", 
+          "fourmarkdownblock", 
+          "FiveMarkdowncode", 
+          "SixMarkdownlink", 
+          "SevenMarkdownpictures",
+          "EightMarkdownform",
+          "nineMarkdownskills",
+          "Tensupplement",
+          "Markdownmathematicalformulasyntax",
+        ]},
+        {title: "流沙文档编写规范", children: ["Oneformatforwritingarticlesonthiswebsite"]}
       ],
     },
 
