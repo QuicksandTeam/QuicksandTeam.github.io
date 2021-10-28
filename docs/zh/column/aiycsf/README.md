@@ -3,7 +3,7 @@ blog: false
 home: false
 icon: home
 title: AI悦创·算法
-heroImage: /ColumnImages/MarkdownBase/01-markdown-mark-white.png
+heroImage: /ColumnImages/aiycsf/xuesuanfala.png
 heroText: Python 算法研习社
 heroFullScreen: true
 tagline: 一场前所未有的，数据结构与算法体验，零基础也可以！
@@ -18,53 +18,31 @@ action:
 footer: 立志降低教育成本，普及编程教育，提供优质资源教程——流沙团队宣
 ---
 
-
-
-# 简介
-
-Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。
-
-Markdown 语言在 2004 由约翰·格鲁伯（英语：John Gruber）创建。
-
-Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。
-
-Markdown 编写的文档后缀为 **.md**, **.markdown**。
-
----
+![](/ColumnImages/aiycsf/xuesuanfala.png)
 
 
 
-# Markdown 应用
-
-Markdown 能被使用来撰写电子书，如：[Gitbook](https://book.bornforthi.com/GitBook_All/) 、或者现在你正在阅读的我们的[官网](https://book.bornforthi.com) 也是使用 Markdown 编写。
-
-当前许多网站都广泛使用 Markdown 来撰写帮助文档或是用于论坛上发表消息。例如：GitHub、简书、reddit、Diaspora、Stack Exchange、OpenStreetMap 、SourceForge、CSDN、掘金、思否、51CTO 等。
-
-
-
-# 编辑器
-
-本教程将使用 Typora 编辑器来讲解 Markdown 的语法，Typora 支持 MacOS 、Windows、Linux 平台，且包含多种主题，编辑后直接渲染出效果。
-
-支持导出HTML、PDF、Word、图片等多种类型文件。
-
-Typora 官网：https://typora.io/
-
-你也可以使用我们的在线编辑器来测试：[http://www.bornforthi.com/markdown-editor/](http://www.bornforthi.com/markdown-editor/)
-
-备用链接1：[http://book.bornforthi.com/markdown-editor/](http://book.bornforthi.com/markdown-editor/)
-
-备用连接2：[https://bornforthi.gitee.io/markdown-editor](https://bornforthi.gitee.io/markdown-editor)
-
-
-
-# 测试实例
-
-Mardown 编写 Hello World! 语法：
-
-```markdown
-# Hello World! 
+```html
+<iframe 
+src="https://lark-video.oss-cn-hangzhou.aliyuncs.com/outputs/prod/yuque/2021/1359959/mp4/1631083170071-493134eb-d3c3-476b-9291-67b7bd2842d4.mp4?OSSAccessKeyId=LTAI4GGhPJmQ4HWCmhDAn4F5&Expires=1635397088&Signature=KHZOcfRkT8r2F40UwSmHtp7xByw%3D" 
+scrolling="no" 
+border="0" 
+frameborder="no" 
+framespacing="0" 
+allowfullscreen="true" 
+height=600 
+width=800> 
+</iframe>
 ```
 
-![](/ColumnImages/MarkdownBase/01/image-20211022133509452.png)
+<iframe 
+src="https://lark-video.oss-cn-hangzhou.aliyuncs.com/outputs/prod/yuque/2021/1359959/mp4/1631083170071-493134eb-d3c3-476b-9291-67b7bd2842d4.mp4?OSSAccessKeyId=LTAI4GGhPJmQ4HWCmhDAn4F5&Expires=1635397088&Signature=KHZOcfRkT8r2F40UwSmHtp7xByw%3D" 
+scrolling="no" 
+border="0" 
+frameborder="no" 
+framespacing="0" 
+allowfullscreen="true" 
+height=600 
+width=800> 
+</iframe>
 
