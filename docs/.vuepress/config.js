@@ -60,6 +60,7 @@ module.exports = config({
         "SixMarkdownlink", 
         "SevenMarkdownpictures",
         "EightMarkdownform",
+        "nineMarkdownskills.md",
       ],
     },
 
