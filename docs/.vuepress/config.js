@@ -42,6 +42,7 @@ module.exports = config({
       "/zh/column/jysf/": [
         {title: "卷一: 基础知识", children: [
           "0neWhatistimecomplexity",
+          "TwoWhatisspatialcomplexity",
         ]}
       ],
 
