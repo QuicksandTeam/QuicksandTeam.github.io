@@ -17,7 +17,7 @@ width=800>
 </iframe>
 ```
 
-<video id="video" controls="" preload="none" height=200 width=300>
+<video id="video" controls="" preload="none" height=400 width=850>
       <source id="mp4" src="./Final.mp4" type="video/mp4">
       </video>
 
