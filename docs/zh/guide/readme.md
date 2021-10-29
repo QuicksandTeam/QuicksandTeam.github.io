@@ -19,7 +19,8 @@ features:
     link: /zh/column/aiycsf
 
   - title: Python 办公自动化 🎉
-    details: #
+    details: 批量处理，解放重复劳作！
+    link: /zh/column/python/Officeautomation
 
   - title: Python 数据分析 💬
     details: #
