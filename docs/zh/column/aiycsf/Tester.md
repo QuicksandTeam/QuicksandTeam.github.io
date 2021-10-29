@@ -1,5 +1,5 @@
 ```html
-<video id="video" controls="" preload="none" poster="http://img.blog.fandong.me/2017-08-26-Markdown-Advance-Video.jpg">
+<video id="video" controls="" preload="none" height=200 width=300>
       <source id="mp4" src="./Final.mp4" type="video/mp4">
       </video>
 ```
@@ -17,7 +17,7 @@ width=800>
 </iframe>
 ```
 
-<video id="video" controls="" preload="none">
+<video id="video" controls="" preload="none" height=200 width=300>
       <source id="mp4" src="./Final.mp4" type="video/mp4">
       </video>
 
