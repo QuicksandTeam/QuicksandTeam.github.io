@@ -25,7 +25,7 @@ footer: 立志降低教育成本，普及编程教育，提供优质资源教程
 ```
 
 <audio id="audio" controls="" preload="none">
-      <source id="mp3" src="./1.mp3">
+      <source id="mp3" src="./aiyc.mp3">
 </audio>
 
 ![](/ColumnImages/aiycsf/xuesuanfala.png)
