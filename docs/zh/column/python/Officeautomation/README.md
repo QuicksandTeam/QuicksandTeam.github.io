@@ -3,8 +3,8 @@ blog: false
 home: true
 icon: home
 title: Python 办公自动化
-heroImage: /ColumnImages/Officeautomation/Officeautomation.png
-heroText: 办公自动化
+heroImage: /ColumnImages/Officeautomation/lena2.jpg
+heroText: Python 办公自动化
 heroFullScreen: true
 tagline: 批量处理，解放重复劳作！
 action:
