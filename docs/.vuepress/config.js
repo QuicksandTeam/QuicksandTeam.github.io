@@ -119,6 +119,10 @@ module.exports = config({
                       {text: "数据结构与算法", items: [
                         {text: "久远讲算法", link: "/zh/column/jysf/"},
                         {text: "AI悦创·数据结构与算法", link: "/zh/column/aiycsf/"}
+                      ]},
+
+                      {text: "Python 系列", items: [
+                        {text: "Python 办公自动化", link: "/zh/column/python/Officeautomation/"}
                       ]}
                     ],
           },
