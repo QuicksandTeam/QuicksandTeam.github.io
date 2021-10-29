@@ -52,6 +52,7 @@ module.exports = config({
       "/zh/column/aiycsf/": [
         {title: "卷一", children: [
           "Week1",
+          "Tester",
         ]}
       ],
 
