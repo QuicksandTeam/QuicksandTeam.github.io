@@ -43,6 +43,8 @@ module.exports = config({
         {title: "卷一: 基础知识", children: [
           "0neWhatistimecomplexity",
           "TwoWhatisspatialcomplexity",
+          "Arraythesimplestdatastructure",
+          "Linkedlisttoimplementanunorderedlist",
         ]}
       ],
 
@@ -160,8 +162,8 @@ module.exports = config({
         Zhihu: "https://www.zhihu.com/people/aiyuechuang",
         QQ: "http://wpa.qq.com/msgrd?v=3&uin=1432803776&site=qq&menu=yes",
         Github: "https://github.com/QuicksandTeam",
-        Gmail: "aiyuechuang@gmail.com",
-        Email: "bornforthi@bornforthi.com",
+        Gmail: "mailto:aiyuechuang@gmail.com",
+        Email: "mailto:bornforthi@bornforthi.com",
         Wechat: "/images/公众号/gzh.jpg",
       },
     },
