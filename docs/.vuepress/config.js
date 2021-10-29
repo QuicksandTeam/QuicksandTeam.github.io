@@ -51,7 +51,6 @@ module.exports = config({
       // AI悦创算法
       "/zh/column/aiycsf/": [
         {title: "卷一", children: [
-          "README",
           "Week1",
         ]}
       ],
