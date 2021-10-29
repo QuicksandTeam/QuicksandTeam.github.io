@@ -120,13 +120,15 @@ L.append(7)
 **如何自己实现一个类似的结构呢？**可以**查询元素、添加元素、插入元素、删除元素**
 那我们先来简单的、系统的了解一下链表的定义。与数组相似，**链表**也是一种线性数据结构。这里有一个例子：
 
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/1359959/1620789275810-eb14c48b-2638-4f14-b0e6-607793abdbff.png)
+![image.png](https://gitee.com/huangjiabaoaiyc/image/raw/master/202110291655350.png)
 
 正如你所看到的，**链表中的每个元素实际上是一个单独的对象，而所有对象都通过每个元素中的引用字段链接在一起。**
 ​
 
 链表有两种类型：**单链表**和**双链表**。上面给出的例子是一个单链表，这里有一个双链表的例子：
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/1359959/1620789448566-9f21b984-432a-43b6-b859-7cab41f20028.png#clientId=ucbe19d87-5fa2-4&from=paste&id=ua795506b&margin=%5Bobject%20Object%5D&name=image.png&originHeight=186&originWidth=1478&originalType=binary&ratio=1&size=19991&status=done&style=none&taskId=u9b12d104-fdf2-414c-a5e1-b2389344157)
+
+![image.png](https://gitee.com/huangjiabaoaiyc/image/raw/master/202110291655147.png)
+
 不过，我这里主要讲解当链表结构。链表是一种线性数据结构，它通过引用字段将所有分离的元素链接在一起。
 ​
 
@@ -144,8 +146,9 @@ class IntList(object):
 		self.first = None
 		self.rest = None
 ```
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/1359959/1624709758998-642db564-6dbb-43b2-81f6-ac8d242ec47e.png#clientId=u88fa99aa-29dd-4&from=paste&id=ud50d1b55&margin=%5Bobject%20Object%5D&name=image.png&originHeight=504&originWidth=984&originalType=binary&ratio=2&size=46560&status=done&style=none&taskId=u3f5a8b4d-7eaa-418a-9c89-fb8c5960702)
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/1359959/1624713395929-99f4c9e3-3a25-49cf-b96a-67573417e9f4.png#clientId=u5303a509-c43a-4&from=paste&id=u864d39c7&margin=%5Bobject%20Object%5D&name=image.png&originHeight=234&originWidth=1304&originalType=binary&ratio=2&size=68244&status=done&style=none&taskId=uca2140a6-af94-4585-8a18-209d1d207f0)
+![image.png](https://gitee.com/huangjiabaoaiyc/image/raw/master/202110291655932.png)
+![image.png](https://gitee.com/huangjiabaoaiyc/image/raw/master/202110291655607.png)
+
 ```python
 l1 = IntList()
 l1.first = 5
@@ -156,8 +159,9 @@ l2.first = 10
 l3 = IntList()
 l3.first = 15
 ```
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/1359959/1624716050747-270fe3f2-152f-4cb3-9142-78b297e7c13b.png#clientId=u5303a509-c43a-4&from=paste&id=u965ddea7&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1800&originWidth=2880&originalType=binary&ratio=2&size=317665&status=done&style=none&taskId=u2a2df655-ca2b-470b-b481-92ef8893269)
+![image.png](https://gitee.com/huangjiabaoaiyc/image/raw/master/202110291657818.png)
 **上面代码其实就可以理解为，创建了每一节车厢，那我们该如何吧车厢链接起来呢？**
+
 ```python
 l1.rest = l2
 l2.rest = l3
@@ -165,9 +169,11 @@ l2.rest = l3
 # PS: 如果你这么写的话：l1.rest = l2.first > 注意：这将不是链接一个车厢，而是连接一个 Value。
 # 所以：l1.rest = l2 才是连接车厢
 ```
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/1359959/1624714529079-6c91a98d-08a9-490e-b7a2-cbb8e224996f.png#clientId=u5303a509-c43a-4&from=paste&id=u8ec80285&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1800&originWidth=2880&originalType=binary&ratio=2&size=300801&status=done&style=none&taskId=ud585014c-c747-4f6a-becd-b684943ec41)
+![image.png](https://gitee.com/huangjiabaoaiyc/image/raw/master/202110291657853.png)
 但是，要是像下面代码这样写是不行的。**这就好像，我们的火车一节连着一节，连的是一整个车厢不是就一部分。其中，lx.first 是一个值。**
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/1359959/1624715528632-ecbf3b42-e5a3-48fe-95e6-30349d4d0b28.png#clientId=u5303a509-c43a-4&from=paste&id=u55a80db2&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1800&originWidth=2880&originalType=binary&ratio=2&size=307857&status=done&style=none&taskId=u04adcbfb-fb02-45c8-b365-c18fccf603a)
+
+![image.png](https://gitee.com/huangjiabaoaiyc/image/raw/master/202110291658571.png)
+
 > 可以使用：[http://pythontutor.com/](http://pythontutor.com/) 来讲解
 
 
@@ -211,7 +217,7 @@ l.rest.first = 10
 l.rest.rest = IntList()
 l.rest.rest.first = 15
 ```
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/1359959/1625111696300-177d6df0-0276-419f-b938-d1d60558d496.png#clientId=u8212fee0-c4e8-4&from=paste&id=u96daa44f&margin=%5Bobject%20Object%5D&name=image.png&originHeight=936&originWidth=2880&originalType=binary&ratio=2&size=174826&status=done&style=none&taskId=uaae473cf-8c74-42a0-b97d-f39e6467f4a)
+![image.png](https://gitee.com/huangjiabaoaiyc/image/raw/master/202110291658575.png)
 ## 3.3 问题
 不知道，大家有没有发现，如果这么写的话。我们要写10节车厢或者以上的话不得写死了。
 ```python
@@ -237,7 +243,8 @@ l.rest.rest.rest.first = 20
 l.rest.rest.rest.rest = IntList()
 l.rest.rest.rest.rest.first = 25
 ```
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/1359959/1625121036828-be8526b6-ed33-43a0-86ab-cadcfb388b33.png#clientId=ub8ce074d-a35f-4&from=paste&id=u69e6a73f&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1274&originWidth=2880&originalType=binary&ratio=2&size=235191&status=done&style=none&taskId=ufecfac2d-7c75-4bfe-b79f-0d08bbf8ade)
+![image.png](https://gitee.com/huangjiabaoaiyc/image/raw/master/202110291659246.png)
+
 所以，我们虽然实现了链表的结构，但是不完美。我们可以再进一步的去改进一下。
 ​
 
@@ -255,8 +262,9 @@ l1 = IntList(5, None)
 l2 = IntList(10, l1)
 l3 = IntList(15, l2)
 ```
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/1359959/1625129637097-24a9e20f-da23-4c5a-b118-3ac02d09d78e.png#clientId=ub1a9db31-2d16-4&from=paste&id=u4c9c49b8&margin=%5Bobject%20Object%5D&name=image.png&originHeight=906&originWidth=2880&originalType=binary&ratio=2&size=189272&status=done&style=none&taskId=u32e8e6e7-a1ab-4c82-ae79-64b7b3b2e52)
+![image.png](https://gitee.com/huangjiabaoaiyc/image/raw/master/202110291659707.png)
 当然，我们也可以就用一个 l：
+
 ```python
 class IntList(object):
 	def __init__(self, first, rest):
@@ -267,7 +275,7 @@ l = IntList(5, None)
 l = IntList(10, l)
 l = IntList(15, l)
 ```
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/1359959/1625129890180-6570fb5e-91a2-462f-9232-4e3bb432a97a.png#clientId=ub1a9db31-2d16-4&from=paste&height=437&id=u021375a3&margin=%5Bobject%20Object%5D&name=image.png&originHeight=874&originWidth=2880&originalType=binary&ratio=2&size=176271&status=done&style=none&taskId=u2d42413f-0c45-4f63-8a39-856fbbda583&width=1440)
+![image.png](https://gitee.com/huangjiabaoaiyc/image/raw/master/202110291659920.png)
 这样写，肯定比之前的书写要简洁。但是又出现问题了，就是我们每一个衔接的数据是显示出来了，但这个问题我们后面解决。接下来，我们先来添加个 size 函数。
 ​
 
@@ -285,7 +293,7 @@ def size(self):
 
 1. 第一次： self.rest()
 
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/1359959/1634200440277-16648526-2b36-44eb-949c-36959b53005c.png#clientId=u0420b417-a7d3-4&from=paste&id=u9b2c8a5e&margin=%5Bobject%20Object%5D&name=image.png&originHeight=901&originWidth=1920&originalType=binary&ratio=1&size=119964&status=done&style=none&taskId=ueed8804d-c10b-44b8-ba8c-7864904cfaa)
+![image.png](https://gitee.com/huangjiabaoaiyc/image/raw/master/202110291659448.png)
 
 2. 第二次：self.rest.size() —> self.rest.rest is None
 
@@ -355,6 +363,7 @@ def get_index(self, index):
 有些地方也是看起来很奇怪。
 ![image.png](https://cdn.nlark.com/yuque/0/2021/png/1359959/1634230024088-9b7647ef-587f-4f2d-83db-3baa9d8a1d85.png#clientId=uee4ff039-5561-4&from=paste&id=ud5f442e6&margin=%5Bobject%20Object%5D&name=image.png&originHeight=143&originWidth=1153&originalType=binary&ratio=1&size=30723&status=done&style=none&taskId=ua3f7147e-6d75-41fe-8aa1-7bb6e7ca535)
 None 和 l 应该是内部的数据，不应该让外部的人看见的。
+
 ```python
 class IntNode(object):
 	def __init__(self, item, next):

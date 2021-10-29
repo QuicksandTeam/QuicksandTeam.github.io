@@ -39,12 +39,20 @@ module.exports = config({
     repo: "https://github.com/QuicksandTeam",
 
     sidebar: {
+      // 久远算法
       "/zh/column/jysf/": [
         {title: "卷一: 基础知识", children: [
           "0neWhatistimecomplexity",
           "TwoWhatisspatialcomplexity",
           "Arraythesimplestdatastructure",
           "Linkedlisttoimplementanunorderedlist",
+        ]}
+      ],
+      // AI悦创算法
+      "/zh/column/aiycsf/": [
+        {title: "卷一", children: [
+          "README",
+          "Week1",
         ]}
       ],
 
