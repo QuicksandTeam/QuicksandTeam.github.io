@@ -18,6 +18,16 @@ action:
 footer: 立志降低教育成本，普及编程教育，提供优质资源教程——流沙团队宣
 ---
 
+```text
+<audio id="audio" controls="" preload="none">
+      <source id="mp3" src="音频地址">
+</audio>
+```
+
+<audio id="audio" controls="" preload="none">
+      <source id="mp3" src="1.mp3">
+</audio>
+
 ![](/ColumnImages/aiycsf/xuesuanfala.png)
 
 ![](https://gitee.com/huangjiabaoaiyc/image/raw/master/202110281101638.png)
