@@ -52,10 +52,10 @@ module.exports = config({
       "/zh/column/aiycsf/": [
         {title: "卷一", children: [
           "Week1",
-          "Tester",
         ]}
       ],
 
+      // Markdown 教程
       "/zh/column/md/": [
         {title: "Markdown 快速入门教程", children: [
           "oneMarkdowntitle", 
@@ -71,7 +71,10 @@ module.exports = config({
           "Markdownmathematicalformulasyntax",
           "twoCodedemo",
         ]},
-        {title: "流沙文档编写规范", children: ["Oneformatforwritingarticlesonthiswebsite"]}
+        {title: "流沙文档编写规范", children: [
+          "Oneformatforwritingarticlesonthiswebsite",
+          "moveandmuisc",
+        ]}
       ],
     },
 
