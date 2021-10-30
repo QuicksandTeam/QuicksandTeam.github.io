@@ -169,6 +169,38 @@ Out[10]: ['Lisa Harris', 'Mrs. Kristina Hamilton', 'Desiree Vaughan']
 
 :::
 
+将以上需求翻译成代码实现，如以下这样：
+
+```python
+import random
+
+def generate_options(index):
+	# generate_options 函数，根据输入的省份编号 index，生成对应的答案选项。
+	# 1. 从 capitals 中获取 index 这个编号对应的省份的省会名字，存到 right_answer 变量中。
+	right_answer = capitals[provinces[index]]
+	# 2. 从 capitals 中获取所有城市名字，并剔除正确的答案，构建错误省会名组成的列表，
+	# 存到变量 wrong_answer 中。
+	wrong_answer = list(capitals.values())
+	del wrong_answer[index]
+	# 3. 从 wrong_answer 中随机挑选 3 个名字，并与 right_answer 一同组成由4个元素组成的选项
+	wrong_answer = random.sample(wrong_answer, 3)
+	current_options = [right_answer] + wrong_answer
+	# 将选项中元素的顺序打乱
+	random.shuffle(current_options)
+	# 用列表结构返回第 index 个省的答案选项
+	return current_options
+```
+
+老师将以上所述3个步骤封装到了函数 `generate_options()` 中。这个函数接收传入参数 `index` ，用于指定要生成备选项的省份编号。
+
+在第1步中，使用 `provinces[index]` 即获取了 `index` 对应的省的名字。然后，将这个名字作为 `capitals` 字典的 key，读取 `capitals[provinces[index]]` 就得到省会城市名，将它赋值给 `right_answer`。
+
+
+
+
+
+
+
 
 > 流沙团队推出辅导班啦，包括「Python 语言辅导班、C++ 辅导班、java 辅导班、算法/数据结构辅导班、少儿编程、pygame 游戏开发」，全部都是一对一教学：一对一辅导 + 一对一答疑 + 布置作业 + 项目实践等。当然，还有线下线上摄影课程、Photoshop、Premiere 一对一教学、QQ、微信在线，随时响应！
 >
