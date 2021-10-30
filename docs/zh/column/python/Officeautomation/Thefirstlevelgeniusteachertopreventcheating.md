@@ -225,6 +225,53 @@ def generate_options(index):
 
 借助这个定义好的 `generate_options()` 函数，我们就可以构建 `options` 了，请在下面代码块中，尝试补全 **TODO** 部分的逻辑，生成我们在前面构想中希望创建的 `options` 列表：
 
+```python
+import random
+
+capitals = {'北京市': '北京', '天津市': '天津', '上海市': '上海', '重庆市': '重庆',
+            '河北省': '石家庄', '山西省': '太原', '陕西省': '西安', '山东省': '济南',
+            '河南省': '郑州', '辽宁省': '沈阳', '吉林省': '长春', '黑龙江省': '哈尔滨',
+            '江苏省': '南京', '浙江省': '杭州', '安徽省': '合肥', '江西省': '南昌',
+            '福建省': '福州', '湖北省': '武汉', '湖南省': '长沙', '四川省': '成都',
+            '贵州省': '贵阳', '云南省': '昆明', '广东省': '广州', '海南省': '海口',
+            '甘肃省': '兰州', '青海省': '西宁', '台湾省': '台北', '内蒙古自治区': '呼和浩特',
+            '新疆维吾尔自治区': '乌鲁木齐', '西藏自治区': '拉萨', '广西壮族自治区': '南宁',
+            '宁夏回族自治区': '银川', '香港特别行政区': '香港', '澳门特别行政区': '澳门'}
+
+provinces = list(capitals.keys())
+
+
+def generate_options(index):
+	# generate_options函数，根据输入的省份编号index，生成对应的答案选项。
+
+	# 1. 从capitals中获取index这个编号对应的省份的省会名字，存到right_answer变量中。
+	right_answer = capitals[provinces[index]]
+
+	# 2. 从capitals中获取所有城市名字，并剔除正确的答案，构建错误省会名组成的列表，
+	# 存到变量wrong_answer中。
+	wrong_answer = list(capitals.values())
+	del wrong_answer[index]
+
+	# 3. 从wrong_answer中随机挑选3个名字，并与right_answer一同组成由4个元素组成的选项
+	wrong_answer = random.sample(wrong_answer, 3)
+	current_options = [right_answer] + wrong_answer
+
+	# 将选项打乱
+	random.shuffle(current_options)
+
+	# 用列表结构返回第index个省的答案选项
+	return current_options
+
+
+options = []
+for i in range(len(capitals)):
+	# TODO，根据编号i，创建每道题的选项，并把选项列表添加到options中
+
+print(options)
+```
+
+
+
 
 
 
