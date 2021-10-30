@@ -272,6 +272,17 @@ print(options)
 
 
 
+::: details 是否填写出来了？看下老师的参考答案，你可以把它拷贝到代码中看下执行结果：
+
+```python
+for i in range(len(capitals)):
+	# TODO，根据编号i，创建每道题的选项，并把选项列表添加到options中
+	option = generate_options(i)
+	options.append(option)
+```
+
+:::
+
 
 
 
