@@ -193,11 +193,37 @@ def generate_options(index):
 
 老师将以上所述3个步骤封装到了函数 `generate_options()` 中。这个函数接收传入参数 `index` ，用于指定要生成备选项的省份编号。
 
+
+
 在第1步中，使用 `provinces[index]` 即获取了 `index` 对应的省的名字。然后，将这个名字作为 `capitals` 字典的 key，读取 `capitals[provinces[index]]` 就得到省会城市名，将它赋值给 `right_answer`。
 
 
 
+在第2步中，使用 `capitals.values()` 读取 `capitals` 的所有城市名，再将它转成列表类型，赋值给 `wrong_answer` 变量。
 
+
+
+这时，`wrong_answer `中还包含了正确选项，因此再使用 `del wrong_answer[index]` 将 `woring_answer` 中的正确答案城市名剔除掉。
+
+
+
+第3步，老师使用了 Python 的 **random** 模块的两个重要功能： `sample()` 和 `shuffle()` 。
+
+
+
+`sample() ` 可以实现从一个候选集中随机挑选指定数量元素的功能。传入它的第一个参数是待挑选的集合变量，第二个参数是个数字，表示要挑选的元素数量。因此，代码使用 `random.sample(wrong_answer, 3)` 从 `woring_answer` 中随机挑选了三个城市。
+
+
+
+而 `shuffle()` 就如它的单词意思所描述，是个**混洗**函数，可以将传入的数据集合里的元素顺序打乱。将 `right_answer` 跟 `wrong_answer` 拼成 `current_options` 之后，使用 `random.shuffle(current_options)` 就实现了将 `current_options` 中的答案顺序进行混洗的目的。
+
+
+
+函数最后将 `current_options` 作为返回结果，使得调用者可以通过函数的返回列表获取到传入的 `index` 所对应的答案选项。这个选项中的错误答案，是随机从城市里挑选的，并且答案顺序经过了混洗。
+
+
+
+借助这个定义好的 `generate_options()` 函数，我们就可以构建 `options` 了，请在下面代码块中，尝试补全 **TODO** 部分的逻辑，生成我们在前面构想中希望创建的 `options` 列表：
 
 
 
