@@ -55,6 +55,14 @@ module.exports = config({
         ]}
       ],
 
+      // Python 办公自动化
+      "/zh/column/python/Officeautomation/": [
+        {title: "文件处理", children: [
+          "README",
+          "Thefirstlevelgeniusteachertopreventcheating",
+        ]}
+      ],
+
       // Markdown 教程
       "/zh/column/md/": [
         {title: "Markdown 快速入门教程", children: [
