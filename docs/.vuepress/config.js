@@ -58,7 +58,6 @@ module.exports = config({
       // Python 办公自动化
       "/zh/column/python/Officeautomation/": [
         {title: "文件处理", children: [
-          "README",
           "Thefirstlevelgeniusteachertopreventcheating",
         ]}
       ],

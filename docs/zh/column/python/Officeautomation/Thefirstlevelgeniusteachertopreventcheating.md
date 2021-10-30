@@ -90,9 +90,8 @@ capitals = {'北京市': '北京', '天津市': '天津', '上海市': '上海',
 
 
 ## 2.2 提取 provinces 和 options
-capitals 这个字典中，所有元素的 key 就是我们想要的省份名字，我们可以将它们提取出来，放到列表provinces 中。
+capitals 这个字典中，所有元素的 key 就是我们想要的省份名字，我们可以将它们提取出来，放到列表 provinces 中。
 
-::: details 想想怎么写，先自己写一下，然后点开看看，我提供的代码！
 ```python
 capitals = {'北京市': '北京', '天津市': '天津', '上海市': '上海', '重庆市': '重庆',
             '河北省': '石家庄', '山西省': '太原', '陕西省': '西安', '山东省': '济南',
@@ -105,8 +104,69 @@ capitals = {'北京市': '北京', '天津市': '天津', '上海市': '上海',
             '宁夏回族自治区': '银川', '香港特别行政区': '香港', '澳门特别行政区': '澳门'}
 
 # 提取 capitals 变量中所有元素的 key 值，组成新的列表变量 provinces
+provinces = 
+```
+::: details 想想怎么写，先自己写一下，然后点开看看，我提供的代码！
+
+看下老师的方法：
+
+```python
 provinces = list(capitals.keys())
 ```
+
+:::
+
+接下来，为每道题生成答案。像之前构想的那样，用二维列表变量 `options` 存储答案选项，`options ` 的每个元素，是由一道题中4个备选项组成的列表。
+
+对于每道题目的选项构建，是这个项目最困难的环节，跟着老师思路，我们一步步捋：
+
+1. 对于某个确定的省份，从 `capitals` 中获取这个省份对应的正确省会名字，把它存储到变量 `right_answer` 中。
+
+2. 从 `capitals` 中，获取所有城市的名字，然后将其中是正确答案的那个剔除掉，剩下一个全部由错误省会名字组成的变量 `wrong_answer` 。下面动画表现的是当正确答案是**昆明**时的情形。
+
+![](https://gitee.com/huangjiabaoaiyc/image/raw/master/202110301803522.gif)
+
+3. 从`wrong_answer`中随机挑选出3个名字，与第一步生成的`right_answer`一同组成由4个元素组成的选项。
+
+::: details 在给你正式代码前，我给你补充点知识点：
+
+```python
+In [1]: from faker import Faker
+
+In [2]: faker = Faker()
+
+In [3]: name_lst = []
+
+In [4]: for i in range(10):
+   ...:     name_lst.append(faker.name())
+   ...:
+
+In [5]: name_lst
+Out[5]:
+['Jonathan Kemp',
+ 'Shannon Moore',
+ 'Desiree Vaughan',
+ 'Christina Allen',
+ 'Jamie Petty',
+ 'Bonnie Green',
+ 'Mrs. Kristina Hamilton',
+ 'Lisa Harris',
+ 'Richard Hicks',
+ 'Natalie Long']
+
+In [6]: import random
+
+In [7]: r = random.sample(name_lst, 3)
+
+In [8]: r
+Out[8]: ['Shannon Moore', 'Christina Allen', 'Jonathan Kemp']
+
+In [9]: r = random.sample(name_lst, 3)
+
+In [10]: r
+Out[10]: ['Lisa Harris', 'Mrs. Kristina Hamilton', 'Desiree Vaughan']
+```
+
 :::
 
 
