@@ -1,7 +1,7 @@
 const { config } = require("vuepress-theme-hope");
 
 module.exports = config({
-  title: "",
+  title: "流沙团队",
   description: "一股无形的力量，流沙团队：AI悦创、久远,编程一对一教学,Python,爬虫,深度学习,机器学习,数据分析,网络,IT,技术,博客,算法与数据结构",
   
   // dest: "./dist",
@@ -32,7 +32,7 @@ module.exports = config({
   themeConfig: {
     searchPlaceholder: "Search...",
     // displayAllHeaders: true,
-    logo: "/images/logo.png",
+    logo: "/images/logo_min.png",
     hostname: "https://book.bornforthi.com",
 
     author: "Bornforthi",
