@@ -1,6 +1,6 @@
 ---
 title: 01-Week1：Python 基础数据类型和链表
-time: 2021-10-29 17:10:52
+time: 2021-10-31 17:10:33
 author: AI悦创
 original: true
 category: AI悦创·算法
