@@ -24,7 +24,7 @@ comment: true
 
 
 
-# 1. 你真的了解这四个数据类型吗？
+## 1. 你真的了解这四个数据类型吗？
 
 - 列表/list
 - 元组/tuple
@@ -33,7 +33,7 @@ comment: true
 
 
 
-## 1.1 列表 VS. 元组
+### 1.1 列表 VS. 元组
 
 1. 可变与不可变
 1. 选择存储策略
@@ -42,14 +42,14 @@ comment: true
 
 
 
-## 1.2 字典 VS. 集合
+### 1.2 字典 VS. 集合
 
 - 字典：键对值
 - 集合：值
 
 
 
-# 2. 任务「统计一片文章词频」
+## 2. 任务「统计一片文章词频」
 目标文本：[I_Have_a_Dream.txt](https://www.yuque.com/attachments/yuque/0/2021/txt/1359959/1620740300099-66131a04-22db-4d7a-b5c5-94e8de6544df.txt?_lake_card=%7B%22src%22%3A%22https%3A%2F%2Fwww.yuque.com%2Fattachments%2Fyuque%2F0%2F2021%2Ftxt%2F1359959%2F1620740300099-66131a04-22db-4d7a-b5c5-94e8de6544df.txt%22%2C%22name%22%3A%22I_Have_a_Dream.txt%22%2C%22size%22%3A9186%2C%22type%22%3A%22%22%2C%22ext%22%3A%22txt%22%2C%22status%22%3A%22done%22%2C%22source%22%3A%22transfer%22%2C%22id%22%3A%22jSRfM%22%2C%22card%22%3A%22file%22%7D)/[https://www.aiyc.top/1774.html](https://www.aiyc.top/1774.html)
 
 解决代码如下，不过代码主要为了解决问题，优化后的代码，也会提供。**本任务主要是为了让你熟悉各个数据类型的用法。**
@@ -117,7 +117,7 @@ f.close()
 
 
 
-# 3. 链表
+## 3. 链表
 
 在我们接触的 Python 中的列表，其实就是可以做成链表的形式使用的。
 ```python
@@ -131,19 +131,19 @@ L.append(7)
 ![image.png](https://gitee.com/huangjiabaoaiyc/image/raw/master/202110291655350.png)
 
 正如你所看到的，**链表中的每个元素实际上是一个单独的对象，而所有对象都通过每个元素中的引用字段链接在一起。**
-​
+
 
 链表有两种类型：**单链表**和**双链表**。上面给出的例子是一个单链表，这里有一个双链表的例子：
 
 ![image.png](https://gitee.com/huangjiabaoaiyc/image/raw/master/202110291655147.png)
 
 不过，我这里主要讲解当链表结构。链表是一种线性数据结构，它通过引用字段将所有分离的元素链接在一起。
-​
+
 
 **其实，不就类似我们的铁链。**
-​
 
-## 3.1 定义一个最简单的链表
+
+### 3.1 定义一个最简单的链表
 
 ```python
 class IntList(object):
@@ -199,7 +199,7 @@ print("第三节车厢：{}".format(l1.rest.rest.first))
 
 
 
-## 3.2 「改进」如何只用一个 l 来操作呢？
+### 3.2 「改进」如何只用一个 l 来操作呢？
 
 ```python
 class IntList(object):
@@ -235,7 +235,7 @@ l.rest.rest.first = 15
 
 
 
-## 3.3 问题
+### 3.3 问题
 
 不知道，大家有没有发现，如果这么写的话。我们要写10节车厢或者以上的话不得写死了。
 ```python
@@ -266,12 +266,12 @@ l.rest.rest.rest.rest.first = 25
 
 
 所以，我们虽然实现了链表的结构，但是不完美。我们可以再进一步的去改进一下。
-​
+
 
 **首先，我们肯定不希望之后还是要写一堆 rest 这样肯定是超级麻烦的。**
-​
 
-## 3.4 改进代码
+
+### 3.4 改进代码
 
 ```python
 class IntList(object):
@@ -300,9 +300,9 @@ l = IntList(15, l)
 ![image.png](https://gitee.com/huangjiabaoaiyc/image/raw/master/202110291659920.png)
 
 这样写，肯定比之前的书写要简洁。但是又出现问题了，就是我们每一个衔接的数据是显示出来了，但这个问题我们后面解决。接下来，我们先来添加个 size 函数。
-​
 
-## 3.5 添加一个 size() 方法，方便用户查询链表的大小
+
+### 3.5 添加一个 size() 方法，方便用户查询链表的大小
 
 这个地方，需要递归作为前置知识：
 ```python
@@ -315,13 +315,13 @@ def size(self):
 
 
 
-### 1. 第一次： self.rest()
+#### 1. 第一次： self.rest()
 
 ![image.png](https://gitee.com/huangjiabaoaiyc/image/raw/master/202110291659448.png)
 
 
 
-### 2. 第二次：self.rest.size() —> self.rest.rest is None
+#### 2. 第二次：self.rest.size() —> self.rest.rest is None
 
 
 
@@ -329,7 +329,7 @@ def size(self):
 
 
 
-### 3. self.rest.rest.size() —> self.rest.rest.rest is None
+#### 3. self.rest.rest.size() —> self.rest.rest.rest is None
 
 
 
@@ -341,7 +341,7 @@ def size(self):
 
 
 
-## 3.6 不使用递归如何实现？
+### 3.6 不使用递归如何实现？
 
 ```python
 def get_length(self, linked):
@@ -373,7 +373,7 @@ print(l.iterative_size())
 ```
 
 
-## 3.7 改进
+### 3.7 改进
 添加一个 **get() **方法，方便用户查询某个元素：
 ```python
 def get(self, index):
@@ -395,7 +395,7 @@ def get_index(self, index):
 
 
 
-## 3.8 Question
+### 3.8 Question
 
 ![](https://gitee.com/huangjiabaoaiyc/image/raw/master/202110291708792.jpeg)
 
@@ -455,7 +455,7 @@ def get_first(self):
 
 
 
-## 3.9 比较一下
+### 3.9 比较一下
 
 ![image.png](https://gitee.com/huangjiabaoaiyc/image/raw/master/202110291709717.png)
 ```python
@@ -512,9 +512,9 @@ print(l3.first)
 
 ![image.png](https://gitee.com/huangjiabaoaiyc/image/raw/master/202110291709200.png)
 ![image.png](https://gitee.com/huangjiabaoaiyc/image/raw/master/202110291710484.png)
-​
 
-## 4.0 然而还是有点问题
+
+### 4.0 然而还是有点问题
 如果，我破解出了 SLList 里面的变量的名称，一样可以修改，比如：
 ```python
 l.first.next.next = 8
@@ -522,7 +522,7 @@ l.first.next.next = 8
 
 
 
-## 4.1 改进
+### 4.1 改进
 
 将 first 变量改为私有变量。
 ```python
@@ -550,7 +550,7 @@ AttributeError: 'SLList' object has no attribute '__first'
 ```
 
 
-## 4.2 为什么要设计私有变量？
+### 4.2 为什么要设计私有变量？
 
 **将类的内部细节隐藏起来**
 
@@ -566,7 +566,7 @@ AttributeError: 'SLList' object has no attribute '__first'
 
 
 
-## 4.3 改进
+### 4.3 改进
 SLList 新增加一个方法叫 `add_last()` ，用来让用户向链表末尾添加一个元素。
 ```python
 def add_last(self, x):
@@ -582,7 +582,7 @@ l.add_last(20)
 
 
 
-## 4.4 改进
+### 4.4 改进
 
 SLList 新增加一个方法叫 `size()` ：
 ```python
@@ -650,7 +650,7 @@ l.add_last(20)
 ```
 
 
-## 4.5 改进
+### 4.5 改进
 
 如果，我希望创建一个空链表呢？
 ```python
