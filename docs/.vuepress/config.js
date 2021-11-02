@@ -120,7 +120,8 @@ module.exports = config({
             icon: "note",
             items: [
                       {text: "基础", items: [
-                        {text: "Markdown 基础", link: "/zh/column/md/"}
+                        {text: "Python 基础", link: "/zh/column/python/base/"},
+                        {text: "Markdown 基础", link: "/zh/column/md/"},
                       ]},
                       
                       {text: "数据结构与算法", items: [
