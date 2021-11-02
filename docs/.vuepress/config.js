@@ -55,6 +55,13 @@ module.exports = config({
         ]}
       ],
 
+      // Python 基础
+      "/zh/column/python/base/": [
+        {title: "卷一: 入门准备", children: [
+          "two_how_would_i_teach_you_python",
+        ]}
+      ],
+
       // Python 办公自动化
       "/zh/column/python/Officeautomation/": [
         {title: "文件处理", children: [

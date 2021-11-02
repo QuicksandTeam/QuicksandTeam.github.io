@@ -6,9 +6,9 @@ heroImage: /images/hero.png
 heroText: 专栏列表
 tagline: 流沙团队书写优质专栏
 features:
-  - title: Python 入门与实在 🧰
-    details: #
-    link: #
+  - title: Python 基础 🧰
+    details: AI悦创带你快速入门 Python
+    link: /zh/column/python/base
   
   - title: 久远|数据结构与算法 🎇
     details: 久远的首发专栏

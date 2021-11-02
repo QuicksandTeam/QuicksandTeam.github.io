@@ -9,7 +9,7 @@ heroFullScreen: true
 tagline: AI悦创带你快速入门 Python
 action:
   - text: 开始学习 💡
-    link: /zh/column/python/base/
+    link: /zh/column/python/base/two_how_would_i_teach_you_python
 
   - text: 与作者联系 👋
     link: http://wpa.qq.com/msgrd?v=3&uin=1432803776&site=qq&menu=yes
@@ -56,6 +56,7 @@ footer: 立志降低教育成本，普及编程教育，提供优质资源教程
 
 
 # 3. Python 2 or Python 3 亦或者是 3.10
+
 在过去的很长一段时间中，学习 Python 的人常常在 Python 2 和 Python 3 版本（当然现在已经有了 3.10）间陷入选择困难。
 
 因为这两个版本存在着较大的不兼容，而 Python 2 由于历史更加悠久所以积累的第三方库要比 Python 3 多很多，同时由于将代码由 Python 2 迁移到 Python 3 不是一件容易的事，所以在 Python 3 发布后几年时间⾥，大家并没有太大动力使用这个新的版本，直接导致 Python 2 和 Python 3 在过去几年间割裂得十分严重。
