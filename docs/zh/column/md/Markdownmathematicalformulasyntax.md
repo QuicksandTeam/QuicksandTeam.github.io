@@ -1,6 +1,6 @@
 ---
 title: 11-Markdown 数学公式语法 
-time: 2021-10-25 14:10:52
+time: 2021-10-25 15:10:53
 author: AI悦创
 original: true
 category: Markdown 基础
