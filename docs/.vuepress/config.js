@@ -60,6 +60,7 @@ module.exports = config({
         {title: "卷一: 入门准备", children: [
           "two_how_would_i_teach_you_python",
           "three_makes_Python_a_home_on_your_computer",
+          "how_do_i_run_Python_code",
         ]}
       ],
 
