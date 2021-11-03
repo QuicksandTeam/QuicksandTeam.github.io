@@ -6,7 +6,7 @@ heroImage: /images/hero.png
 heroText: 专栏列表
 tagline: 流沙团队书写优质专栏
 features:
-  - title: Python 基础 🧰
+  - title: Python 零基础快速入门 🧰
     details: AI悦创带你快速入门 Python
     link: /zh/column/python/base
   

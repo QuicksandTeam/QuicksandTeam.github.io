@@ -2,9 +2,9 @@
 blog: false
 home: true
 icon: home
-title: Python 基础入门
+title: Python 零基础快速入门
 heroImage: /images/python-logo-large.png
-heroText: Python 基础入门
+heroText: Python 零基础快速入门
 heroFullScreen: true
 tagline: AI悦创带你快速入门 Python
 action:
