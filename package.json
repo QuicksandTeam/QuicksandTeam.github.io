@@ -1,7 +1,7 @@
 {
   "name": "bornforthi_book",
   "version": "1.0.0",
-  "description": "专业的编程一对一团队，长期招收编程一对一学员，流沙团队电子书",
+  "description": "流沙团队，专业的编程一对一团队，长期招收编程一对一学员，流沙团队电子书",
   "license": "MIT",
   "scripts": {
     "docs:build": "vuepress build docs",

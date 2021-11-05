@@ -58,3 +58,13 @@ footer: MIT Licensed | Copyright © 2021-present bornforthi
 
 如果你有其他需求或者疑问，点击：[QQ 在线客服](http://wpa.qq.com/msgrd?v=3&uin=1432803776&site=qq&menu=yes)
 
+## 答疑星球
+
+![](README.assets/202111051426350.jpg)
+
+提问格式：
+
+1. 什么专栏
+2. 专栏的哪个内容
+3. 遇到什么问题？
+4. 如果有代码请加上代码和报错截图
