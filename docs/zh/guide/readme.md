@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: 专栏目录
-heroImage: /images/hero.png
+heroImage: /images/logo_min.png
 heroText: 专栏列表
 tagline: 流沙团队书写优质专栏
 features:
