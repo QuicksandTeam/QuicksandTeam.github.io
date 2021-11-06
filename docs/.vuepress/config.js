@@ -11,6 +11,10 @@ module.exports = config({
     ["script",{src: "https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js",},],
     ["script", { src: "https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js" }],
     ["script",{ src: "https://cdn.jsdelivr.net/npm/@babel/standalone/babel.min.js" },],
+    // ["script",{ src: "https://images-aiyc-1301641396.cos.ap-guangzhou.myqcloud.com/myjs/skulpt-stdlib.js" },],
+    // ["script",{ src: "https://images-aiyc-1301641396.cos.ap-guangzhou.myqcloud.com/myjs/skulpt.min.js" },],
+    // ["script",{ src: "https://images-aiyc-1301641396.cos.ap-guangzhou.myqcloud.com/myjs/jquery.min.js" },],
+    // ["script",{ src: "https://images-aiyc-1301641396.cos.ap-guangzhou.myqcloud.com/myjs/my.js" },],
     ['meta', { name: "keywords", content: "流沙团队：AI悦创、久远,编程一对一教学,Python,爬虫,深度学习,机器学习,数据分析,网络,IT,技术,博客,算法与数据结构"}],
     ],
 
@@ -121,6 +125,7 @@ module.exports = config({
                       {text: "Python 在线编程", link: "https://www.aiycoj.cn/"},
                       {text: "数据结构与算法可视化", link: "https://huangjiabaoaiyc.gitee.io/visualgo/"},
                       {text: "Markdown Online", link: "https://www.bornforthi.com/markdown-editor/ "},
+                      {text: "Json Online", link: "https://www.bornforthi.com/json/"},
                       {text: "Scratch 开发中...", link: "https://www.aiyc.top/"},
                     ],
           },
