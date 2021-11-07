@@ -1,5 +1,5 @@
 ---
-title: 05 数据的名字和种类—变量和类型
+title: 04-数据的名字和种类—变量和类型
 time: 2021-11-6 21:26:52
 author: AI悦创
 original: true

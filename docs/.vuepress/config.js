@@ -65,6 +65,8 @@ module.exports = config({
           "two_how_would_i_teach_you_python",
           "three_makes_Python_a_home_on_your_computer",
           "how_do_i_run_Python_code",
+        ]},
+        {title: "卷二: 通用语言的特性", children: [
           "fiveNamesandtypesofdatavariablesandtypes",
         ]}
       ],
