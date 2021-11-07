@@ -50,6 +50,7 @@ module.exports = config({
           "TwoWhatisspatialcomplexity",
           "Arraythesimplestdatastructure",
           "Linkedlisttoimplementanunorderedlist",
+          "stacklastinfirstoutdatastructure",
         ]}
       ],
       // AI悦创算法
