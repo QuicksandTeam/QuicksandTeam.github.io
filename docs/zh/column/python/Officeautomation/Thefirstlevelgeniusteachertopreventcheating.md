@@ -283,7 +283,597 @@ for i in range(len(capitals)):
 
 :::
 
+通过调用 `generate_options(i)` 函数，我们计算出编号 i 所对应省份的题目选项。然后，使用 = 将结果赋值给变量 option。
 
+
+再将 option 通过 `options.append()` 方法追加到 options 列表。在 for 循环遍历完所有的索引之后，就形成了最终的选项列表。
+
+
+有了 provinces 和 options，我们的工作已经完成了大半，按一开始展示的 provinces 和 options 元素对照表的格式，我们通过代码打印一下这张表的值，看下效果是否是我们所预期的：
+
+
+```python
+import random
+
+capitals = {'北京市': '北京', '天津市': '天津', '上海市': '上海', '重庆市': '重庆',
+            '河北省': '石家庄', '山西省': '太原', '陕西省': '西安', '山东省': '济南',
+            '河南省': '郑州', '辽宁省': '沈阳', '吉林省': '长春', '黑龙江省': '哈尔滨',
+            '江苏省': '南京', '浙江省': '杭州', '安徽省': '合肥', '江西省': '南昌',
+            '福建省': '福州', '湖北省': '武汉', '湖南省': '长沙', '四川省': '成都',
+            '贵州省': '贵阳', '云南省': '昆明', '广东省': '广州', '海南省': '海口',
+            '甘肃省': '兰州', '青海省': '西宁', '台湾省': '台北', '内蒙古自治区': '呼和浩特',
+            '新疆维吾尔自治区': '乌鲁木齐', '西藏自治区': '拉萨', '广西壮族自治区': '南宁',
+            '宁夏回族自治区': '银川', '香港特别行政区': '香港', '澳门特别行政区': '澳门'}
+
+provinces = list(capitals.keys())
+
+
+def generate_options(index):
+	# generate_options函数，根据输入的省份编号index，生成对应的答案选项。
+
+	# 1. 从capitals中获取index这个编号对应的省份的省会名字，存到right_answer变量中。
+	right_answer = capitals[provinces[index]]
+
+	# 2. 从capitals中获取所有城市名字，并剔除正确的答案，构建错误省会名组成的列表，
+	# 存到变量wrong_answer中。
+	wrong_answer = list(capitals.values())
+	del wrong_answer[index]
+
+	# 3. 从wrong_answer中随机挑选3个名字，并与right_answer一同组成由4个元素组成的选项
+	wrong_answer = random.sample(wrong_answer, 3)
+	current_options = [right_answer] + wrong_answer
+
+	# 将选项打乱
+	random.shuffle(current_options)
+
+	# 用列表结构返回第index个省的答案选项
+	return current_options
+
+
+options = []
+for i in range(len(capitals)):
+	# 根据编号i，创建每道题的选项，并把选项列表添加到options中
+	option = generate_options(i)
+	options.append(option)
+
+for i in range(len(options)):
+	print(provinces[i], options[i])
+```
+老师在上面代码段的最后，通过：
+```python
+for i in range(len(options)):
+    print(provinces[i], options[i])
+```
+遍历输出了 provinces 跟 options 中的每个元素，可以直观地看到两个列表元素的对应情况。
+
+接下来，我们就可以通过读取 provinces 和 options 中的元素内容，完成试卷的构建了。
+
+
+
+## 2.3 创建试卷
+
+再回顾下我们要生成的题目样式：
+
+1. 河北省的省会是哪里？
+
+A. 北京
+B. 郑州
+C. 石家庄
+D. 张家口
+
+
+题干的内容，其实就是由 provinces 中提取的省份名字加上固定的`'的省会是哪里？'`字符串内容组成的。另外，问题前面会加上个数字编号和英文的点。
+
+
+选项的内容，就是从 options 中提取的每个列表元素，不过在生成答案时，需要对这个选项列表再进行一下遍历，在每个选项前面按顺序加上字母 A、B、C、D。
+
+
+请你补全下面代码中的 TODO 部分逻辑，按以上格式打印出每一道题目内容：
+```python
+import random
+
+capitals = {'北京市':'北京', '天津市':'天津', '上海市':'上海', '重庆市':'重庆',
+            '河北省':'石家庄', '山西省':'太原', '陕西省':'西安', '山东省':'济南', 
+            '河南省':'郑州', '辽宁省':'沈阳', '吉林省':'长春', '黑龙江省':'哈尔滨',
+            '江苏省':'南京', '浙江省':'杭州', '安徽省':'合肥', '江西省':'南昌', 
+            '福建省':'福州', '湖北省':'武汉', '湖南省':'长沙', '四川省':'成都', 
+            '贵州省':'贵阳', '云南省':'昆明', '广东省':'广州', '海南省':'海口', 
+            '甘肃省':'兰州', '青海省':'西宁', '台湾省':'台北', '内蒙古自治区':'呼和浩特', 
+            '新疆维吾尔自治区':'乌鲁木齐', '西藏自治区':'拉萨', '广西壮族自治区':'南宁', 
+            '宁夏回族自治区':'银川', '香港特别行政区':'香港', '澳门特别行政区':'澳门'}
+
+provinces = list(capitals.keys())
+
+def generate_options(index):
+    # generate_options函数，根据输入的省份编号index，生成对应的答案选项。
+
+    # 1. 从capitals中获取index这个编号对应的省份的省会名字，存到right_answer变量中。
+    right_answer = capitals[provinces[index]]
+
+    # 2. 从capitals中获取所有城市名字，并剔除正确的答案，构建错误省会名组成的列表，
+    # 存到变量wrong_answer中。
+    wrong_answer = list(capitals.values())
+    del wrong_answer[index]
+
+    # 3. 从wrong_answer中随机挑选3个名字，并与right_answer一同组成由4个元素组成的选项
+    wrong_answer = random.sample(wrong_answer, 3)
+    current_options = [right_answer] + wrong_answer
+
+    # 将选项打乱
+    random.shuffle(current_options)
+
+    # 用列表结构返回第index个省的答案选项
+    return current_options
+
+options = []
+for i in range(len(capitals)):
+    # 根据编号i，创建每道题的选项，并把选项列表添加到options中
+    option = generate_options(i)
+    options.append(option)
+
+for i in range(len(options)):
+    # TODO，按格式打印题目及选项
+```
+:::看下老师的答案：
+```python
+for i in range(len(options)):
+    # TODO，按格式打印题目及选项
+    print('{}. {}的省会是哪里？'.format(i+1, provinces[i]))
+    for j in range(4):
+        print('{}. {}'.format('ABCD'[j], options[i][j]))
+    print('\n')
+```
+:::
+
+在 `for i in range(len(options))` 的每个循环过程中，打印每道题目。使用 `i+1` 和 `provinces[i]` 分别填充到格式字符串 `'{}. {}的省会是哪里？'` 的两个花括号中，就按照循环中的 `i`值正确填入了编号及省份的名字。
+
+
+在这之后，再使用内部循环 `for j in range(4):` 打印每一个选项内容。
+
+
+由于 j 是从 0 到 3 的整数值，通过 `'ABCD'[j]` 这样的方式就能分别取到字符串 `'ABCD'` 的每个元素，就是 `'A'、'B'、'C'、'D'`。它们分别作为选项的编号。
+
+
+而 `options[i][j]` 则是取出 options 这个二维列表中，第 i 个子列表中的第 j 个选项，这便是题目中候选城市的名字。
+
+
+既然是生成试卷，光打印在输出终端中是不够的，我们需要生成一个文件。
+
+
+现在你来试试，将上面代码中的打印到输出终端的逻辑，修改成写文件，生成一个完整的试题文件。
+```python
+import random
+
+capitals = {'北京市':'北京', '天津市':'天津', '上海市':'上海', '重庆市':'重庆',
+            '河北省':'石家庄', '山西省':'太原', '陕西省':'西安', '山东省':'济南', 
+            '河南省':'郑州', '辽宁省':'沈阳', '吉林省':'长春', '黑龙江省':'哈尔滨',
+            '江苏省':'南京', '浙江省':'杭州', '安徽省':'合肥', '江西省':'南昌', 
+            '福建省':'福州', '湖北省':'武汉', '湖南省':'长沙', '四川省':'成都', 
+            '贵州省':'贵阳', '云南省':'昆明', '广东省':'广州', '海南省':'海口', 
+            '甘肃省':'兰州', '青海省':'西宁', '台湾省':'台北', '内蒙古自治区':'呼和浩特', 
+            '新疆维吾尔自治区':'乌鲁木齐', '西藏自治区':'拉萨', '广西壮族自治区':'南宁', 
+            '宁夏回族自治区':'银川', '香港特别行政区':'香港', '澳门特别行政区':'澳门'}
+
+provinces = list(capitals.keys())
+
+def generate_options(index):
+    # generate_options函数，根据输入的省份编号index，生成对应的答案选项。
+
+    # 1. 从capitals中获取index这个编号对应的省份的省会名字，存到right_answer变量中。
+    right_answer = capitals[provinces[index]]
+
+    # 2. 从capitals中获取所有城市名字，并剔除正确的答案，构建错误省会名组成的列表，
+    # 存到变量wrong_answer中。
+    wrong_answer = list(capitals.values())
+    del wrong_answer[index]
+
+    # 3. 从wrong_answer中随机挑选3个名字，并与right_answer一同组成由4个元素组成的选项
+    wrong_answer = random.sample(wrong_answer, 3)
+    current_options = [right_answer] + wrong_answer
+
+    # 将选项打乱
+    random.shuffle(current_options)
+
+    # 用列表结构返回第index个省的答案选项
+    return current_options
+
+options = []
+for i in range(len(capitals)):
+    # 根据编号i，创建每道题的选项，并把选项列表添加到options中
+    option = generate_options(i)
+    options.append(option)
+
+# TODO，生成试卷，写到文件./试卷.txt 中
+```
+以下是老师的答案，执行之后，你可以直接通过下载按钮获取生成的试卷文件哦。
+```python
+import random
+
+capitals = {'北京市':'北京', '天津市':'天津', '上海市':'上海', '重庆市':'重庆',
+            '河北省':'石家庄', '山西省':'太原', '陕西省':'西安', '山东省':'济南', 
+            '河南省':'郑州', '辽宁省':'沈阳', '吉林省':'长春', '黑龙江省':'哈尔滨',
+            '江苏省':'南京', '浙江省':'杭州', '安徽省':'合肥', '江西省':'南昌', 
+            '福建省':'福州', '湖北省':'武汉', '湖南省':'长沙', '四川省':'成都', 
+            '贵州省':'贵阳', '云南省':'昆明', '广东省':'广州', '海南省':'海口', 
+            '甘肃省':'兰州', '青海省':'西宁', '台湾省':'台北', '内蒙古自治区':'呼和浩特', 
+            '新疆维吾尔自治区':'乌鲁木齐', '西藏自治区':'拉萨', '广西壮族自治区':'南宁', 
+            '宁夏回族自治区':'银川', '香港特别行政区':'香港', '澳门特别行政区':'澳门'}
+
+provinces = list(capitals.keys())
+
+def generate_options(index):
+    # generate_options函数，根据输入的省份编号index，生成对应的答案选项。
+
+    # 1. 从capitals中获取index这个编号对应的省份的省会名字，存到right_answer变量中。
+    right_answer = capitals[provinces[index]]
+
+    # 2. 从capitals中获取所有城市名字，并剔除正确的答案，构建错误省会名组成的列表，
+    # 存到变量wrong_answer中。
+    wrong_answer = list(capitals.values())
+    del wrong_answer[index]
+
+    # 3. 从wrong_answer中随机挑选3个名字，并与right_answer一同组成由4个元素组成的选项
+    wrong_answer = random.sample(wrong_answer, 3)
+    current_options = [right_answer] + wrong_answer
+
+    # 将选项打乱
+    random.shuffle(current_options)
+
+    # 用列表结构返回第index个省的答案选项
+    return current_options
+
+options = []
+for i in range(len(capitals)):
+    # 根据编号i，创建每道题的选项，并把选项列表添加到options中
+    option = generate_options(i)
+    options.append(option)
+
+# TODO，生成试卷，写到文件./tmp/试卷.txt中
+with open('./试卷.txt', 'w') as f:
+    for i in range(len(options)):
+        f.write('{}. {}的省会是哪里？\n'.format(i+1, provinces[i]))
+        for j in range(4):
+            f.write('{}. {}\n'.format('ABCD'[j], options[i][j]))
+        f.write('\n')
+```
+老师使用了 Python 中最普通的文件写操作，通过 `with open('./试卷.txt', 'w') as f` 打开文件之后，将原来逻辑中的 `print()` 都更换成 `f.write()`，实现向当前目录中 `试卷.txt` 文件写入内容的功能。
+
+在实现中还需要多注意的一点是，`print()` 方法默认会在每一行末尾打印一个换行，而文件的 `write()` 方法不会，因此在调用 `write()` 时，传入的字符串末尾都加上了 `'\n'` 用来实现输出换行的目的。
+
+
+
+
+## 2.4 创建答案
+有了试卷之后，我们期望再生成一份答案文件，以方便批阅的时候使用。
+
+答案的格式类似以下就足够了：
+
+![image.png](https://gitee.com/huangjiabaoaiyc/image/raw/master/202112091010348.png)
+
+
+这个工作相对于生成试卷来说要简单很多，老师给你提供一个思路：
+
+1. 从 capitals 中确定当前编号所对应的省的省会城市。
+1. 确定这个省会城市在题目选项 options 中的索引编号。
+1. 通过第 2 步中索引编号取出 `'ABCD'` 中的字母，即是答案选项。
+
+你来试试吧：
+```python
+import random
+
+capitals = {'北京市':'北京', '天津市':'天津', '上海市':'上海', '重庆市':'重庆',
+            '河北省':'石家庄', '山西省':'太原', '陕西省':'西安', '山东省':'济南', 
+            '河南省':'郑州', '辽宁省':'沈阳', '吉林省':'长春', '黑龙江省':'哈尔滨',
+            '江苏省':'南京', '浙江省':'杭州', '安徽省':'合肥', '江西省':'南昌', 
+            '福建省':'福州', '湖北省':'武汉', '湖南省':'长沙', '四川省':'成都', 
+            '贵州省':'贵阳', '云南省':'昆明', '广东省':'广州', '海南省':'海口', 
+            '甘肃省':'兰州', '青海省':'西宁', '台湾省':'台北', '内蒙古自治区':'呼和浩特', 
+            '新疆维吾尔自治区':'乌鲁木齐', '西藏自治区':'拉萨', '广西壮族自治区':'南宁', 
+            '宁夏回族自治区':'银川', '香港特别行政区':'香港', '澳门特别行政区':'澳门'}
+
+provinces = list(capitals.keys())
+
+def generate_options(index):
+    # generate_options函数，根据输入的省份编号index，生成对应的答案选项。
+
+    # 1. 从capitals中获取index这个编号对应的省份的省会名字，存到right_answer变量中。
+    right_answer = capitals[provinces[index]]
+
+    # 2. 从capitals中获取所有城市名字，并剔除正确的答案，构建错误省会名组成的列表，
+    # 存到变量wrong_answer中。
+    wrong_answer = list(capitals.values())
+    del wrong_answer[index]
+
+    # 3. 从wrong_answer中随机挑选3个名字，并与right_answer一同组成由4个元素组成的选项
+    wrong_answer = random.sample(wrong_answer, 3)
+    current_options = [right_answer] + wrong_answer
+
+    # 将选项打乱
+    random.shuffle(current_options)
+
+    # 用列表结构返回第index个省的答案选项
+    return current_options
+
+options = []
+for i in range(len(capitals)):
+    # 根据编号i，创建每道题的选项，并把选项列表添加到options中
+    option = generate_options(i)
+    options.append(option)
+
+# 生成试卷，写到文件./tmp/试卷.txt中
+with open('./tmp/试卷.txt', 'w') as f:
+    for i in range(len(options)):
+        f.write('{}. {}的省会是哪里？\n'.format(i+1, provinces[i]))
+        for j in range(4):
+            f.write('{}. {}\n'.format('ABCD'[j], options[i][j]))
+        f.write('\n')
+        
+# TODO，生成答案，写到文件./tmp/答案.txt中
+```
+:::参考一下老师的答案：
+```python
+import random
+
+capitals = {'北京市':'北京', '天津市':'天津', '上海市':'上海', '重庆市':'重庆',
+            '河北省':'石家庄', '山西省':'太原', '陕西省':'西安', '山东省':'济南', 
+            '河南省':'郑州', '辽宁省':'沈阳', '吉林省':'长春', '黑龙江省':'哈尔滨',
+            '江苏省':'南京', '浙江省':'杭州', '安徽省':'合肥', '江西省':'南昌', 
+            '福建省':'福州', '湖北省':'武汉', '湖南省':'长沙', '四川省':'成都', 
+            '贵州省':'贵阳', '云南省':'昆明', '广东省':'广州', '海南省':'海口', 
+            '甘肃省':'兰州', '青海省':'西宁', '台湾省':'台北', '内蒙古自治区':'呼和浩特', 
+            '新疆维吾尔自治区':'乌鲁木齐', '西藏自治区':'拉萨', '广西壮族自治区':'南宁', 
+            '宁夏回族自治区':'银川', '香港特别行政区':'香港', '澳门特别行政区':'澳门'}
+
+provinces = list(capitals.keys())
+
+def generate_options(index):
+    # generate_options函数，根据输入的省份编号index，生成对应的答案选项。
+
+    # 1. 从capitals中获取index这个编号对应的省份的省会名字，存到right_answer变量中。
+    right_answer = capitals[provinces[index]]
+
+    # 2. 从capitals中获取所有城市名字，并剔除正确的答案，构建错误省会名组成的列表，
+    # 存到变量wrong_answer中。
+    wrong_answer = list(capitals.values())
+    del wrong_answer[index]
+
+    # 3. 从wrong_answer中随机挑选3个名字，并与right_answer一同组成由4个元素组成的选项
+    wrong_answer = random.sample(wrong_answer, 3)
+    current_options = [right_answer] + wrong_answer
+
+    # 将选项打乱
+    random.shuffle(current_options)
+
+    # 用列表结构返回第index个省的答案选项
+    return current_options
+
+options = []
+for i in range(len(capitals)):
+    # 根据编号i，创建每道题的选项，并把选项列表添加到options中
+    option = generate_options(i)
+    options.append(option)
+
+# 生成试卷，写到文件./tmp/试卷.txt中
+with open('./tmp/试卷.txt', 'w') as f:
+    for i in range(len(options)):
+        f.write('{}. {}的省会是哪里？\n'.format(i+1, provinces[i]))
+        for j in range(4):
+            f.write('{}. {}\n'.format('ABCD'[j], options[i][j]))
+        f.write('\n')
+        
+# TODO，生成答案，写到文件./答案.txt中
+with open('./答案.txt', 'w') as f:
+    for i in range(len(options)):
+        f.write('{}.'.format(i+1))
+        f.write('{} '.format('ABCD'[options[i].index(capitals[provinces[i]])]))
+```
+:::
+
+关键代码就一行：`f.write('{} '.format('ABCD'[options[i].index(capitals[provinces[i]])]))`，但值得仔细再说明一下。
+
+
+这行代码的三部分分别做了前面所说的三件事情：
+
+
+1、从 capitals 中确定当前编号所对应省的省会城市：`capitals[provinces[i]]`。
+2、确定这个省会城市在题目选项 options 中的索引编号：`options[i].index(capitals[provinces[i]])`。这里调用了列表 `options[i]` 的 index 方法，就直接能得到城市 `capitals[provinces[i]]` 在这个列表里的索引。
+3、在第 2 步已经获取了正确选项在备选答案中的编号之后，通过 `'ABCD'[第2步的结果]` 就得到了正确选项对应的字母。
+
+
+如果觉得一行代码过于费解，可以按照我们的实现思路拆解成如下三行：
+```python
+capital = capitals[provinces[i]]
+option = options[i].index(capital)
+f.write('{} '.format('ABCD'[option]))
+```
+好了，看起来大功告成。但作为一个狡猾的天才老师，小象君觉得，为一个班里30位同学生成这同样的一份试卷进行测验，在防作弊上还差点意思。
+
+所以，我们希望生成 30 分答案顺序完全不同的试卷，让作弊无用武之地。
+
+
+
+
+# 3. 生成答案迥异的试卷
+我们在定义试卷生成逻辑的时候，使用的 `generate_options()` 函数在每次生成答案选项时，都是随机抽取的备选答案，同时，也使用了 `random.shuffle()` 函数打乱答案选项的顺序。
+
+
+在每次生成试卷时，试题顺序相同，但答案选项是不相同的。
+
+
+因此，我们想要生成 30 份答案不同的试卷，只要按上面的方式循环生成 30 遍，每次将试卷和答案存储到不同的文件里就可以了。
+
+为了更顺畅的构建循环生成试卷的逻辑，我们先对以上代码做些整理，将每轮生成试卷和答案文件的代码整理成一个独立的函数。
+
+
+
+
+## 3.1 试卷生成逻辑整理为函数
+
+```python
+import random
+
+capitals = {'北京市':'北京', '天津市':'天津', '上海市':'上海', '重庆市':'重庆',
+            '河北省':'石家庄', '山西省':'太原', '陕西省':'西安', '山东省':'济南', 
+            '河南省':'郑州', '辽宁省':'沈阳', '吉林省':'长春', '黑龙江省':'哈尔滨',
+            '江苏省':'南京', '浙江省':'杭州', '安徽省':'合肥', '江西省':'南昌', 
+            '福建省':'福州', '湖北省':'武汉', '湖南省':'长沙', '四川省':'成都', 
+            '贵州省':'贵阳', '云南省':'昆明', '广东省':'广州', '海南省':'海口', 
+            '甘肃省':'兰州', '青海省':'西宁', '台湾省':'台北', '内蒙古自治区':'呼和浩特', 
+            '新疆维吾尔自治区':'乌鲁木齐', '西藏自治区':'拉萨', '广西壮族自治区':'南宁', 
+            '宁夏回族自治区':'银川', '香港特别行政区':'香港', '澳门特别行政区':'澳门'}
+
+provinces = list(capitals.keys())
+
+def generate_options(index):
+    # generate_options函数，根据输入的省份编号index，生成对应的答案选项。
+
+    # 1. 从capitals中获取index这个编号对应的省份的省会名字，存到right_answer变量中。
+    right_answer = capitals[provinces[index]]
+
+    # 2. 从capitals中获取所有城市名字，并剔除正确的答案，构建错误省会名组成的列表，
+    # 存到变量wrong_answer中。
+    wrong_answer = list(capitals.values())
+    del wrong_answer[index]
+
+    # 3. 从wrong_answer中随机挑选3个名字，并与right_answer一同组成由4个元素组成的选项
+    wrong_answer = random.sample(wrong_answer, 3)
+    current_options = [right_answer] + wrong_answer
+
+    # 将选项打乱
+    random.shuffle(current_options)
+
+    # 用列表结构返回第index个省的答案选项
+    return current_options
+
+def generate_paper(index):
+    options = []
+    for i in range(len(capitals)):
+        # 根据编号i，创建每道题的选项，并把选项列表添加到options中
+        option = generate_options(i)
+        options.append(option)
+
+    # 生成试卷，写到文件./tmp/试卷_index.txt中
+    with open('./tmp/试卷_{}.txt'.format(index), 'w') as f:
+        for i in range(len(options)):
+            f.write('{}. {}的省会是哪里？\n'.format(i+1, provinces[i]))
+            for j in range(4):
+                f.write('{}. {}\n'.format('ABCD'[j], options[i][j]))
+            f.write('\n')
+
+    # 生成答案，写到文件./tmp/答案_index.txt中
+    with open('./tmp/答案_{}.txt'.format(index), 'w') as f:
+        for i in range(len(options)):
+            f.write('{}.'.format(i+1))
+            f.write('{} '.format('ABCD'[options[i].index(capitals[provinces[i]])]))
+
+generate_paper(0)
+```
+在上面的代码中，老师将生成试卷的操作整理到了函数 `generate_paper()` 中，函数接受一个参数index，用作试卷的编号。
+
+
+在生成试题和答案文件的时候，会在文件名后加上 `_index` 区分不同的试卷以及答案。
+
+
+比如在代码的最后一句，调用 `generate_paper(0)`，便生成了试卷 `_0.txt` 和答案 `_0.txt` 两个文件。
+
+接下来，请你在以下代码的 TODO 后补全逻辑，分别为 30 名学生准备答案选项完全不同的 30 份试卷。
+
+
+
+## 3.2 生成 30 份试卷
+
+```python
+import random
+
+capitals = {'北京市':'北京', '天津市':'天津', '上海市':'上海', '重庆市':'重庆',
+            '河北省':'石家庄', '山西省':'太原', '陕西省':'西安', '山东省':'济南', 
+            '河南省':'郑州', '辽宁省':'沈阳', '吉林省':'长春', '黑龙江省':'哈尔滨',
+            '江苏省':'南京', '浙江省':'杭州', '安徽省':'合肥', '江西省':'南昌', 
+            '福建省':'福州', '湖北省':'武汉', '湖南省':'长沙', '四川省':'成都', 
+            '贵州省':'贵阳', '云南省':'昆明', '广东省':'广州', '海南省':'海口', 
+            '甘肃省':'兰州', '青海省':'西宁', '台湾省':'台北', '内蒙古自治区':'呼和浩特', 
+            '新疆维吾尔自治区':'乌鲁木齐', '西藏自治区':'拉萨', '广西壮族自治区':'南宁', 
+            '宁夏回族自治区':'银川', '香港特别行政区':'香港', '澳门特别行政区':'澳门'}
+
+provinces = list(capitals.keys())
+
+def generate_options(index):
+    # generate_options函数，根据输入的省份编号index，生成对应的答案选项。
+
+    # 1. 从capitals中获取index这个编号对应的省份的省会名字，存到right_answer变量中。
+    right_answer = capitals[provinces[index]]
+
+    # 2. 从capitals中获取所有城市名字，并剔除正确的答案，构建错误省会名组成的列表，
+    # 存到变量wrong_answer中。
+    wrong_answer = list(capitals.values())
+    del wrong_answer[index]
+
+    # 3. 从wrong_answer中随机挑选3个名字，并与right_answer一同组成由4个元素组成的选项
+    wrong_answer = random.sample(wrong_answer, 3)
+    current_options = [right_answer] + wrong_answer
+
+    # 将选项打乱
+    random.shuffle(current_options)
+
+    # 用列表结构返回第index个省的答案选项
+    return current_options
+
+def generate_paper(index):
+    options = []
+    for i in range(len(capitals)):
+        # 根据编号i，创建每道题的选项，并把选项列表添加到options中
+        option = generate_options(i)
+        options.append(option)
+
+    # 生成试卷，写到文件./tmp/试卷_index.txt中
+    with open('./tmp/试卷_{}.txt'.format(index), 'w') as f:
+        for i in range(len(options)):
+            f.write('{}. {}的省会是哪里？\n'.format(i+1, provinces[i]))
+            for j in range(4):
+                f.write('{}. {}\n'.format('ABCD'[j], options[i][j]))
+            f.write('\n')
+
+    # 生成答案，写到文件./tmp/答案_index.txt中
+    with open('./tmp/答案_{}.txt'.format(index), 'w') as f:
+        for i in range(len(options)):
+            f.write('{}.'.format(i+1))
+            f.write('{} '.format('ABCD'[options[i].index(capitals[provinces[i]])]))
+            
+# TODO，生成30份试卷
+```
+这一定难不倒你，答案非常简单：
+```python
+# TODO，生成30份试卷
+for i in range(30):
+    generate_paper(i)
+```
+如果你想为更多的学生生成试卷，所作的操作就是改一下上面这个循环条件的数字，繁琐的试卷和答案生成工作，计算机都为你代劳了。
+
+
+
+
+# 4. 本关总结
+在办公自动化课程的第一关中，使用一个试卷生成案例，我们共同体验了在一个看似繁琐的场景中，如何将需求进行抽象，使用 Python 指挥计算机完成重复劳动的过程。
+
+
+本关并没有使用太多 Python 基础以外的附加功能，旨在让你体会到，办公自动化并不是使用种类繁多花样百出的工具完成特别高大上的工作。
+
+
+它需要我们立足实际的业务需求，在详细分析业务的处理流程之后，使用最合适的方法快速搞定任务。
+
+
+本关使用的主要 Python 知识包括：循环（这是让计算机解决繁琐任务常借助的工具）、列表、随机处理包 random、文件处理。
+
+
+在之后持续深入的自动化课程内容中，这些基本的处理方法也依然会时常出现。
+
+
+将本关的知识要点做个简单总结，如以下框图所示。别忘了，还有课后练习等着你。
+
+![](https://gitee.com/huangjiabaoaiyc/image/raw/master/202112091012576.png)
+
+
+![在这里插入图片描述](https://gitee.com/huangjiabaoaiyc/image/raw/master/202112091015678.png)
 
 
 
