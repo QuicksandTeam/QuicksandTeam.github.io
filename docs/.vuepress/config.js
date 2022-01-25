@@ -72,6 +72,16 @@ module.exports = config({
         ]}
       ],
 
+      // Python 练习题
+      "/zh/column/pypractice/": [
+        {title: "卷一: 列表", children: [
+          "01-list",
+        ]},
+        {title: "卷二: 通用语言的特性", children: [
+          "fiveNamesandtypesofdatavariablesandtypes",
+        ]}
+      ],
+
       // Python 办公自动化
       "/zh/column/python/Officeautomation/": [
         {title: "文件处理", children: [

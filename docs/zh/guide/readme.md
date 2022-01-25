@@ -22,9 +22,9 @@ features:
     details: 批量处理，解放重复劳作！
     link: /zh/column/python/Officeautomation
 
-  - title: Python 数据分析 💬
-    details: #
-    link: #
+  - title: Python 练习题 💬
+    details: 轻松刷题，成为 Python 高手
+    link: /zh/column/pypractice
 
   - title: 摄影入门课 🎞
     details: #
