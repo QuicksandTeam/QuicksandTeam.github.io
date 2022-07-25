@@ -32,7 +32,7 @@ export default hopeTheme({
 
   blog: {
     description: "一股无形的力量",
-    intro: "/intro.html",
+    intro: "/AboutTeam/",
     medias: {
       Baidu: "https://example.com",
       Bitbucket: "https://example.com",
