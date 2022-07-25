@@ -3,7 +3,3 @@ User-agent:*
 Disallow:
 
 Sitemap: https://book.bornforthi.com/sitemap.xml
-User-agent:*
-Disallow:
-
-Sitemap: https://book.bornforthi.com/sitemap.xml
