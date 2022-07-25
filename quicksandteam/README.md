@@ -4,6 +4,7 @@ layout: Blog
 icon: home
 title: 主页
 heroImage: /images/hero.png
+bgImage: https://img-blog.csdnimg.cn/30458f75cce14373b32b4f1a8c5f96c0.jpeg
 heroText: 流沙团队博客
 heroFullScreen: true
 tagline: 一股无形的力量——流沙
