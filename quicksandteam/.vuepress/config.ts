@@ -20,6 +20,7 @@ export default defineUserConfig({
       // cacheHTML: true,
       // update: "available",
       // update: "force",
+      favicon: "/images/hero.png",
       update: "hint",
       // maxSize: 6,
     }),
