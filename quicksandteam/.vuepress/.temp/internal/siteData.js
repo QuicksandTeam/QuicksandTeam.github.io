@@ -1,4 +1,4 @@
-export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"zh-CN\",\"title\":\"主题演示\",\"description\":\"vuepress-theme-hope 的演示\",\"head\":[],\"locales\":{}}")
+export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"zh-CN\",\"title\":\"流沙团队\",\"description\":\"流沙团队,一股无形的力量,AI悦创,久远,编程一对一教学,唐婷婷,Python,爬虫,深度学习,机器学习,数据分析,网络,IT,技术,博客,算法与数据结构,新媒体,平面设计,摄影,Logo设计\",\"head\":[],\"locales\":{}}")
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()

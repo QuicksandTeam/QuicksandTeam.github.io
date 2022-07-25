@@ -3,7 +3,7 @@ home: true
 layout: Blog
 icon: home
 title: 主页
-heroImage: /logo.svg
+heroImage: /images/hero.png
 heroText: 流沙团队博客
 heroFullScreen: true
 tagline: 一股无形的力量——流沙

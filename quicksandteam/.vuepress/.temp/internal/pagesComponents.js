@@ -7,38 +7,8 @@ export const pagesComponents = {
   "v-79fdd481": defineAsyncComponent(() => import(/* webpackChunkName: "v-79fdd481" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/home.html.vue")),
   // path: /guide/
   "v-fffb8e28": defineAsyncComponent(() => import(/* webpackChunkName: "v-fffb8e28" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/guide/index.html.vue")),
-  // path: /guide/disable.html
-  "v-4c863446": defineAsyncComponent(() => import(/* webpackChunkName: "v-4c863446" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/guide/disable.html.vue")),
-  // path: /guide/encrypt.html
-  "v-bf720700": defineAsyncComponent(() => import(/* webpackChunkName: "v-bf720700" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/guide/encrypt.html.vue")),
-  // path: /guide/markdown.html
-  "v-0978b044": defineAsyncComponent(() => import(/* webpackChunkName: "v-0978b044" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/guide/markdown.html.vue")),
-  // path: /guide/page.html
-  "v-4eaf9f84": defineAsyncComponent(() => import(/* webpackChunkName: "v-4eaf9f84" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/guide/page.html.vue")),
-  // path: /posts/article10.html
-  "v-5a814a99": defineAsyncComponent(() => import(/* webpackChunkName: "v-5a814a99" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/posts/article10.html.vue")),
-  // path: /posts/article11.html
-  "v-5c362338": defineAsyncComponent(() => import(/* webpackChunkName: "v-5c362338" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/posts/article11.html.vue")),
-  // path: /posts/article12.html
-  "v-5deafbd7": defineAsyncComponent(() => import(/* webpackChunkName: "v-5deafbd7" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/posts/article12.html.vue")),
-  // path: /posts/article9.html
-  "v-7beb5be1": defineAsyncComponent(() => import(/* webpackChunkName: "v-7beb5be1" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/posts/article9.html.vue")),
   // path: /posts/article/article1.html
   "v-03842690": defineAsyncComponent(() => import(/* webpackChunkName: "v-03842690" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/posts/article/article1.html.vue")),
-  // path: /posts/article/article2.html
-  "v-0538ff2f": defineAsyncComponent(() => import(/* webpackChunkName: "v-0538ff2f" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/posts/article/article2.html.vue")),
-  // path: /posts/article/article3.html
-  "v-06edd7ce": defineAsyncComponent(() => import(/* webpackChunkName: "v-06edd7ce" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/posts/article/article3.html.vue")),
-  // path: /posts/article/article4.html
-  "v-08a2b06d": defineAsyncComponent(() => import(/* webpackChunkName: "v-08a2b06d" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/posts/article/article4.html.vue")),
-  // path: /posts/article/article5.html
-  "v-0a57890c": defineAsyncComponent(() => import(/* webpackChunkName: "v-0a57890c" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/posts/article/article5.html.vue")),
-  // path: /posts/article/article6.html
-  "v-0c0c61ab": defineAsyncComponent(() => import(/* webpackChunkName: "v-0c0c61ab" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/posts/article/article6.html.vue")),
-  // path: /posts/article/article7.html
-  "v-0dc13a4a": defineAsyncComponent(() => import(/* webpackChunkName: "v-0dc13a4a" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/posts/article/article7.html.vue")),
-  // path: /posts/article/article8.html
-  "v-0f7612e9": defineAsyncComponent(() => import(/* webpackChunkName: "v-0f7612e9" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/posts/article/article8.html.vue")),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3706649a" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/404.html.vue")),
   // path: /category/
@@ -75,4 +45,8 @@ export const pagesComponents = {
   "v-06bbb262": defineAsyncComponent(() => import(/* webpackChunkName: "v-06bbb262" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/tag/tag-a/index.html.vue")),
   // path: /tag/tag-b/
   "v-06bbb224": defineAsyncComponent(() => import(/* webpackChunkName: "v-06bbb224" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/tag/tag-b/index.html.vue")),
+  // path: /posts/article9.html
+  "v-7beb5be1": defineAsyncComponent(() => import(/* webpackChunkName: "v-7beb5be1" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/posts/article9.html.vue")),
+  // path: /AboutTeam.html
+  "v-5e1332e8": defineAsyncComponent(() => import(/* webpackChunkName: "v-5e1332e8" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/AboutTeam.html.vue")),
 }

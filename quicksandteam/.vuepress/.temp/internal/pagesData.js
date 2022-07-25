@@ -5,38 +5,8 @@ export const pagesData = {
   "v-79fdd481": () => import(/* webpackChunkName: "v-79fdd481" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/home.html.js").then(({ data }) => data),
   // path: /guide/
   "v-fffb8e28": () => import(/* webpackChunkName: "v-fffb8e28" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/guide/index.html.js").then(({ data }) => data),
-  // path: /guide/disable.html
-  "v-4c863446": () => import(/* webpackChunkName: "v-4c863446" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/guide/disable.html.js").then(({ data }) => data),
-  // path: /guide/encrypt.html
-  "v-bf720700": () => import(/* webpackChunkName: "v-bf720700" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/guide/encrypt.html.js").then(({ data }) => data),
-  // path: /guide/markdown.html
-  "v-0978b044": () => import(/* webpackChunkName: "v-0978b044" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/guide/markdown.html.js").then(({ data }) => data),
-  // path: /guide/page.html
-  "v-4eaf9f84": () => import(/* webpackChunkName: "v-4eaf9f84" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/guide/page.html.js").then(({ data }) => data),
-  // path: /posts/article10.html
-  "v-5a814a99": () => import(/* webpackChunkName: "v-5a814a99" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/posts/article10.html.js").then(({ data }) => data),
-  // path: /posts/article11.html
-  "v-5c362338": () => import(/* webpackChunkName: "v-5c362338" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/posts/article11.html.js").then(({ data }) => data),
-  // path: /posts/article12.html
-  "v-5deafbd7": () => import(/* webpackChunkName: "v-5deafbd7" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/posts/article12.html.js").then(({ data }) => data),
-  // path: /posts/article9.html
-  "v-7beb5be1": () => import(/* webpackChunkName: "v-7beb5be1" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/posts/article9.html.js").then(({ data }) => data),
   // path: /posts/article/article1.html
   "v-03842690": () => import(/* webpackChunkName: "v-03842690" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/posts/article/article1.html.js").then(({ data }) => data),
-  // path: /posts/article/article2.html
-  "v-0538ff2f": () => import(/* webpackChunkName: "v-0538ff2f" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/posts/article/article2.html.js").then(({ data }) => data),
-  // path: /posts/article/article3.html
-  "v-06edd7ce": () => import(/* webpackChunkName: "v-06edd7ce" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/posts/article/article3.html.js").then(({ data }) => data),
-  // path: /posts/article/article4.html
-  "v-08a2b06d": () => import(/* webpackChunkName: "v-08a2b06d" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/posts/article/article4.html.js").then(({ data }) => data),
-  // path: /posts/article/article5.html
-  "v-0a57890c": () => import(/* webpackChunkName: "v-0a57890c" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/posts/article/article5.html.js").then(({ data }) => data),
-  // path: /posts/article/article6.html
-  "v-0c0c61ab": () => import(/* webpackChunkName: "v-0c0c61ab" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/posts/article/article6.html.js").then(({ data }) => data),
-  // path: /posts/article/article7.html
-  "v-0dc13a4a": () => import(/* webpackChunkName: "v-0dc13a4a" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/posts/article/article7.html.js").then(({ data }) => data),
-  // path: /posts/article/article8.html
-  "v-0f7612e9": () => import(/* webpackChunkName: "v-0f7612e9" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/posts/article/article8.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
   // path: /category/
@@ -73,4 +43,8 @@ export const pagesData = {
   "v-06bbb262": () => import(/* webpackChunkName: "v-06bbb262" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/tag/tag-a/index.html.js").then(({ data }) => data),
   // path: /tag/tag-b/
   "v-06bbb224": () => import(/* webpackChunkName: "v-06bbb224" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/tag/tag-b/index.html.js").then(({ data }) => data),
+  // path: /posts/article9.html
+  "v-7beb5be1": () => import(/* webpackChunkName: "v-7beb5be1" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/posts/article9.html.js").then(({ data }) => data),
+  // path: /AboutTeam.html
+  "v-5e1332e8": () => import(/* webpackChunkName: "v-5e1332e8" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/AboutTeam.html.js").then(({ data }) => data),
 }

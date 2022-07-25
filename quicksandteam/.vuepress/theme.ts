@@ -12,7 +12,7 @@ export default hopeTheme({
 
   iconAssets: "iconfont",
 
-  logo: "/logo.svg",
+  logo: "/images/hero.png",
 
   repo: "QuicksandTeam/QuicksandTeam.github.io",
 
@@ -31,7 +31,7 @@ export default hopeTheme({
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
   blog: {
-    description: "一个前端开发者",
+    description: "一股无形的力量",
     intro: "/intro.html",
     medias: {
       Baidu: "https://example.com",
