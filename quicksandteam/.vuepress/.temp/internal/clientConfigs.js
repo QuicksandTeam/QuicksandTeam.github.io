@@ -9,6 +9,8 @@ import clientConfig7 from '/Users/apple/Desktop/GitHub/QuicksandTeam_Website/nod
 import clientConfig8 from '/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/md-enhance/config.js'
 import clientConfig9 from '/Users/apple/Desktop/GitHub/QuicksandTeam_Website/node_modules/vuepress-plugin-photo-swipe/lib/client/config.js'
 import clientConfig10 from '/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/theme-hope/config.js'
+import clientConfig11 from '/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pwa2/config.js'
+import clientConfig12 from '/Users/apple/Desktop/GitHub/QuicksandTeam_Website/node_modules/@vuepress/plugin-search/lib/client/config.js'
 
 export const clientConfigs = [
   clientConfig0,
@@ -22,4 +24,6 @@ export const clientConfigs = [
   clientConfig8,
   clientConfig9,
   clientConfig10,
+  clientConfig11,
+  clientConfig12,
 ]
