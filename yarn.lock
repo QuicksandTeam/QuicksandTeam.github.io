@@ -1465,6 +1465,19 @@
     "@vuepress/core" "2.0.0-beta.49"
     prismjs "^1.28.0"
 
+"@vuepress/plugin-search@^2.0.0-beta.49":
+  version "2.0.0-beta.49"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-search/-/plugin-search-2.0.0-beta.49.tgz#6c87d7e8ed76a6bf80ff164fdf6829c366beaeeb"
+  integrity sha512-XkI5FfqJUODh5V7ic/hjja4rjVJQoT29xff63hDFvm+aVPG9FwAHtMSqUHutWO92WtlqoDi9y2lTbpyDYu6+rQ==
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.49"
+    "@vuepress/core" "2.0.0-beta.49"
+    "@vuepress/shared" "2.0.0-beta.49"
+    "@vuepress/utils" "2.0.0-beta.49"
+    chokidar "^3.5.3"
+    vue "^3.2.37"
+    vue-router "^4.1.2"
+
 "@vuepress/plugin-theme-data@2.0.0-beta.49":
   version "2.0.0-beta.49"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-theme-data/-/plugin-theme-data-2.0.0-beta.49.tgz#a9e8ccb2d8aecb04c6b5a8c07a039eae1ef0be6f"
@@ -4280,7 +4293,7 @@ vuepress-plugin-photo-swipe@2.0.0-beta.87:
     vuepress-plugin-sass-palette "2.0.0-beta.87"
     vuepress-shared "2.0.0-beta.87"
 
-vuepress-plugin-pwa2@2.0.0-beta.87:
+vuepress-plugin-pwa2@2.0.0-beta.87, vuepress-plugin-pwa2@^2.0.0-beta.87:
   version "2.0.0-beta.87"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-pwa2/-/vuepress-plugin-pwa2-2.0.0-beta.87.tgz#9313601b8c5c62efe0f3ecf66d87b47f680c2390"
   integrity sha512-XkWUYhu0kviogUCnCSzLZn7BC6JaWUYtGgLgVV9qpEK4jCqAHYMyijSsr6XL8hT4c+MCySU15nmtoJPoagPRIA==

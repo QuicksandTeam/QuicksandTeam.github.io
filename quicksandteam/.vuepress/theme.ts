@@ -16,7 +16,7 @@ export default hopeTheme({
 
   repo: "QuicksandTeam/QuicksandTeam.github.io",
 
-  docsDir: "demo/src",
+  docsDir: "quicksandteam/",
 
   // navbar
   navbar: navbar,
