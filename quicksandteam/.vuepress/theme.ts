@@ -43,7 +43,7 @@ export default hopeTheme({
       // Evernote: "https://example.com",
       // Facebook: "https://example.com",
       // Flipboard: "https://example.com",
-      Gitee: "https://example.com",
+      // Gitee: "https://example.com",
       GitHub: "https://github.com/QuicksandTeam",
       // Gitlab: "https://example.com",
       Gmail: "mailto:aiyuechuang@gmail.com",
@@ -58,17 +58,17 @@ export default hopeTheme({
       // Rss: "https://example.com",
       Steam: "https://steamcommunity.com/id/bornforthis/",
       // Twitter: "https://example.com",
-      // Wechat: "https://example.com",
+      Wechat: "/images/公众号/gzh.jpg",
       // Weibo: "https://example.com",
       // Whatsapp: "https://example.com",
-      Youtube: "https://example.com",
-      Zhihu: "https://example.com",
+      // Youtube: "https://example.com",
+      Zhihu: "https://www.zhihu.com/people/aiyuechuang",
     },
   },
 
   encrypt: {
     config: {
-      "/guide/encrypt.html": ["1234"],
+      // "/guide/encrypt.html": ["1234"],
     },
   },
 
@@ -84,11 +84,11 @@ export default hopeTheme({
       /**
        * Using Giscus
        */
-      provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
-      category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
+      // provider: "Giscus",
+      // repo: "vuepress-theme-hope/giscus-discussions",
+      // repoId: "R_kgDOG_Pt2A",
+      // category: "Announcements",
+      // categoryId: "DIC_kwDOG_Pt2M4COD69",
 
       /**
        * Using Twikoo
@@ -99,11 +99,29 @@ export default hopeTheme({
       /**
        * Using Waline
        */
-      // provider: "Waline",
-      // serverURL: "https://vuepress-theme-hope-comment.vercel.app",
+      provider: "Waline",
+      serverURL: "https://bornforthi-5tn34wj41-bornforthi.vercel.app/",
+      comment: true, // 评论数统计
+      pageview: true, // 浏览量统计
+      copyright: false,
     },
 
     mdEnhance: {
+      tex: true,
+      // enableAll: true,
+      attrs: true,
+      tabs: true,
+      // vpre: true,
+      codetabs: true,
+      tasklist: true,
+      // 启用图片标记
+      imageMark: true,
+      // 启用图片大小
+      imageSize: true,
+      align: true, // 自定义对齐
+      footnote: true,
+      // this is the default option, so you can use it directly
+      container: true,
       // enableAll: true,
       presentation: {
         plugins: ["highlight", "math", "search", "notes", "zoom"],
