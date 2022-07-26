@@ -99,7 +99,7 @@ features:
     details: 包括图标支持、全屏按钮、返回顶部按钮等
     link: https://vuepress-theme-hope.github.io/v2/zh/guide/feature/
 copyright: false
-footer: MIT Licensed | Copyright © 2021-present QuickSand
+footer: MIT Licensed | Copyright © 2021-present QuickSand  <a href="https://beian.miit.gov.cn/" target="_blank">闽ICP备19021486号-5</a>
 ---
 
 如果你有其他需求或者疑问，点击：[QQ 在线客服](http://wpa.qq.com/msgrd?v=3&uin=1432803776&site=qq&menu=yes)
