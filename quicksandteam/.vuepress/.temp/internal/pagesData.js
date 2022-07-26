@@ -3,8 +3,8 @@ export const pagesData = {
   "v-5e1332e8": () => import(/* webpackChunkName: "v-5e1332e8" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/AboutTeam.html.js").then(({ data }) => data),
   // path: /
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
-  // path: /home.html
-  "v-79fdd481": () => import(/* webpackChunkName: "v-79fdd481" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/home.html.js").then(({ data }) => data),
+  // path: /column.html
+  "v-038a8aac": () => import(/* webpackChunkName: "v-038a8aac" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/column.html.js").then(({ data }) => data),
   // path: /guide/
   "v-fffb8e28": () => import(/* webpackChunkName: "v-fffb8e28" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/guide/index.html.js").then(({ data }) => data),
   // path: /posts/article9.html

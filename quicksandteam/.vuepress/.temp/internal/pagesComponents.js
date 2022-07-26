@@ -5,8 +5,8 @@ export const pagesComponents = {
   "v-5e1332e8": defineAsyncComponent(() => import(/* webpackChunkName: "v-5e1332e8" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/AboutTeam.html.vue")),
   // path: /
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/index.html.vue")),
-  // path: /home.html
-  "v-79fdd481": defineAsyncComponent(() => import(/* webpackChunkName: "v-79fdd481" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/home.html.vue")),
+  // path: /column.html
+  "v-038a8aac": defineAsyncComponent(() => import(/* webpackChunkName: "v-038a8aac" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/column.html.vue")),
   // path: /guide/
   "v-fffb8e28": defineAsyncComponent(() => import(/* webpackChunkName: "v-fffb8e28" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/guide/index.html.vue")),
   // path: /posts/article9.html

@@ -41,7 +41,7 @@ export const searchIndex = [
   {
     "title": "项目主页",
     "headers": [],
-    "path": "/home.html",
+    "path": "/column.html",
     "pathLocale": "/",
     "extraFields": []
   },
