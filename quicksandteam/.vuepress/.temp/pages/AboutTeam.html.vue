@@ -16,7 +16,7 @@
 <p>技术方面：每天坚持学习，坚持记笔记，坚持输出，为个人发展做准备，团队方面，准备好网站和学习系统的开发。</p>
 <p>开发方面主要分为前端和后端，这需要我们进行系统的学习积累然后输出为项目。最终在进行设计方面的优化。</p>
 <h2 id="_5-网站改版日期" tabindex="-1"><a class="header-anchor" href="#_5-网站改版日期" aria-hidden="true">#</a> 5. 网站改版日期</h2>
-<h2 id="_2022年7月25日-新版本发布上线" tabindex="-1"><a class="header-anchor" href="#_2022年7月25日-新版本发布上线" aria-hidden="true">#</a> 2022年7月25日 新版本发布上线</h2>
+<h3 id="_2022年7月25日-新版本发布上线" tabindex="-1"><a class="header-anchor" href="#_2022年7月25日-新版本发布上线" aria-hidden="true">#</a> 2022年7月25日 新版本发布上线</h3>
 <ul class="task-list-container">
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> 更新留言系统</label></li>
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> 添加：百度收录、谷歌收录、百度统计、谷歌统计</label></li>
