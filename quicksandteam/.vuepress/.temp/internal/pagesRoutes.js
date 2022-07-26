@@ -1,5 +1,5 @@
 export const pagesRoutes = [
-  ["v-5e1332e8","/AboutTeam.html",{"title":"关于流沙团队","icon":"info","type":"article","readingTime":{"minutes":1.69,"words":507},"excerpt":"关于流沙团队 你好，我是悦创。也是流沙团队的创始人之一，由我来为你介绍我们团队。流沙团队成立于 2021年11月12日，地点：福建省厦门市（额。。。由于资金问题，工作室待定。。。） 1. LOGO 设计理念 设计日期：2021年10月24日 外形是一股风沙漩涡的形状，象征着强大的力量。又似树的年轮，象征着团队像可以像树木一样茁壮成长，生生不息。 2. 团队理"},["/AboutTeam","/AboutTeam.md"]],
+  ["v-5e1332e8","/AboutTeam.html",{"title":"关于流沙团队","icon":"info","type":"article","readingTime":{"minutes":2.03,"words":610},"excerpt":"关于流沙团队 你好，我是悦创。也是流沙团队的创始人之一，由我来为你介绍我们团队。流沙团队成立于 2021年11月12日，地点：福建省厦门市（额。。。由于资金问题，工作室待定。。。） 1. LOGO 设计理念 设计日期：2021年10月24日 外形是一股风沙漩涡的形状，象征着强大的力量。又似树的年轮，象征着团队像可以像树木一样茁壮成长，生生不息。 2. 团队理"},["/AboutTeam","/AboutTeam.md"]],
   ["v-8daa1a0e","/",{"title":"主页","icon":"home","type":"home","readingTime":{"minutes":0.69,"words":206},"excerpt":""},["/index.html","/README.md"]],
   ["v-038a8aac","/column.html",{"title":"项目主页","icon":"home","type":"home","readingTime":{"minutes":2.61,"words":782},"excerpt":"这是项目主页的案例。你可以在这里放置你的主体内容。 想要使用此布局，你需要在页面 front matter 中设置 home: true。 配置项的相关说明详见 项目主页配置。"},["/column","/column.md"]],
   ["v-fffb8e28","/guide/",{"title":"主要功能与配置演示","icon":"creative","type":"article","readingTime":{"minutes":0.13,"words":40},"excerpt":"目录 Markdown 展示; 页面展示; 禁用展示; 加密展示;","category":["使用指南"]},["/guide/index.html","/guide/README.md"]],
