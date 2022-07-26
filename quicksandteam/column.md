@@ -2,25 +2,25 @@
 home: true
 icon: home
 title: 项目主页
-heroImage: /logo.svg
-heroText: 项目名称
-tagline: 你可以在这里放置或是整个项目的描述。
+heroImage: /images/column.png
+heroText: 专栏
+tagline: 聚少成多，一股无形的力量！
 actions:
-  - text: 使用指南 💡
-    link: /guide/
+  - text: 网易云课堂💡
+    link: https://study.163.com/provider/480000002277025/course.htm?share=2&shareId=480000002277025
     type: primary
 
   - text: 博客主页 🏠
     link: /
 
 features:
-  - title: Markdown 增强
+  - title: Markdown 零基础入门
     icon: markdown
-    details: 新增文字对齐、上下角标、脚注、标记、任务列表、数学公式、流程图、图表与幻灯片支持
-    link: https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/
+    details: 每个程序员必备的技能
+    link: /column/md
 
-  - title: 幻灯片页面
-    icon: slides
+  - title: Java 零基础入门
+    icon: java
     details: 添加幻灯片页面以显示你喜欢的内容
     link: https://vuepress-theme-hope.github.io/v2/zh/guide/layout/slides
 
@@ -99,11 +99,7 @@ features:
     details: 包括图标支持、全屏按钮、返回顶部按钮等
     link: https://vuepress-theme-hope.github.io/v2/zh/guide/feature/
 copyright: false
-footer: MIT Licensed | Copyright © 2019-present Mr.Hope
+footer: MIT Licensed | Copyright © 2021-present QuickSand
 ---
 
-这是项目主页的案例。你可以在这里放置你的主体内容。
-
-想要使用此布局，你需要在页面 front matter 中设置 `home: true`。
-
-配置项的相关说明详见 [项目主页配置](https://vuepress-theme-hope.github.io/v2/zh/guide/layout/home/)。
+如果你有其他需求或者疑问，点击：[QQ 在线客服](http://wpa.qq.com/msgrd?v=3&uin=1432803776&site=qq&menu=yes)
