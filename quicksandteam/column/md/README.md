@@ -9,7 +9,7 @@ heroFullScreen: true
 tagline: 快速带你入门 Markdown 硬技能！
 actions:
   - text: 开始学习 💡
-    link: /column/md/oneMarkdowntitle.md
+    link: /column/md/01
     type: primary	
 
   - text: 与作者联系 👋

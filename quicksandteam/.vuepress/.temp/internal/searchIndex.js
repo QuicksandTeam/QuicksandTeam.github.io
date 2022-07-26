@@ -93,23 +93,139 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "文章 1",
+    "title": "AI悦创·算法",
+    "headers": [],
+    "path": "/column/aiycsf/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "01-Week1：Python 基础数据类型和链表",
     "headers": [
       {
         "level": 2,
-        "title": "标题 2",
-        "slug": "标题-2",
+        "title": "1. 你真的了解这四个数据类型吗？",
+        "slug": "_1-你真的了解这四个数据类型吗",
         "children": [
           {
             "level": 3,
-            "title": "标题 3",
-            "slug": "标题-3",
+            "title": "1.1 列表 VS. 元组",
+            "slug": "_1-1-列表-vs-元组",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.2 字典 VS. 集合",
+            "slug": "_1-2-字典-vs-集合",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "2. 任务「统计一片文章词频」",
+        "slug": "_2-任务「统计一片文章词频」",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3. 链表",
+        "slug": "_3-链表",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1 定义一个最简单的链表",
+            "slug": "_3-1-定义一个最简单的链表",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.2 「改进」如何只用一个 l 来操作呢？",
+            "slug": "_3-2-「改进」如何只用一个-l-来操作呢",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.3 问题",
+            "slug": "_3-3-问题",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.4 改进代码",
+            "slug": "_3-4-改进代码",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.5 添加一个 size() 方法，方便用户查询链表的大小",
+            "slug": "_3-5-添加一个-size-方法-方便用户查询链表的大小",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.6 不使用递归如何实现？",
+            "slug": "_3-6-不使用递归如何实现",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.7 改进",
+            "slug": "_3-7-改进",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.8 Question",
+            "slug": "_3-8-question",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.9 比较一下",
+            "slug": "_3-9-比较一下",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.0 然而还是有点问题",
+            "slug": "_4-0-然而还是有点问题",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.1 改进",
+            "slug": "_4-1-改进",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.2 为什么要设计私有变量？",
+            "slug": "_4-2-为什么要设计私有变量",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.3 改进",
+            "slug": "_4-3-改进",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.4 改进",
+            "slug": "_4-4-改进",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.5 改进",
+            "slug": "_4-5-改进",
             "children": []
           }
         ]
       }
     ],
-    "path": "/posts/article/article1.html",
+    "path": "/column/aiycsf/Week1.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -444,139 +560,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "AI悦创·算法",
+    "title": "01-Markdown 标题",
     "headers": [],
-    "path": "/column/aiycsf/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "01-Week1：Python 基础数据类型和链表",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1. 你真的了解这四个数据类型吗？",
-        "slug": "_1-你真的了解这四个数据类型吗",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.1 列表 VS. 元组",
-            "slug": "_1-1-列表-vs-元组",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.2 字典 VS. 集合",
-            "slug": "_1-2-字典-vs-集合",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "2. 任务「统计一片文章词频」",
-        "slug": "_2-任务「统计一片文章词频」",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3. 链表",
-        "slug": "_3-链表",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.1 定义一个最简单的链表",
-            "slug": "_3-1-定义一个最简单的链表",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.2 「改进」如何只用一个 l 来操作呢？",
-            "slug": "_3-2-「改进」如何只用一个-l-来操作呢",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.3 问题",
-            "slug": "_3-3-问题",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.4 改进代码",
-            "slug": "_3-4-改进代码",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.5 添加一个 size() 方法，方便用户查询链表的大小",
-            "slug": "_3-5-添加一个-size-方法-方便用户查询链表的大小",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.6 不使用递归如何实现？",
-            "slug": "_3-6-不使用递归如何实现",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.7 改进",
-            "slug": "_3-7-改进",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.8 Question",
-            "slug": "_3-8-question",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.9 比较一下",
-            "slug": "_3-9-比较一下",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.0 然而还是有点问题",
-            "slug": "_4-0-然而还是有点问题",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.1 改进",
-            "slug": "_4-1-改进",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.2 为什么要设计私有变量？",
-            "slug": "_4-2-为什么要设计私有变量",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.3 改进",
-            "slug": "_4-3-改进",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.4 改进",
-            "slug": "_4-4-改进",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.5 改进",
-            "slug": "_4-5-改进",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/column/aiycsf/Week1.html",
+    "path": "/column/md/01.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1009,13 +995,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "01-Markdown 标题",
-    "headers": [],
-    "path": "/column/md/oneMarkdowntitle.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "03-Markdown 列表",
     "headers": [
       {
@@ -1113,72 +1092,23 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Python 办公自动化",
+    "title": "文章 1",
     "headers": [
       {
         "level": 2,
-        "title": "1.1 学习环境",
-        "slug": "_1-1-学习环境",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "1.2 学习方法",
-        "slug": "_1-2-学习方法",
-        "children": []
+        "title": "标题 2",
+        "slug": "标题-2",
+        "children": [
+          {
+            "level": 3,
+            "title": "标题 3",
+            "slug": "标题-3",
+            "children": []
+          }
+        ]
       }
     ],
-    "path": "/column/python/Officeautomation/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第1关 天才老师防作弊",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.3 知识结构",
-        "slug": "_1-3-知识结构",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.1 试卷生成",
-        "slug": "_2-1-试卷生成",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.2 提取 provinces 和 options",
-        "slug": "_2-2-提取-provinces-和-options",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.3 创建试卷",
-        "slug": "_2-3-创建试卷",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.4 创建答案",
-        "slug": "_2-4-创建答案",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.1 试卷生成逻辑整理为函数",
-        "slug": "_3-1-试卷生成逻辑整理为函数",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.2 生成 30 份试卷",
-        "slug": "_3-2-生成-30-份试卷",
-        "children": []
-      }
-    ],
-    "path": "/column/python/Officeautomation/Thefirstlevelgeniusteachertopreventcheating.html",
+    "path": "/posts/article/article1.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1411,6 +1341,76 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "Python 办公自动化",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.1 学习环境",
+        "slug": "_1-1-学习环境",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "1.2 学习方法",
+        "slug": "_1-2-学习方法",
+        "children": []
+      }
+    ],
+    "path": "/column/python/Officeautomation/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第1关 天才老师防作弊",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.3 知识结构",
+        "slug": "_1-3-知识结构",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.1 试卷生成",
+        "slug": "_2-1-试卷生成",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.2 提取 provinces 和 options",
+        "slug": "_2-2-提取-provinces-和-options",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.3 创建试卷",
+        "slug": "_2-3-创建试卷",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.4 创建答案",
+        "slug": "_2-4-创建答案",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.1 试卷生成逻辑整理为函数",
+        "slug": "_3-1-试卷生成逻辑整理为函数",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.2 生成 30 份试卷",
+        "slug": "_3-2-生成-30-份试卷",
+        "children": []
+      }
+    ],
+    "path": "/column/python/Officeautomation/Thefirstlevelgeniusteachertopreventcheating.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "",
     "headers": [],
     "path": "/404.html",
@@ -1495,16 +1495,16 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "久远讲算法 分类",
+    "title": "AI悦创·算法 分类",
     "headers": [],
-    "path": "/category/%E4%B9%85%E8%BF%9C%E8%AE%B2%E7%AE%97%E6%B3%95/",
+    "path": "/category/ai%E6%82%A6%E5%88%9B%C2%B7%E7%AE%97%E6%B3%95/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "AI悦创·算法 分类",
+    "title": "久远讲算法 分类",
     "headers": [],
-    "path": "/category/ai%E6%82%A6%E5%88%9B%C2%B7%E7%AE%97%E6%B3%95/",
+    "path": "/category/%E4%B9%85%E8%BF%9C%E8%AE%B2%E7%AE%97%E6%B3%95/",
     "pathLocale": "/",
     "extraFields": []
   },
