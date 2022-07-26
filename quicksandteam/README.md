@@ -39,6 +39,6 @@ projects:
     desc: 自定义详细介绍
     link: https://你的自定义链接
 
-footer: 教学理念：浅者觉得其浅，深者觉得其深！——流沙团队宣
+footer: 教学理念：浅者觉得其浅，深者觉得其深！——流沙团队宣,<a href="https://beian.miit.gov.cn/" target="_blank">闽ICP备19021486号-5</a>
 ---
 

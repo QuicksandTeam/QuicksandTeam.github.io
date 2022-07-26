@@ -24,7 +24,7 @@ export default hopeTheme({
   // sidebar
   sidebar: sidebar,
 
-  footer: "一股无形的力量——流沙",
+  footer: '一股无形的力量——流沙,<a href="https://beian.miit.gov.cn/" target="_blank">闽ICP备19021486号-5</a>',
 
   displayFooter: true,
 
