@@ -108,7 +108,8 @@ export default hopeTheme({
        * Using Waline
        */
       provider: "Waline",
-      serverURL: "https://bornforthi-5tn34wj41-bornforthi.vercel.app/",
+      // serverURL: "https://bornforthi-5tn34wj41-bornforthi.vercel.app/",
+      serverURL: "https://book.comment.bornforthi.com/",
       comment: true, // 评论数统计
       pageview: true, // 浏览量统计
       copyright: false,
