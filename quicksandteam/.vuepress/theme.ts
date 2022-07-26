@@ -66,6 +66,7 @@ export default hopeTheme({
     },
   },
 
+
   encrypt: {
     config: {
       // "/guide/encrypt.html": ["1234"],
@@ -73,6 +74,13 @@ export default hopeTheme({
   },
 
   plugins: {
+    
+    components: [
+      "Badge",
+      "PDF",
+      "YouTube",
+    ],
+
     blog: {
       autoExcerpt: true,
     },
