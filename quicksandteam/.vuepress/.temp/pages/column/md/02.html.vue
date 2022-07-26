@@ -34,7 +34,7 @@ book.bornforthi.com
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>显示效果如下所示：</p>
 <p><img src="https://gitee.com/huangjiabaoaiyc/image/raw/master/image-20211027211907431.png" alt="image-20211027211907431"></p>
 <h2 id="下划线" tabindex="-1"><a class="header-anchor" href="#下划线" aria-hidden="true">#</a> 下划线</h2>
-<p>下划线可以通过 HTML 的 <strong><u></strong> 标签来实现：</p>
+<p>下划线可以通过 HTML 的 <code v-pre>&lt;u&gt;</code>  标签来实现：</p>
 <div class="language-markdown ext-md line-numbers-mode"><pre v-pre class="language-markdown"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>u</span><span class="token punctuation">></span></span>带下划线文本<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>u</span><span class="token punctuation">></span></span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>显示效果如下所示：</p>
 <p><img src="https://gitee.com/huangjiabaoaiyc/image/raw/master/image-20211027212240861.png" alt="image-20211027212240861"></p>

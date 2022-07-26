@@ -546,20 +546,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "1. 列表基础考察",
-    "headers": [],
-    "path": "/column/pypractice/01-list.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Python 练习题",
-    "headers": [],
-    "path": "/column/pypractice/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "01-Markdown 标题",
     "headers": [],
     "path": "/column/md/01.html",
@@ -567,9 +553,74 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "08-Markdown 表格",
-    "headers": [],
-    "path": "/column/md/EightMarkdownform.html",
+    "title": "02-Markdown 段落",
+    "headers": [
+      {
+        "level": 2,
+        "title": "字体",
+        "slug": "字体",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "分隔线",
+        "slug": "分隔线",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "删除线",
+        "slug": "删除线",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "下划线",
+        "slug": "下划线",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "脚注",
+        "slug": "脚注",
+        "children": []
+      }
+    ],
+    "path": "/column/md/02.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "03-Markdown 列表",
+    "headers": [
+      {
+        "level": 2,
+        "title": "列表嵌套",
+        "slug": "列表嵌套",
+        "children": []
+      }
+    ],
+    "path": "/column/md/03.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "04-Markdown 区块",
+    "headers": [
+      {
+        "level": 2,
+        "title": "区块中使用列表",
+        "slug": "区块中使用列表",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "列表中使用区块",
+        "slug": "列表中使用区块",
+        "children": []
+      }
+    ],
+    "path": "/column/md/04.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -583,7 +634,68 @@ export const searchIndex = [
         "children": []
       }
     ],
-    "path": "/column/md/FiveMarkdowncode.html",
+    "path": "/column/md/05.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "06-Markdown 链接",
+    "headers": [
+      {
+        "level": 3,
+        "title": "高级链接",
+        "slug": "高级链接",
+        "children": []
+      }
+    ],
+    "path": "/column/md/06.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "07-Markdown 图片",
+    "headers": [],
+    "path": "/column/md/07.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "08-Markdown 表格",
+    "headers": [],
+    "path": "/column/md/08.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "09-Markdown 高级技巧",
+    "headers": [
+      {
+        "level": 3,
+        "title": "支持的 HTML 元素",
+        "slug": "支持的-html-元素",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "转义",
+        "slug": "转义",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "公式",
+        "slug": "公式",
+        "children": []
+      }
+    ],
+    "path": "/column/md/09.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "10-补充",
+    "headers": [],
+    "path": "/column/md/10.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -657,239 +769,7 @@ export const searchIndex = [
         "children": []
       }
     ],
-    "path": "/column/md/Markdownmathematicalformulasyntax.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "01-本网站文章编写格式",
-    "headers": [
-      {
-        "level": 2,
-        "title": "页面信息配置",
-        "slug": "页面信息配置",
-        "children": [
-          {
-            "level": 3,
-            "title": "icon",
-            "slug": "icon",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "title",
-            "slug": "title",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "description",
-            "slug": "description",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "author",
-            "slug": "author",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "original",
-            "slug": "original",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "time",
-            "slug": "time",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "category",
-            "slug": "category",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "tags",
-            "slug": "tags",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "sticky",
-            "slug": "sticky",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "star",
-            "slug": "star",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "article",
-            "slug": "article",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "timeline",
-            "slug": "timeline",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "password",
-            "slug": "password",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "image",
-            "slug": "image",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "copyright.minLength",
-            "slug": "copyright-minlength",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "copyright.noCopy",
-            "slug": "copyright-nocopy",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "copyright.noSelect",
-            "slug": "copyright-noselect",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "页面显示配置",
-        "slug": "页面显示配置",
-        "children": [
-          {
-            "level": 3,
-            "title": "pageInfo",
-            "slug": "pageinfo",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "visitor",
-            "slug": "visitor",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "breadcrumb",
-            "slug": "breadcrumb",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "breadcrumbIcon",
-            "slug": "breadcrumbicon",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "navbar",
-            "slug": "navbar",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "sidebar",
-            "slug": "sidebar",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "sidebarDepth",
-            "slug": "sidebardepth",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "comment",
-            "slug": "comment",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "editLink",
-            "slug": "editlink",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "prev",
-            "slug": "prev",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "next",
-            "slug": "next",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "footer",
-            "slug": "footer",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "copyrightText",
-            "slug": "copyrighttext",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "mediaLink",
-            "slug": "medialink",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "search",
-            "slug": "search",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "backToTop",
-            "slug": "backtotop",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "anchorDisplay",
-            "slug": "anchordisplay",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "layout",
-        "slug": "layout",
-        "children": []
-      }
-    ],
-    "path": "/column/md/Oneformatforwritingarticlesonthiswebsite.html",
+    "path": "/column/md/11.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -901,193 +781,16 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "07-Markdown 图片",
+    "title": "1. 列表基础考察",
     "headers": [],
-    "path": "/column/md/SevenMarkdownpictures.html",
+    "path": "/column/pypractice/01-list.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "06-Markdown 链接",
-    "headers": [
-      {
-        "level": 3,
-        "title": "高级链接",
-        "slug": "高级链接",
-        "children": []
-      }
-    ],
-    "path": "/column/md/SixMarkdownlink.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "10-补充",
+    "title": "Python 练习题",
     "headers": [],
-    "path": "/column/md/Tensupplement.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "04-Markdown 区块",
-    "headers": [
-      {
-        "level": 2,
-        "title": "区块中使用列表",
-        "slug": "区块中使用列表",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "列表中使用区块",
-        "slug": "列表中使用区块",
-        "children": []
-      }
-    ],
-    "path": "/column/md/fourmarkdownblock.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "03-本网站使用视频和音频格式",
-    "headers": [
-      {
-        "level": 2,
-        "title": "视频",
-        "slug": "视频",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "音频",
-        "slug": "音频",
-        "children": []
-      }
-    ],
-    "path": "/column/md/moveandmuisc.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "09-Markdown 高级技巧",
-    "headers": [
-      {
-        "level": 3,
-        "title": "支持的 HTML 元素",
-        "slug": "支持的-html-元素",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "转义",
-        "slug": "转义",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "公式",
-        "slug": "公式",
-        "children": []
-      }
-    ],
-    "path": "/column/md/nineMarkdownskills.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "03-Markdown 列表",
-    "headers": [
-      {
-        "level": 2,
-        "title": "列表嵌套",
-        "slug": "列表嵌套",
-        "children": []
-      }
-    ],
-    "path": "/column/md/threeMarkdown_list.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "02-代码演示",
-    "headers": [
-      {
-        "level": 2,
-        "title": "配置",
-        "slug": "配置",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "语法",
-        "slug": "语法",
-        "children": [
-          {
-            "level": 3,
-            "title": "Vue",
-            "slug": "vue",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "React",
-            "slug": "react",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "可用的语言",
-            "slug": "可用的语言",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "演示",
-        "slug": "演示",
-        "children": []
-      }
-    ],
-    "path": "/column/md/twoCodedemo.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "02-Markdown 段落",
-    "headers": [
-      {
-        "level": 2,
-        "title": "字体",
-        "slug": "字体",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "分隔线",
-        "slug": "分隔线",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "删除线",
-        "slug": "删除线",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "下划线",
-        "slug": "下划线",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "脚注",
-        "slug": "脚注",
-        "children": []
-      }
-    ],
-    "path": "/column/md/twoMarkdown_paragraph.html",
+    "path": "/column/pypractice/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1109,6 +812,76 @@ export const searchIndex = [
       }
     ],
     "path": "/posts/article/article1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Python 办公自动化",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.1 学习环境",
+        "slug": "_1-1-学习环境",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "1.2 学习方法",
+        "slug": "_1-2-学习方法",
+        "children": []
+      }
+    ],
+    "path": "/column/python/Officeautomation/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第1关 天才老师防作弊",
+    "headers": [
+      {
+        "level": 2,
+        "title": "1.3 知识结构",
+        "slug": "_1-3-知识结构",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.1 试卷生成",
+        "slug": "_2-1-试卷生成",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.2 提取 provinces 和 options",
+        "slug": "_2-2-提取-provinces-和-options",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.3 创建试卷",
+        "slug": "_2-3-创建试卷",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "2.4 创建答案",
+        "slug": "_2-4-创建答案",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.1 试卷生成逻辑整理为函数",
+        "slug": "_3-1-试卷生成逻辑整理为函数",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "3.2 生成 30 份试卷",
+        "slug": "_3-2-生成-30-份试卷",
+        "children": []
+      }
+    ],
+    "path": "/column/python/Officeautomation/Thefirstlevelgeniusteachertopreventcheating.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1337,76 +1110,6 @@ export const searchIndex = [
       }
     ],
     "path": "/column/python/base/two_how_would_i_teach_you_python.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Python 办公自动化",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.1 学习环境",
-        "slug": "_1-1-学习环境",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "1.2 学习方法",
-        "slug": "_1-2-学习方法",
-        "children": []
-      }
-    ],
-    "path": "/column/python/Officeautomation/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第1关 天才老师防作弊",
-    "headers": [
-      {
-        "level": 2,
-        "title": "1.3 知识结构",
-        "slug": "_1-3-知识结构",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.1 试卷生成",
-        "slug": "_2-1-试卷生成",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.2 提取 provinces 和 options",
-        "slug": "_2-2-提取-provinces-和-options",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.3 创建试卷",
-        "slug": "_2-3-创建试卷",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "2.4 创建答案",
-        "slug": "_2-4-创建答案",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.1 试卷生成逻辑整理为函数",
-        "slug": "_3-1-试卷生成逻辑整理为函数",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "3.2 生成 30 份试卷",
-        "slug": "_3-2-生成-30-份试卷",
-        "children": []
-      }
-    ],
-    "path": "/column/python/Officeautomation/Thefirstlevelgeniusteachertopreventcheating.html",
     "pathLocale": "/",
     "extraFields": []
   },
