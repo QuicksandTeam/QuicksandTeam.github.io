@@ -5,18 +5,12 @@ export const pagesData = {
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
   // path: /column.html
   "v-038a8aac": () => import(/* webpackChunkName: "v-038a8aac" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/column.html.js").then(({ data }) => data),
+  // path: /note.html
+  "v-65e40d4e": () => import(/* webpackChunkName: "v-65e40d4e" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/note.html.js").then(({ data }) => data),
   // path: /posts/article9.html
   "v-7beb5be1": () => import(/* webpackChunkName: "v-7beb5be1" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/posts/article9.html.js").then(({ data }) => data),
   // path: /posts/article/article1.html
   "v-03842690": () => import(/* webpackChunkName: "v-03842690" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/posts/article/article1.html.js").then(({ data }) => data),
-  // path: /column/aiycsf/
-  "v-5051696c": () => import(/* webpackChunkName: "v-5051696c" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/column/aiycsf/index.html.js").then(({ data }) => data),
-  // path: /column/aiycsf/Week1.html
-  "v-33eea326": () => import(/* webpackChunkName: "v-33eea326" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/column/aiycsf/Week1.html.js").then(({ data }) => data),
-  // path: /column/pypractice/01-list.html
-  "v-0600e4cc": () => import(/* webpackChunkName: "v-0600e4cc" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/column/pypractice/01-list.html.js").then(({ data }) => data),
-  // path: /column/pypractice/
-  "v-5dc2b7eb": () => import(/* webpackChunkName: "v-5dc2b7eb" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/column/pypractice/index.html.js").then(({ data }) => data),
   // path: /column/jysf/0neWhatistimecomplexity.html
   "v-6eb581e6": () => import(/* webpackChunkName: "v-6eb581e6" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/column/jysf/0neWhatistimecomplexity.html.js").then(({ data }) => data),
   // path: /column/jysf/Arraythesimplestdatastructure.html
@@ -29,6 +23,14 @@ export const pagesData = {
   "v-5ac1edb8": () => import(/* webpackChunkName: "v-5ac1edb8" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/column/jysf/TwoWhatisspatialcomplexity.html.js").then(({ data }) => data),
   // path: /column/jysf/stacklastinfirstoutdatastructure.html
   "v-12253ba4": () => import(/* webpackChunkName: "v-12253ba4" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/column/jysf/stacklastinfirstoutdatastructure.html.js").then(({ data }) => data),
+  // path: /column/pypractice/01-list.html
+  "v-0600e4cc": () => import(/* webpackChunkName: "v-0600e4cc" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/column/pypractice/01-list.html.js").then(({ data }) => data),
+  // path: /column/pypractice/
+  "v-5dc2b7eb": () => import(/* webpackChunkName: "v-5dc2b7eb" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/column/pypractice/index.html.js").then(({ data }) => data),
+  // path: /column/aiycsf/
+  "v-5051696c": () => import(/* webpackChunkName: "v-5051696c" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/column/aiycsf/index.html.js").then(({ data }) => data),
+  // path: /column/aiycsf/Week1.html
+  "v-33eea326": () => import(/* webpackChunkName: "v-33eea326" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/column/aiycsf/Week1.html.js").then(({ data }) => data),
   // path: /column/md/EightMarkdownform.html
   "v-23e5dacf": () => import(/* webpackChunkName: "v-23e5dacf" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/column/md/EightMarkdownform.html.js").then(({ data }) => data),
   // path: /column/md/FiveMarkdowncode.html
@@ -97,14 +99,12 @@ export const pagesData = {
   "v-3e5b7ba3": () => import(/* webpackChunkName: "v-3e5b7ba3" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/category/categoryb/index.html.js").then(({ data }) => data),
   // path: /tag/tag-b/
   "v-06bbb224": () => import(/* webpackChunkName: "v-06bbb224" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/tag/tag-b/index.html.js").then(({ data }) => data),
-  // path: /category/ai%E6%82%A6%E5%88%9B%C2%B7%E7%AE%97%E6%B3%95/
-  "v-319ebd8c": () => import(/* webpackChunkName: "v-319ebd8c" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/category/ai悦创·算法/index.html.js").then(({ data }) => data),
   // path: /category/%E4%B9%85%E8%BF%9C%E8%AE%B2%E7%AE%97%E6%B3%95/
   "v-b3b7cd12": () => import(/* webpackChunkName: "v-b3b7cd12" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/category/久远讲算法/index.html.js").then(({ data }) => data),
+  // path: /category/ai%E6%82%A6%E5%88%9B%C2%B7%E7%AE%97%E6%B3%95/
+  "v-319ebd8c": () => import(/* webpackChunkName: "v-319ebd8c" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/category/ai悦创·算法/index.html.js").then(({ data }) => data),
   // path: /category/markdown-%E5%9F%BA%E7%A1%80/
   "v-246bffde": () => import(/* webpackChunkName: "v-246bffde" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/category/markdown-基础/index.html.js").then(({ data }) => data),
   // path: /category/python-%E5%9F%BA%E7%A1%80/
   "v-aec3bd04": () => import(/* webpackChunkName: "v-aec3bd04" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/category/python-基础/index.html.js").then(({ data }) => data),
-  // path: /note.html
-  "v-65e40d4e": () => import(/* webpackChunkName: "v-65e40d4e" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/note.html.js").then(({ data }) => data),
 }

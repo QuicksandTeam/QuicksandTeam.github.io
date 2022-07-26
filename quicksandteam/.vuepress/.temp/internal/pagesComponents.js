@@ -7,18 +7,12 @@ export const pagesComponents = {
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/index.html.vue")),
   // path: /column.html
   "v-038a8aac": defineAsyncComponent(() => import(/* webpackChunkName: "v-038a8aac" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/column.html.vue")),
+  // path: /note.html
+  "v-65e40d4e": defineAsyncComponent(() => import(/* webpackChunkName: "v-65e40d4e" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/note.html.vue")),
   // path: /posts/article9.html
   "v-7beb5be1": defineAsyncComponent(() => import(/* webpackChunkName: "v-7beb5be1" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/posts/article9.html.vue")),
   // path: /posts/article/article1.html
   "v-03842690": defineAsyncComponent(() => import(/* webpackChunkName: "v-03842690" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/posts/article/article1.html.vue")),
-  // path: /column/aiycsf/
-  "v-5051696c": defineAsyncComponent(() => import(/* webpackChunkName: "v-5051696c" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/column/aiycsf/index.html.vue")),
-  // path: /column/aiycsf/Week1.html
-  "v-33eea326": defineAsyncComponent(() => import(/* webpackChunkName: "v-33eea326" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/column/aiycsf/Week1.html.vue")),
-  // path: /column/pypractice/01-list.html
-  "v-0600e4cc": defineAsyncComponent(() => import(/* webpackChunkName: "v-0600e4cc" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/column/pypractice/01-list.html.vue")),
-  // path: /column/pypractice/
-  "v-5dc2b7eb": defineAsyncComponent(() => import(/* webpackChunkName: "v-5dc2b7eb" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/column/pypractice/index.html.vue")),
   // path: /column/jysf/0neWhatistimecomplexity.html
   "v-6eb581e6": defineAsyncComponent(() => import(/* webpackChunkName: "v-6eb581e6" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/column/jysf/0neWhatistimecomplexity.html.vue")),
   // path: /column/jysf/Arraythesimplestdatastructure.html
@@ -31,6 +25,14 @@ export const pagesComponents = {
   "v-5ac1edb8": defineAsyncComponent(() => import(/* webpackChunkName: "v-5ac1edb8" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/column/jysf/TwoWhatisspatialcomplexity.html.vue")),
   // path: /column/jysf/stacklastinfirstoutdatastructure.html
   "v-12253ba4": defineAsyncComponent(() => import(/* webpackChunkName: "v-12253ba4" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/column/jysf/stacklastinfirstoutdatastructure.html.vue")),
+  // path: /column/pypractice/01-list.html
+  "v-0600e4cc": defineAsyncComponent(() => import(/* webpackChunkName: "v-0600e4cc" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/column/pypractice/01-list.html.vue")),
+  // path: /column/pypractice/
+  "v-5dc2b7eb": defineAsyncComponent(() => import(/* webpackChunkName: "v-5dc2b7eb" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/column/pypractice/index.html.vue")),
+  // path: /column/aiycsf/
+  "v-5051696c": defineAsyncComponent(() => import(/* webpackChunkName: "v-5051696c" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/column/aiycsf/index.html.vue")),
+  // path: /column/aiycsf/Week1.html
+  "v-33eea326": defineAsyncComponent(() => import(/* webpackChunkName: "v-33eea326" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/column/aiycsf/Week1.html.vue")),
   // path: /column/md/EightMarkdownform.html
   "v-23e5dacf": defineAsyncComponent(() => import(/* webpackChunkName: "v-23e5dacf" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/column/md/EightMarkdownform.html.vue")),
   // path: /column/md/FiveMarkdowncode.html
@@ -99,14 +101,12 @@ export const pagesComponents = {
   "v-3e5b7ba3": defineAsyncComponent(() => import(/* webpackChunkName: "v-3e5b7ba3" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/category/categoryb/index.html.vue")),
   // path: /tag/tag-b/
   "v-06bbb224": defineAsyncComponent(() => import(/* webpackChunkName: "v-06bbb224" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/tag/tag-b/index.html.vue")),
-  // path: /category/ai%E6%82%A6%E5%88%9B%C2%B7%E7%AE%97%E6%B3%95/
-  "v-319ebd8c": defineAsyncComponent(() => import(/* webpackChunkName: "v-319ebd8c" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/category/ai悦创·算法/index.html.vue")),
   // path: /category/%E4%B9%85%E8%BF%9C%E8%AE%B2%E7%AE%97%E6%B3%95/
   "v-b3b7cd12": defineAsyncComponent(() => import(/* webpackChunkName: "v-b3b7cd12" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/category/久远讲算法/index.html.vue")),
+  // path: /category/ai%E6%82%A6%E5%88%9B%C2%B7%E7%AE%97%E6%B3%95/
+  "v-319ebd8c": defineAsyncComponent(() => import(/* webpackChunkName: "v-319ebd8c" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/category/ai悦创·算法/index.html.vue")),
   // path: /category/markdown-%E5%9F%BA%E7%A1%80/
   "v-246bffde": defineAsyncComponent(() => import(/* webpackChunkName: "v-246bffde" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/category/markdown-基础/index.html.vue")),
   // path: /category/python-%E5%9F%BA%E7%A1%80/
   "v-aec3bd04": defineAsyncComponent(() => import(/* webpackChunkName: "v-aec3bd04" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/category/python-基础/index.html.vue")),
-  // path: /note.html
-  "v-65e40d4e": defineAsyncComponent(() => import(/* webpackChunkName: "v-65e40d4e" */"/Users/apple/Desktop/GitHub/QuicksandTeam_Website/quicksandteam/.vuepress/.temp/pages/note.html.vue")),
 }
