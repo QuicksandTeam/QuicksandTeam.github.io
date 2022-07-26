@@ -5,14 +5,3 @@ var _hmt = _hmt || [];
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
-
-
-// <!-- Global site tag (gtag.js) - Google Analytics -->
-// {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-654BEV9HCQ"></script>
-// // {/* <script> */}
-//   window.dataLayer = window.dataLayer || [];
-//   function gtag(){dataLayer.push(arguments);}
-//   gtag('js', new Date());
-
-//   gtag('config', 'G-654BEV9HCQ'); */}
-// </script>
