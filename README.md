@@ -36,6 +36,16 @@ sh aiyc.sh
 sh aiyc.sh
 ```
 
+## 7. WARNING!!!
+
+每次操作网站前，请先同步网站源码：
+
+```
+sh aiyc.sh
+```
+
+
+
 
 
 # WEB-DATA
